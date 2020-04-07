@@ -1,0 +1,445 @@
+/* header */
+#header {
+	margin-bottom: 40px;
+}
+
+.black-layer {
+	background-color: #282828;
+}
+
+.black-layer .info {
+	width: 1204px;
+	margin: 0 auto;
+}
+
+.black-layer .contact-info {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.black-layer .contact-info, .black-layer .formember{
+	border: none;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 500;
+	font-size: .75rem;
+    color: #A1A1A1;   
+    letter-spacing: 1px;
+ }
+
+.black-layer .contact-info a, .black-layer .formember a {
+	color: #A1A1A1;
+}
+
+.black-layer .contact-info .phone, .black-layer .formember .checkout {
+	padding: 12px 16px 12px 14px;
+	border: none;
+	background-color: #3F3E43;
+}
+
+.black-layer .contact-info .email, .black-layer .formember .track, .black-layer .formember .account {
+	padding: 12px 16px 12px 14px;
+	border: none;
+	background-color: #282828;
+}
+
+.black-layer .formember {
+	text-transform: capitalize;
+}
+
+.white-layer {
+	display: block;
+	width: 1204px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.white-layer .navigation {
+	margin-left: 210px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.white-layer .navigation a {
+	color: #313131;
+}
+
+.white-layer .nav-item {
+	margin-right: 0.75rem;
+}
+
+.white-layer a {
+	color: #000000;
+}
+
+.white-layer .consult {
+	width: 240px;
+}
+
+.white-layer .nav .list-group-item {
+	padding: 0;
+}
+
+.white-layer .consult .search, .white-layer .consult .cart i{
+	border: none;
+	font-size: 1.5625rem;
+	width: 1.5625rem;
+    height: 1.5625rem;
+}
+
+.white-layer .consult .search {
+    margin-right: 20px;
+}
+
+.white-layer .consult .cart {
+	border: none;
+	font-size: 1.5625rem;
+	width: 1.5625rem;
+    height: 1.5625rem;
+}
+
+.white-layer .consult .shopping {
+	border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.white-layer .consult .shopping .title {
+	text-transform: uppercase;
+}
+
+
+/* premier */
+
+#premier {
+	display: block;
+	width: 1204px;
+	margin: 0 auto;
+}
+
+#premier .first .left.col-6 {
+	margin-right: 10px;
+	flex: 0 0 48.75%;
+	padding: 0;
+	width: 589px;
+	height: 563px;
+	background-image: url("https://fakeimg.pl/589x563/4C4C4C");
+	color: #ffff;
+}
+
+.first .left .text {
+	margin-top: 173px;
+    margin-left: 40px;
+}
+
+.first .left .text .subtitle {
+	display: inline;
+	height: 29px;
+	padding: 10px 9px 13px 10px;
+	background-color: #535353;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 0.6875rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.first .left .text .line1 {
+	display: flex;
+    justify-content: end;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	text-transform: capitalize;
+	font-size: 4.5rem;
+}
+
+.first .left .text .line2 {
+	display: inline;
+	line-height: .7;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+	font-size: 4.5rem;
+}
+
+.first .left .text .description {
+	margin-top: 17px;
+	margin-bottom: 19px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 	0.875rem;
+	text-transform: capitalize;
+}
+
+.first .left .text .price {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 2.5rem;
+}
+
+.first .middle.col-3 {
+	padding: 0;
+	width: 276px;
+	height: 563px;
+	background-image: url("https://fakeimg.pl/276x563/4C4C4C");
+	color: #ffff;
+}
+
+.first .middle .subtitle {
+	margin-top: 23px;
+	margin-left: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.875rem;
+}
+
+.first .middle .title {
+	margin-top: 24px;
+	margin-left: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 1.5rem;
+}
+
+.first .middle .price {
+	margin-top: 126px;
+	margin-left: 160px;
+	height: 130px;
+	width: 130px;
+	border-radius: 90%;
+	background-color: #62C5DE;
+}
+
+.first .middle .price .original-price {
+	display: flex;
+	padding-top: 29px;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 0.9375rem;
+	text-decoration: line-through;
+	color: #C5E7F1;
+}
+
+.first .middle .price .special-price {
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 	1.5rem;
+}
+
+.first .middle .call-action {
+	margin-top: 73px;
+	margin-left: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 	1.3125rem;
+	text-transform: uppercase;
+}
+
+.first .middle .call-action p {
+	margin-right: 17px;
+}
+
+.first .middle .call-action a {
+	padding: 14px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 25px;
+    width: 25px;
+    border: 1px solid #FFFFFF;
+    border-radius: 90%;
+    color: #FFFFFF;
+}
+
+.first .right.col-3 {
+	padding-right: 0;
+	padding-left: 9px;
+}
+
+.first .right .right-up {
+	padding: 0;
+	width: 294px;
+	height: 275px;
+	background-image: url("https://fakeimg.pl/294x275/E7E7E7");
+}
+
+.first .right .right-up .title {
+	margin-right: 29px;
+    padding-top: 35px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 25px;
+    color: #939393;
+}
+
+.first .right .right-up .rank {
+	text-align: right;
+    margin-right: 29px;
+}
+
+.first .right .right-up .price {
+    margin-right: 29px;
+    margin-top: 85px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 	1.5rem;
+    color: #991015;
+}
+
+.first .right .right-up .call-action a {
+	margin-right: 29px;
+	padding: 5px;
+	display: inline-block;
+    float: right;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 	0.875rem;
+	text-align: right;
+    text-transform: uppercase;
+    color: white;
+}
+
+.first .right .right-down {
+	margin-top: 14px;
+	padding: 0;
+	width: 294px;
+	height: 275px;
+	background-image: url("https://fakeimg.pl/294x275/E7E7E7");
+}
+
+.first .right .right-down .title {
+	margin-left: 18px;
+	padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 	1.5rem;
+    text-transform: uppercase;
+    color: #2C3E66;
+    letter-spacing: .7px;
+}
+
+.first .right .right-down .rank {
+	margin-top: 50px;
+    margin-left: 18px;
+}
+
+.first .right .right-down .price {
+	margin-left: 18px;
+}
+
+.first .right .right-down .price .original-price {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 	0.875rem;
+	color: #9F9F9F;
+	text-decoration: line-through;
+}
+
+.first .right .right-down .price .special-price {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: #2C3E65;
+}
+
+.first .right .right-down .call-action {
+	margin-left: 18px;
+	width: 116px;
+	color: #2D4169;
+}
+
+.first .right .right-down .call-action p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+}
+
+.first .right .right-down .call-action a {
+	margin-left: 96px;
+	padding: 9px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 25px;
+    width: 25px;
+    border: 1px solid #2D4169;
+    border-radius: 90%;
+    color: #2D4169;
+    font-weight: 700;
+}
+
+/*#Premier .second*/
+
+#premier .second {
+	margin-top: 18px;
+}
+
+.second .col-4 {
+	padding: 0;
+}
+
+.second .left .left-up {
+	width: 414px;
+	height: 223px;
+	background-image: url("https://fakeimg.pl/294x275/D0E9B0");
+	color: white;
+}
+
+.second .left .left-up .subtitle {
+	margin-right: 40px;
+    padding-top: 45px;
+	text-align: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+.second .left .left-up .title {
+	margin-right: 40px;
+	text-align: right;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.second .left .left-up .call-action {
+	margin-left: 259px;
+	margin-top: 84px;
+	width: 117px;
+	text-align: right;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+}
+
+.second .left .left-up .call-action a {
+	margin-left: 92px;
+	padding: 7px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B1DE89;
+	height: 25px;
+    width: 25px;
+    border: 1px solid #FFFFFF;
+    border-radius: 90%;
+    color: #FFFFFF;
+}
+	
+	
