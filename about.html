@@ -2,9 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		
-		<title>Home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>about</title>
+		
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+		<script src="js/bootstrap.js"></script>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/fontello.css">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
@@ -25,7 +28,17 @@
 								<a href="#" class="nav-link">home</a>
 							</li>
 							<li class="nav-item dropdown">
-								<a href="#" class="nav-link">products <span>v</span></a>
+								<div class="dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										products
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">Chairs</a>
+										<a class="dropdown-item" href="#">Sofas</a>
+										<a class="dropdown-item" href="#">Lamps</a>
+										<a class="dropdown-item" href="#">bag</a>
+									</div>
+								</div>
 							</li>
 							<li class="nav-item dropdown">
 								<a href="#" class="nav-link">pages <span>v</span></a>
@@ -57,7 +70,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div id="body">
 			<div id="breadcrumbs">
 				<div class="center-container">
@@ -241,5 +253,8 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
