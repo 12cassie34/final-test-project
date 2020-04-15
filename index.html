@@ -39,71 +39,46 @@
 				<div class="white-layer clearfix">
 					<div class="logo"><img src="imgs/logo-schon.png" alt="schon."></div>
 					<div class="navigation">
-						<div class="hamburger">
-							<a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-								<label for="hamburger">&#9776;</label>
-							</a>
-							<div class="collapse" id="collapseExample">
-								<ul class="list-group">
+						<nav class="navbar navbar-expand-lg navbar-light navbar-brand">
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
 									<li class="nav-item">
-										<a href="#" class="nav-link active">home</a>
+										<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											products
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">sofas</a>
+											<a class="dropdown-item" href="#">chairs</a>
+											<a class="dropdown-item" href="#">lamps</a>
+											<a class="dropdown-item" href="#">desks</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											pages
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">Latest designs</a>
+											<a class="dropdown-item" href="#">design ideas</a>
+											<a class="dropdown-item" href="#">designers' story</a>
+											<a class="dropdown-item" href="#">for your designs</a>
+										</div>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link active">products</a>
-									</li>
-									<li class="nav-item hoverdropdown">
-										<a href="#" class="nav-link active">pages</a>
+										<a class="nav-link" href="#">about</a>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">about</a>
+										<a class="nav-link" href="#">blog</a>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">blog</a>
-									</li>
-									<li class="nav-item">
-										<a href="#" class="nav-link">contact</a>
+										<a class="nav-link" href="#">contact</a>
 									</li>
 								</ul>
 							</div>
-						</div>
-						<ul class="nav">
-							<li class="nav-item">
-								<a href="#" class="nav-link active">home</a>
-							</li>
-							<li class="nav-item hoverdropdown">
-								<a href="#" class="nav-link dropdown-toggle">products</a>
-								<div class="dropdown-content">
-									<ul class="list-group">
-										<li class="list-group-item"><a href="#">chairs</a></li>
-										<li class="list-group-item"><a href="#">sofas</a></li>
-										<li class="list-group-item"><a href="#">lamps</a></li>
-										<li class="list-group-item"><a href="#">tables</a></li>
-										<li class="list-group-item"><a href="#">shelfs</a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item hoverdropdown">
-								<a href="#" class="nav-link dropdown-toggle">pages</a>
-								<div class="dropdown-content">
-									<ul class="list-group">
-										<li class="list-group-item"><a href="#">latest designs</a></li>
-										<li class="list-group-item"><a href="#">design ideas</a></li>
-										<li class="list-group-item"><a href="#">designer's story</a></li>
-										<li class="list-group-item"><a href="#">get a idea</a></li>
-										<li class="list-group-item"><a href="#">consult us</a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link">about</a>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link">blog</a>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link">contact</a>
-							</li>
-						</ul>
+						</nav>
 					</div>
 					<div class="consult">
 						<ul class="nav list-group list-group-horizontal">
@@ -312,7 +287,7 @@
 						</div>
 					</div>
 					<div class="second clearfix">
-						<div class="row">
+						<div class="row container">
 							<div class="col-12 col-lg-4 col-xl-4 float-left">
 								<img src="https://fakeimg.pl/400x210/F8F8F8" alt="CLOCKs">
 								<div class="text">
@@ -362,7 +337,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row container">
 						<div class="col-12 col-md-6 col-lg-2 col-xl-2 first">
 							<div class="on-img">
 								<img src="https://fakeimg.pl/213x213/" alt="puff chair">
@@ -411,7 +386,7 @@
 						<div class="col-12 col-md-6 col-lg-2 col-xl-2 fifth">
 							<div class="on-img">
 								<img src="https://fakeimg.pl/213x213/" alt="bombi chair">
-								<ul class="action list-group list-group-horizontal">
+									<ul class="action list-group list-group-horizontal">
 									<li class="list-group-item bag"><div class="icon-shopping-bag"></div></li>
 									<li class="list-group-item">|</li>
 									<li class="list-group-item heart"><div class="icon-heart-empty"></div></li>
@@ -583,6 +558,5 @@
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-		<script src="js/home.js"></script>
 	</body>
 </html>

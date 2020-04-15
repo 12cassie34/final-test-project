@@ -2,7 +2,6 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	overflow-x: hidden;
 }
 
 @media (max-width: 540px) and (min-width: 320px) {
