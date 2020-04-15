@@ -5,7 +5,6 @@
 	overflow-x: hidden;
 }
 
-
 .full-width {
 	margin: 30px;
 }
@@ -16,9 +15,6 @@
 .col-2 {
 	width: 213px;
 }
-.dropdown {
-	position: unset;
-}
 .icon-star {
 	font-size: 0.75rem;
 	color: #C8A760;
@@ -28,6 +24,7 @@
 	color: #C8A760;
 	color: #D8D8D8;
 }
+
 #header {
 	margin-bottom: 40px;
 	label {
@@ -94,7 +91,8 @@
 		float: left;
 	}
 	.navigation {
-		margin-left: 76px;
+		margin-top: 5px;
+		margin-left: 70px;
 		float: left;
 		font-size: 0.875rem;
 		text-transform: uppercase;
@@ -103,20 +101,35 @@
 		a {
 			color: #313131;
 		}
+		.hamburger {
+			display: none;
+		}
 	}
 	.nav-item {
 		margin-right: 0.75rem;
-		.dropdown-item {
-				font-size: 0.875rem;
-		        text-transform: capitalize;
-		        font-family: 'Montserrat', sans-serif;
-		        font-weight: 400;
-		}
 	}
 	a {
 		color: #000000;
 	}
 	.nav {
+		.hoverdropdown {
+			position: relative;
+            display: inline-block;
+            .dropdown-content {
+            	display: none;
+                z-index: 1;
+                line-height: 35px;
+                text-transform: capitalize;
+                .list-group-item {
+                	border: none;
+                }
+            }
+		}
+		.hoverdropdown:hover {
+			.dropdown-content {
+				display: block;
+			}
+		}
 		.list-group-item {
 			padding: 0;
 		}
@@ -154,6 +167,9 @@
 	}
 }
 #premier {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	.first {
 		.left.col-xl-6 {
 			margin-right: 10px;

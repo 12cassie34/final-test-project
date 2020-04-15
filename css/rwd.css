@@ -20,6 +20,10 @@
 		float: left;
 	}
 
+	.white-layer .navigation .hamburger {
+		display: block;
+	}
+
 	#header label {
 		margin-top: 3px;
 		margin-bottom: 0;
@@ -35,6 +39,8 @@
 	.white-layer .navigation {
 		float: right;
 	}
+
+	
 
 	#header .navigation .nav {
 		display: none;
@@ -253,6 +259,10 @@
 		float: left;
 	}
 
+	.white-layer .navigation .hamburger {
+		display: block;
+	}
+
 	#header label {
 		margin-top: 3px;
 		margin-bottom: 0;
@@ -433,6 +443,10 @@
 
 	.black-layer .formember {
 		float: left;
+	}
+
+	.white-layer .navigation .hamburger {
+		display: block;
 	}
 
 	#header label {

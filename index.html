@@ -39,35 +39,59 @@
 				<div class="white-layer clearfix">
 					<div class="logo"><img src="imgs/logo-schon.png" alt="schon."></div>
 					<div class="navigation">
-						<label for="hamburger">&#9776;</label>
+						<div class="hamburger">
+							<a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<label for="hamburger">&#9776;</label>
+							</a>
+							<div class="collapse" id="collapseExample">
+								<ul class="list-group">
+									<li class="nav-item">
+										<a href="#" class="nav-link active">home</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link active">products</a>
+									</li>
+									<li class="nav-item hoverdropdown">
+										<a href="#" class="nav-link active">pages</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link">about</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link">blog</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link">contact</a>
+									</li>
+								</ul>
+							</div>
+						</div>
 						<ul class="nav">
 							<li class="nav-item">
 								<a href="#" class="nav-link active">home</a>
 							</li>
-							<li class="nav-item dropdown">
-								<div class="dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										products
-									</a>
-									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">Chairs</a>
-										<a class="dropdown-item" href="#">Sofas</a>
-										<a class="dropdown-item" href="#">Lamps</a>
-										<a class="dropdown-item" href="#">bag</a>
-									</div>
+							<li class="nav-item hoverdropdown">
+								<a href="#" class="nav-link dropdown-toggle">products</a>
+								<div class="dropdown-content">
+									<ul class="list-group">
+										<li class="list-group-item"><a href="#">chairs</a></li>
+										<li class="list-group-item"><a href="#">sofas</a></li>
+										<li class="list-group-item"><a href="#">lamps</a></li>
+										<li class="list-group-item"><a href="#">tables</a></li>
+										<li class="list-group-item"><a href="#">shelfs</a></li>
+									</ul>
 								</div>
 							</li>
-							<li class="nav-item dropdown">
-								<div class="dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										pages
-									</a>
-									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">new release</a>
-										<a class="dropdown-item" href="#">design ideas</a>
-										<a class="dropdown-item" href="#">latest design</a>
-										<a class="dropdown-item" href="#">designer's story</a>
-									</div>
+							<li class="nav-item hoverdropdown">
+								<a href="#" class="nav-link dropdown-toggle">pages</a>
+								<div class="dropdown-content">
+									<ul class="list-group">
+										<li class="list-group-item"><a href="#">latest designs</a></li>
+										<li class="list-group-item"><a href="#">design ideas</a></li>
+										<li class="list-group-item"><a href="#">designer's story</a></li>
+										<li class="list-group-item"><a href="#">get a idea</a></li>
+										<li class="list-group-item"><a href="#">consult us</a></li>
+									</ul>
 								</div>
 							</li>
 							<li class="nav-item">
@@ -213,7 +237,6 @@
 										<div class="three float-left"></div>
 									</div>
 								</div>
-								
 							</div>
 						</div>
 					</div>
@@ -560,5 +583,6 @@
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="js/home.js"></script>
 	</body>
 </html>
