@@ -91,7 +91,7 @@
 }
 
 .white-layer .navigation {
-	margin-left: 227px;
+	margin-left: 216px;
 	float: left;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
@@ -107,48 +107,33 @@
 	margin-right: 15px;
 }
 
-.white-layer .navigation .dropdown-menu .dropdown-item {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	text-transform: capitalize;
-	font-size: 	0.875rem;
-	color: #4C4C4C;
-	line-height: 35px;
+.consult .list-group-horizontal .list-group-item {
+  padding: 0;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.white-layer .consult {
-    float: right;
+.consult .list-group-horizontal .list-group-item.search {
+  margin-right: 35px;
+  font-size: 1.75rem;
 }
-.white-layer .consult .search {
-    padding: 0 35px 0 0;
-    border: none;
-    font-size: 1.5625rem;
-} 
-.white-layer .consult .cart {
-    padding: 0;
-    border: none;
-    font-size: 1.5625rem;
+
+.consult .list-group-horizontal .list-group-item.cart {
+  margin-right: 15px;
+  font-size: 1.75rem;
 }
-.white-layer .consult .cart i {
-    border: none;
-    font-size: 1.5625rem;
+
+.consult .list-group-horizontal .list-group-item.shopping a {
+  color: #000000;
 }
-.white-layer .consult .shopping {
-	padding: 0 0 0 15px;
-    border: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+
+.consult .list-group-horizontal .list-group-item.shopping .title {
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.white-layer .consult .shopping a {
-	color: #000000;
-}
-.white-layer .consult .shopping .title {
-    text-transform: uppercase;
-}
-.white-layer .consult .shop {
-    border: none;
-    font-size: 1.5625rem;
-    margin-right: 43px;
+
+.consult .list-group-horizontal .list-group-item.shopping .item {
+  font-weight: 500;
 }
 
 #premier .first .left.col-xl-6 {
@@ -216,7 +201,7 @@
 #premier .first .middle.col-xl-3 {
 	margin-right: 4px;
 	padding: 0;
-	max-width: 276px;
+	max-width: 540px;
 }
 
 .first .middle.col-xl-3 img {
@@ -224,8 +209,8 @@
 }
 
 .first .middle.col-xl-3 {
-	margin-right: 58px;
-	flex: 0 0 20%;
+	  margin-right: 58px;
+	  flex: 0 0 20%;
     max-width: 20%;
     padding: 0;
     width: 276px;
@@ -379,7 +364,7 @@
 }
 .first .right .right-down .text {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
 }
 .first .right .right-down .title {
   margin-left: 18px;
@@ -679,6 +664,9 @@
 #feature .first {
   margin-bottom: 72px;
 }
+#feature .first .col-xlo-3 {
+  float: left;
+}
 #feature .first .col-xl-3 .product {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
@@ -835,13 +823,12 @@
   font-size: 1.5rem;
   color: #010101;
 }
-#best-seller .row .col-xl-2.first img {
+#best-seller .row .col-xl-2.first {
   position: relative;
 }
 #best-seller .row .col-xl-2.first .tag {
   position: absolute;
   top: 21px;
-  left: 15px;
   width: 48px;
   text-align: center;
   background-color: black;
@@ -853,18 +840,12 @@
 }
 #best-seller .row .col-xl-2.first .rank {
   position: absolute;
-  left: 23px;
+  left: 10px;
   top: 175px;
   display: flex;
   justify-content: flex-start;
 }
-#best-seller .row .col-xl-2.first .product {
-  margin-left: 15px;
-}
-#best-seller .row .col-xl-2.first .price {
-  margin-left: 15px;
-}
-#best-seller .row .col-xl-2.second img {
+#best-seller .row .col-xl-2.second {
   position: relative;
 }
 #best-seller .row .col-xl-2.second .action {
@@ -908,7 +889,7 @@
   align-items: center;
   width: 43px;
 }
-#best-seller .row .col-xl-2.fourth img {
+#best-seller .row .col-xl-2.fourth {
   position: relative;
 }
 #best-seller .row .col-xl-2.fourth .count {
@@ -932,7 +913,7 @@
   text-transform: uppercase;
   color: #FFFFFF;
 }
-#best-seller .row .col-xl-2.fifth img {
+#best-seller .row .col-xl-2.fifth {
   position: relative;
 }
 #best-seller .row .col-xl-2.fifth .action {
@@ -1081,6 +1062,7 @@
   margin-right: 68px;
 }
 #footer .row .col-xl-6 .information {
+  float: left;
   margin-right: 68px;
 }
 #footer .row .col-xl-6 .list-group {
@@ -1166,6 +1148,8 @@
 #copyright .payment {
   float: right;
 }
+
+/*About*/
 .full-width {
   margin: 0 30px 9px 30px;
 }

@@ -7,7 +7,17 @@
 @media (max-width: 540px) and (min-width: 320px) {
 	.container {
 		margin: 0 auto;
-		width: auto;
+		width: 100%;
+	}
+
+	.row {
+		width: 100%;
+		margin-right: 0;
+        margin-left: 0;
+	}
+
+	#header {
+		width: 100%;
 	}
 
 	#header .contact-info {
@@ -19,27 +29,14 @@
 		float: left;
 	}
 
-	.white-layer .navigation .hamburger {
-		display: block;
-	}
-
-	#header label {
-		margin-top: 3px;
-		margin-bottom: 0;
-		display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30px;
-        width: 30px;
-		border: 1px solid #313131;
-        border-radius: 90%;
+	.navbar-brand {
+		margin-right: 0;
 	}
 
 	.white-layer .navigation {
+		margin-left: 0;
 		float: right;
 	}
-
-	
 
 	#header .navigation .nav {
 		display: none;
@@ -50,30 +47,38 @@
 	}
 
 	#header .white-layer .consult {
-		float: right;
+		margin-right: 19px;
+        margin-top: 15px;
 	}
 
 	#premier .first .left.col-xl-6 {
 		margin-bottom: 14px;
-		flex: 0 0 100%;
-		max-width: 100%;
+		padding: 0;
+	}
+
+	#premier .first .left.col-xl-6 img {
+		width: 100%;
+		height: 563px;
 	}
 
 	.first .left .text .line2 {
 		font-size: 3.5rem;
 	}
 
-	.first .middle.col-xl-3 {
+	#premier .first .middle.col-xl-3 {
 		margin-bottom: 10px;
-		float: right;
+		max-width: 540px;
 		flex: 0 0 100%;
-		width: 100%;
 		display: flex;
 		justify-content: center;
 	}
 
 	.first .middle.col-xl-3 img {
 		width: 100%;
+	}
+
+	.first .right.col-12 {
+		padding: 0;
 	}
 
 	.first .right .right-up {
@@ -86,10 +91,19 @@
 	}
 
 	.first .right .right-up .title {
+		margin-left: 0;
 		text-align: left;
 	}
 
 	.first .right .right-up .rank {
+		margin-left: 0;
+	}
+
+	.first .right .right-up .price {
+		margin-left: 0;
+	}
+
+	.first .right .right-up .call-action {
 		margin-left: 0;
 	}
 
@@ -119,70 +133,94 @@
 		margin-top: 0;
 	}
 
-	.second .left .left-up {
+	#premier .second .left .left-up {
 		width: auto;
 	}
 
-	.second .left .left-up img {
+	#premier .second .left {
+		padding: 0;
+	}
+
+	#premier .second .left .left-up img {
 		width: 100%;
 		height: 223px;
 	}
 
-	.second .left .left-up .text {
+	#premier .second .left .left-up .text {
 		right: 75px;
 	}
 
-	.second .left .left-up .subtitle {
+	#premier .second .left .left-up .subtitle {
 		text-align: right;
 		margin-left: 0;
 	}
 
-	.second .left .left-up .title {
+	#premier .second .left .left-up .title {
 		margin-right: 0;
 	}
 
-	.second .left .left-up .call-action {
+	#premier .second .left .left-up .call-action {
 		margin-right: 0;
 		float: right;
 	}
 
-	.second .left .left-down {
+	#premier .second .left .left-down {
 		margin-top: 14px;
 		margin-bottom: 14px;
 		width: auto;
 	}
 
-	.second .left .left-down img {
+	#premier .second .left .left-down img {
 		width: 100%;
         height: 334px;
 	}
 
-	.second .left .left-down .text {
+	#premier .second .left .left-down .text {
 		left: 41px;
 	}
 
-	.second .left .left-down .subtitle {
+	#premier .second .left .left-down .subtitle {
 		text-align: left;
 	}
 
-	.second .left .left-down .call-action {
+	#premier .second .left .left-down .call-action {
 		float: left;
 	}
 
-	.second .right {
+	#premier .second .right {
+		padding-left: 0;
 		flex: 0 0 100%;
 	}
 
-	.second .right .title {
+	#premier .second .right img {
+		width: 100%;
+		height: 579px;
+	}
+
+	#premier .second .right .title {
 		font-size: 1.9rem;
 	}
 
 	#feature .navigation {
 		margin-bottom: 14px;
+		padding-right: 30px;
 	}
 
 	#feature .navigation .nav {
 		justify-content: flex-end;
+	}
+
+	#feature .first .col-12 {
+		padding: 0;
+	}
+
+	#feature .col-12 img {
+		width: 100%;
+		height: 275px;
+	}
+
+	#feature .first .content {
+		margin-left: 20px;
 	}
 
 	#feature .second .col-xl-4 {
@@ -194,24 +232,24 @@
         height: 210px;
 	}
 
-	#best-seller .row .col-12 {
-		margin-left: 48px;
+	#best-seller .heading {
+		padding: 0 23px;
+	}
+
+	#best-seller .row {
+		padding-left: 19%;
 	}
 
 	#best-seller .row .col-12.first .product, #best-seller .row .col-12.first .price {
 		margin-left: 0;
 	}
 
-	#best-seller .row .col-12.second .action {
-		width: 213px;
-	}
-
-	#best-seller .row .col-12.fifth .action {
-		left: 24px;
-	}
-
 	#brands {
 		margin-bottom: 35px;
+	}
+
+	#brands .heading {
+		margin-left: 14px;
 	}
 
 	#brands .brand .col-6 {
@@ -236,7 +274,11 @@
 	}
 
 	#footer .row .col-12.center {
-		margin: 0 auto;
+		margin: 0 0 0 18px;
+	}
+
+	#footer .row .col-xl-6 .information {
+		margin-right: 0;
 	}
 
 	#footer .row .col-12.right {
