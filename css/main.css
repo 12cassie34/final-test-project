@@ -528,6 +528,7 @@
   color: #979797;
 }
 .second .left .left-down .call-action a {
+  float: right;
   display: flex;
   justify-content: center;
   align-items: center;
