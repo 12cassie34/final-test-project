@@ -137,9 +137,8 @@
 }
 
 #premier .first .left.col-xl-6 {
-	margin-right: 35px;
+	margin-right: 10px;
 	padding: 0 0 0 15px;
-    max-width: 589px;
 }
 
 #premier .first .left.col-xl-6 img {
@@ -199,9 +198,8 @@
 }
 
 #premier .first .middle.col-xl-3 {
-	margin-right: 4px;
+	margin-right: 36px;
 	padding: 0;
-	max-width: 540px;
 }
 
 .first .middle.col-xl-3 img {

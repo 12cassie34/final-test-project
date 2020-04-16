@@ -296,6 +296,12 @@
 		width: auto;
 	}
 
+	.row {
+		width: 100%;
+		margin-left: 0;
+        margin-right: 0;
+	}
+
 	.black-layer .formember {
 		float: left;
 	}
@@ -326,18 +332,28 @@
 	}
 
 	#premier .first .row {
-		display: block;
+		width: 100%;
+		margin-left: 0;
+        margin-right: 0;
 	}
 
 	#premier .first .left.col-md-12 {
 		margin-bottom: 14px;
+		margin-right: 0;
+		padding-left: 0;
 	}
 
-	#premier .first .col-md-6.middle {
-		float: left;
+	#premier .first .left.col-md-12 img {
 		width: 100%;
-		height: 563px;
+        height: 563px;
 	}
+
+	#premier .first .middle.col-md-12 {
+		margin-right: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
 
 	#premier .first .middle.col-xl-3 img {
 		width: 100%;
@@ -345,12 +361,14 @@
 	}
 
 	#premier .first .middle.col-xl-3 .text {
-		margin-left: 30px;
+		margin-left: 34px;
 	}
 
 	#premier .first .col-md-6.right {
 		width: 100%;
 		padding-top: 14px;
+		padding-right: 0;
+		padding-left: 0;
 	}
 
 	#premier .first .right .right-up img {
@@ -368,7 +386,7 @@
 
 	#premier .first .right .right-up .rank {
 		position: absolute;
-        right: 48px;
+        right: 19px;
 	}
 
 	#premier .first .right .right-up .price {
@@ -388,13 +406,18 @@
 		margin-left: 30px;
 	}
 
-
-	#premier .second .right {
-		margin-top: 21px;
+	#premier .second .row {
+		margin-right: 0;
+        margin-left: 0;
+        display: block;
 	}
 
-	#premier .second .row {
-		display: block;
+	#premier .second .left {
+		padding: 0;
+	}
+
+	#premier .second .left .left-up {
+		width: 100%;
 	}
 
 	#premier .second .left .left-up img {
@@ -403,7 +426,21 @@
 	}
 
 	#premier .second .left .left-up .text {
-		left: 76px;
+		margin-left: 8%;
+		max-width: 414px;
+	}
+
+	#premier .second .left .left-up .subtitle {
+		margin-left: 0;
+	}
+
+	#premier .second .left .left-up .title {
+		margin-right: 0;
+		text-align: left;
+	}
+
+	#premier .second .left .left-up .call-action {
+		margin-left: 0;
 	}
 
 	#premier .second .left .left-down {
@@ -416,7 +453,31 @@
 	}
 
 	#premier .second .left .left-down .text {
-		left: 180px;
+		left: 48%;
+	}
+
+	#premier .second .right {
+		margin-top: 21px;
+		padding: 0;
+	}
+
+	#premier .second .right img {
+		width: 100%;
+		height: 579px;
+	}
+
+	#feature .navigation {
+		padding: 0 15px;
+	}
+
+	#feature .row {
+		margin-right: 0;
+        margin-left: 0;
+	}
+
+	#feature .first .row img {
+		width: 100%;
+		height: 275px;
 	}
 
 	#feature .second img {
@@ -424,29 +485,32 @@
         height: 210px;
 	}
 
+	#best-seller .heading {
+		padding: 0 15px;
+	}
+
+	#best-seller .row {
+		padding-left: 15px;
+	}
+
 	#best-seller .row .col-md-6 {
-		max-width: 50%;
-	}
-
-	#best-seller .row .col-md-6.third .product, #best-seller .row .col-md-6.third .price {
-		margin-left: 15px;
-	}
-
-	#best-seller .row .col-md-6.fifth .product, #best-seller .row .col-md-6.fifth .price {
-		margin-left: 15px;
+		max-width: 46%;
 	}
 
 	#best-seller .row .col-xl-2.second .action { 
 		top: 159px;
-		left: 11px;
 	}
 
 	#best-seller .row .col-md-6.fifth .action {
-		left: 31px;
+		left: 25px;
 	}
 
 	#brands {
 		margin-bottom: 55px;
+	}
+
+	#brands .heading {
+		padding: 0 15px;
 	}
 
 	#brands .brand .col-6 {
@@ -454,19 +518,25 @@
 	}
 
 	#footer #gurantee .row {
-		height: auto;
+		margin-left: 0;
+        margin-right: 0;
+        height: auto;
 	}
 
 	#gurantee .row .col-md-6 {
-		margin-bottom: 25
+		margin-bottom: 25px;
 	}
 
 	#footer #upper {
 		height: auto;
 	}
 
+	#footer .row .col-xl-3.left {
+		margin-right: 0;
+	}
+
 	#footer .row .col-12.center {
-		margin: 30px 22px;
+		padding: 30px 22px;
 		flex: 0 0 100%;
 	}
 
@@ -480,6 +550,12 @@
 	.container {
 		margin: 0 auto;
 		width: auto;
+	}
+
+	.row {
+		width: 100%;
+        margin-left: 0;
+        margin-right: 0;
 	}
 
 	.black-layer .formember {
@@ -525,9 +601,11 @@
 
 	#premier .first .left.col-md-12 {
 		margin-bottom: 14px;
+		padding: 0;
 	}
 
 	#premier .first .left.col-md-12 img {
+		width: 100%;
 		height: 563px;
 	}
 
@@ -537,7 +615,6 @@
 	}
 
 	#premier .first .middle.col-xl-3 {
-		overflow-y: hidden;
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
