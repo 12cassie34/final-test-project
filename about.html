@@ -13,76 +13,55 @@
 	</head>
 	<body>
 		<div id="header">
-			<div class="full-width">
+			<div class="container forabout">
 				<div class="white-layer clearfix">
 					<div class="logo"><img src="imgs/logo-schon.png" alt="schon."></div>
 					<a href="tel:1-555-333-22-11" class="phone">+1 (555) 333 22 11</a>
 					<div class="navigation">
-						<div class="hamburger">
-							<a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-								<label for="hamburger">&#9776;</label>
-							</a>
-							<div class="collapse" id="collapseExample">
-								<ul class="list-group">
+						<nav class="navbar navbar-expand-lg navbar-light navbar-brand">
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#navbarSupportedContent">
+							<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
 									<li class="nav-item">
-										<a href="#" class="nav-link active">home</a>
+										<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											products
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">sofas</a>
+											<a class="dropdown-item" href="#">chairs</a>
+											<a class="dropdown-item" href="#">lamps</a>
+											<a class="dropdown-item" href="#">desks</a>
+										</div>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											pages
+										</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">Latest designs</a>
+											<a class="dropdown-item" href="#">design ideas</a>
+											<a class="dropdown-item" href="#">designers' story</a>
+											<a class="dropdown-item" href="#">for your designs</a>
+										</div>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link active">products</a>
-									</li>
-									<li class="nav-item hoverdropdown">
-										<a href="#" class="nav-link active">pages</a>
+										<a class="nav-link" href="about.html">about</a>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">about</a>
+										<a class="nav-link" href="#">blog</a>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link">blog</a>
-									</li>
-									<li class="nav-item">
-										<a href="#" class="nav-link">contact</a>
+										<a class="nav-link" href="contact.html">contact</a>
 									</li>
 								</ul>
 							</div>
-						</div>
-						<ul class="nav">
-							<li class="nav-item">
-								<a href="#" class="nav-link active">home</a>
-							</li>
-							<li class="nav-item hoverdropdown">
-								<a href="#" class="nav-link dropdown-toggle">products</a>
-								<div class="dropdown-content">
-									<ul class="list-group">
-										<li class="list-group-item"><a href="#">chairs</a></li>
-										<li class="list-group-item"><a href="#">sofas</a></li>
-										<li class="list-group-item"><a href="#">lamps</a></li>
-										<li class="list-group-item"><a href="#">tables</a></li>
-										<li class="list-group-item"><a href="#">shelfs</a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item hoverdropdown">
-								<a href="#" class="nav-link dropdown-toggle">pages</a>
-								<div class="dropdown-content">
-									<ul class="list-group">
-										<li class="list-group-item"><a href="#">latest designs</a></li>
-										<li class="list-group-item"><a href="#">design ideas</a></li>
-										<li class="list-group-item"><a href="#">designer's story</a></li>
-										<li class="list-group-item"><a href="#">get a idea</a></li>
-										<li class="list-group-item"><a href="#">consult us</a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link">about</a>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link">blog</a>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link">contact</a>
-							</li>
-						</ul>
+						</nav>
 					</div>
 					<div class="consult">
 						<ul class="nav list-group list-group-horizontal">
@@ -92,8 +71,9 @@
 							<li class="list-group-item cart">
 								<a href="#"><i><span><span class="icon-heart-empty"></span></span></i></a>
 							</li>
-							<li class="list-group-item shop">
-								<a href="#"><i><span class="icon-shopping-bag"></span></i></a>
+							<li class="list-group-item cart">
+								<a href="#"><i><span><span class="icon-shopping-bag"></span></span></i></a>
+								<p class="items">3</p>
 							</li>
 						</ul>
 					</div>
@@ -107,7 +87,7 @@
 					<nav aria-label="breadcrumb">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Library</li>
+							<li class="breadcrumb-item active" aria-current="page">About Us</li>
 						</ol>
 					</nav>
 				</div>
@@ -208,7 +188,6 @@
 				<div class="container">
 					<h3>our workspace</h3>
 				</div>
-				
 				<div class="full-width">
 					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
@@ -228,8 +207,8 @@
 									</div>
 									<div class="col-lg-5">
 										<div class="up">
-											<img src="https://fakeimg.pl/220x308/F8F8F8/">
-											<img src="https://fakeimg.pl/264x308/F8F8F8/" class="float-right">
+											<img src="https://fakeimg.pl/220x308/F8F8F8/" class="left">
+											<img src="https://fakeimg.pl/264x308/F8F8F8/" class="right">
 										</div>
 										<div class="down">
 											<img src="https://fakeimg.pl/640x220/F8F8F8/">
@@ -258,102 +237,100 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
-	</div>
-	<div id="footer">
-		<div id="upper">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 col-lg-12 col-xl-3 left">
-						<img src="imgs/logo-schon_gray.png" alt="schon.">
-						<p>exercitation ullamco laboris nisi ut aliquip ex <br> commodeo consequat. Duis aute irure</p>
-						<ul class="list-group">
-							<li class="list-group-item">
-								<i><span class="icon-location"></span></i>
-								<div class="address">Connaugt Road Central Suite 18b, 148 <br> New Yankee</div>
-							</li>
-							<li class="list-group-item">
-								<i><span class="icon-phone"></span></i>
-								<a href="tel:1-555-333-22-11">+1 (555) 333 22 11</a>
-							</li>
-							<li class="list-group-item">
-								<i><span class="icon-mail"></span></i>
-								<a href="mailto:info@schon.chair">info@schon.chair</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-12 col-lg-6 col-xl-6 center clearfix">
-						<div class="categories float-left">
-							<h4>categories</h4>
+		<div id="footer">
+			<div id="upper">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-12 col-xl-3 left">
+							<img src="imgs/logo-schon_gray.png" alt="schon.">
+							<p>exercitation ullamco laboris nisi ut aliquip ex <br> commodeo consequat. Duis aute irure</p>
 							<ul class="list-group">
-								<li class="list-group-item"><a href="#">chairs</a></li>
-								<li class="list-group-item"><a href="#">sofas</a></li>
-								<li class="list-group-item"><a href="#">living</a></li>
-								<li class="list-group-item"><a href="#">bedroom</a></li>
-								<li class="list-group-item"><a href="#">tables</a></li>
-								<li class="list-group-item"><a href="#">new</a></li>
+								<li class="list-group-item">
+									<i><span class="icon-location"></span></i>
+									<div class="address">Connaugt Road Central Suite 18b, 148 <br> New Yankee</div>
+								</li>
+								<li class="list-group-item">
+									<i><span class="icon-phone"></span></i>
+									<a href="tel:1-555-333-22-11">+1 (555) 333 22 11</a>
+								</li>
+								<li class="list-group-item">
+									<i><span class="icon-mail"></span></i>
+									<a href="mailto:info@schon.chair">info@schon.chair</a>
+								</li>
 							</ul>
 						</div>
-						<div class="information float-left">
-							<h4>information</h4>
-							<ul class="list-group">
-								<li class="list-group-item"><a href="#">about us</a></li>
-								<li class="list-group-item"><a href="#">contact us</a></li>
-								<li class="list-group-item"><a href="#">terms &amp; conditions</a></li>
-								<li class="list-group-item"><a href="#">privacy policy</a></li>
-								<li class="list-group-item"><a href="#">customer service</a></li>
-								<li class="list-group-item"><a href="#">FAQs</a></li>
-							</ul>
-						</div>
-						<div class="account float-left">
-							<h4>account</h4>
-							<ul class="list-group">
-								<li class="list-group-item"><a href="#">my account</a></li>
-								<li class="list-group-item"><a href="#">order tracking</a></li>
-								<li class="list-group-item"><a href="#">wish list</a></li>
-								<li class="list-group-item"><a href="#">shopping cart</a></li>
-								<li class="list-group-item"><a href="#">checkout</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-12 col-lg-6 col-xl-3 right">
-						<div class="subscribe float-right">
-							<h4>sing up newsletter</h4>
-							<p>subscribe now to get 15% off <br> on any product</p>
-							<div class="customer-email clearfix">
-								<input type="email" class="form-control float-left" id="exampleFormControlInput1" placeholder="Your email">
-								<label for="exampleFormControlInput1" class="float-right">></label>
+						<div class="col-12 col-lg-6 col-xl-6 center clearfix">
+							<div class="categories float-left">
+								<h4>categories</h4>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">chairs</a></li>
+									<li class="list-group-item"><a href="#">sofas</a></li>
+									<li class="list-group-item"><a href="#">living</a></li>
+									<li class="list-group-item"><a href="#">bedroom</a></li>
+									<li class="list-group-item"><a href="#">tables</a></li>
+									<li class="list-group-item"><a href="#">new</a></li>
+								</ul>
+							</div>
+							<div class="information float-left">
+								<h4>information</h4>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">about us</a></li>
+									<li class="list-group-item"><a href="#">contact us</a></li>
+									<li class="list-group-item"><a href="#">terms &amp; conditions</a></li>
+									<li class="list-group-item"><a href="#">privacy policy</a></li>
+									<li class="list-group-item"><a href="#">customer service</a></li>
+									<li class="list-group-item"><a href="#">FAQs</a></li>
+								</ul>
+							</div>
+							<div class="account float-left">
+								<h4>account</h4>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">my account</a></li>
+									<li class="list-group-item"><a href="#">order tracking</a></li>
+									<li class="list-group-item"><a href="#">wish list</a></li>
+									<li class="list-group-item"><a href="#">shopping cart</a></li>
+									<li class="list-group-item"><a href="#">checkout</a></li>
+								</ul>
 							</div>
 						</div>
-						<div class="social-media">
-							<h4>follow us</h4>
-							<div class="icons">
-								<a href="#"><i><span class="icon-twitter"></span></i></a>
-								<a href="#"><i><span class="icon-facebook"></span></i></a>
-								<a href="#"><i><span class="icon-gplus"></span></i></a>
-								<a href="#"><i><span class="icon-youtube"></span></i></a>
-								<a href="#"><i><span class="icon-linkedin"></span></i></a>
-								<a href="#"><i><span class="icon-whatsapp"></span></i></a>
+						<div class="col-12 col-lg-6 col-xl-3 right">
+							<div class="subscribe float-right">
+								<h4>sing up newsletter</h4>
+								<p>subscribe now to get 15% off <br> on any product</p>
+								<div class="customer-email clearfix forabout">
+									<input type="email" class="form-control float-left forabout" id="exampleFormControlInput1" placeholder="Your email">
+									<label for="exampleFormControlInput1" class="float-right forabout">></label>
+								</div>
+							</div>
+							<div class="social-media forabout">
+								<h4>follow us</h4>
+								<div class="icons">
+									<a href="#"><i><span class="icon-twitter"></span></i></a>
+									<a href="#"><i><span class="icon-facebook"></span></i></a>
+									<a href="#"><i><span class="icon-gplus"></span></i></a>
+									<a href="#"><i><span class="icon-youtube"></span></i></a>
+									<a href="#"><i><span class="icon-linkedin"></span></i></a>
+									<a href="#"><i><span class="icon-whatsapp"></span></i></a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id="copyright" class="clearfix">
-		<div class="container">
-			<div class="copyright float-left">
-				<p>&copy; <b>schön.</b>-All rights Reserved</p>
-			</div>
-			<div class="payment">
-				<img src="imgs/about_payement.png" alt="payment">
+		<div id="copyright" class="clearfix">
+			<div class="container">
+				<div class="copyright float-left">
+					<p>&copy; <b>schön.</b>-All rights Reserved</p>
+				</div>
+				<div class="payment">
+					<img src="imgs/about_payement.png" alt="payment">
+				</div>
 			</div>
 		</div>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
 </html>
