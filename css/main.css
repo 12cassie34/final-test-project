@@ -83,58 +83,7 @@
     border: none;
     background-color: #282828;
 }
-.white-layer {
-    margin-top: 20px;
-}
-.white-layer .logo {
-	float: left;
-}
 
-.white-layer .navigation {
-	margin-left: 216px;
-	float: left;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	text-transform: uppercase;
-}
-
-.white-layer .navigation .nav-link {
-	font-size: 	0.875rem;
-	color: #4C4C4C;
-}
-
-.white-layer .navigation .nav-item {
-	margin-right: 15px;
-}
-
-.consult .list-group-horizontal .list-group-item {
-  padding: 0;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.consult .list-group-horizontal .list-group-item.search {
-  margin-right: 35px;
-  font-size: 1.75rem;
-}
-
-.consult .list-group-horizontal .list-group-item.cart {
-  margin-right: 15px;
-  font-size: 1.75rem;
-}
-
-.consult .list-group-horizontal .list-group-item.shopping a {
-  color: #000000;
-}
-
-.consult .list-group-horizontal .list-group-item.shopping .title {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.consult .list-group-horizontal .list-group-item.shopping .item {
-  font-weight: 500;
-}
 
 #premier .first .left.col-xl-6 {
 	margin-right: 10px;
@@ -1324,50 +1273,90 @@
   text-transform: uppercase;
   color: #494949;
 }
-#workspace .full-width .carousel-inner .carousel-item .col-lg-2 .left-up-img {
-  margin-bottom: 11px;
+
+.carousel .carousel-cell.first {
+  padding-left: 10px;
+  flex: 0 0 16%;
+  max-width: 16%;
+  display: flex;
+  justify-content: space-between;
 }
-#workspace .full-width .carousel-inner .carousel-item .col-lg-3 img {
+
+.carousel .carousel-cell.second {
+  width: 96%;
+}
+
+.carousel .carousel-cell.first img {
+  width: 100%;
+}
+
+.carousel .carousel-cell.first img.up-img {
+  height: 221px;
+}
+
+.carousel .carousel-cell.first img.down-img {
+  height: 308px;
+}
+
+.carousel .carousel-cell.first .up-img {
+  margin-bottom: 14px;
+}
+
+.carousel .carousel-cell .left-img {
+  padding-right: 14px;
+  padding-left: 10px;
+  float: left;
+  width: 45%;
+}
+
+.carousel .carousel-cell .right-img {
+  padding-right: 8px;
+  float: right;
+  width: 55%;
+}
+
+.carousel .carousel-cell .left-img img {
   width: 100%;
   height: 542px;
 }
-#workspace .full-width .carousel-inner .carousel-item .col-lg-5 {
-  padding: 0;
+
+.carousel .carousel-cell .upper {
+  padding-bottom: 14px;
 }
-#workspace .full-width .carousel-inner .carousel-item .col-lg-5 .up img.left {
-    width: 40%;
-    height: 308px;
+
+.carousel .carousel-cell .right-img .upper-left {
+  padding-right: 8px;
+  width: 40%;
+  float: left;
 }
-#workspace .full-width .carousel-inner .carousel-item .col-lg-5 .up img.right {
-    width: 60%;
-    height: 308px;
-    float: right;
-    padding-left: 15px;
+
+.carousel .carousel-cell .right-img .upper-left img {
+  width: 100%;
+  height: 308px;
 }
-#workspace .full-width .carousel-inner .carousel-item .col-lg-5 .down {
-  margin-top: 14px;
+
+.carousel .carousel-cell .right-img .upper-right {
+  width: 60%;
+  float: right;
 }
-#workspace .full-width .carousel-inner .carousel-item .col-lg-5 .down img {
+
+.carousel .carousel-cell .right-img .upper-right img {
+  width: 100%;
+  height: 308px;
+}
+
+.carousel .carousel-cell .right-img .down img {
     width: 100%;
     height: 220px;
 }
-#workspace .full-width .carousel-indicators {
-  margin-bottom: -39px;
-}
-#workspace .full-width .carousel-indicators li {
-  width: 91px;
-  background-color: #ECECEC;
-}
-#workspace .full-width .carousel-indicators li.active {
-  background-color: #B6B6B6;
-}
+
 
 #upper .subscribe p {
   text-align: right;
 }
 
 #footer .row .col-xl-3.right .customer-email.forabout {
-  border: 1px solid #868686;
+  border: none;
   border-radius: 45px;
   height: 45px;
 }
