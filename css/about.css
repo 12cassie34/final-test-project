@@ -1,0 +1,306 @@
+/*About*/
+.forabout .white-layer a.phone {
+  position: absolute;
+  left: 145px;
+  top: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #4B4B4B;
+}
+.forabout .white-layer .consult {
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+.forabout .navbar-expand-lg .navbar-collapse {
+  margin-right: 130px;
+}
+.forabout .white-layer .consult .list-group-item {
+  margin-right: 0;
+}
+.forabout .white-layer .consult .list-group-item i {
+  font-size: 1rem;
+  color: #000000;
+}
+.forabout .white-layer .consult .search {
+  margin-right: 19px;
+}
+.forabout .white-layer .consult .cart {
+  margin-right: 19px;
+}
+.forabout .white-layer .consult p.items {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 12px;
+    bottom: -23px;
+    width: 15px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border-radius: 90%;   
+}
+#breadcrumbs {
+  margin-bottom: 93px;
+  padding-top: 78px;
+  padding-bottom: 61px;
+  background-color: #F4F4F4;
+}
+#breadcrumbs h1 {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 246px;
+}
+#breadcrumbs .center-container .breadcrumb {
+  margin: 0 auto;
+  width: 187px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  background-color: #F4F4F4;
+}
+#breadcrumbs .center-container .breadcrumb a {
+  color: #494949;
+}
+#introduction .container h3 {
+  margin-bottom: 64px;
+  overflow: visible;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  color: #494949;
+}
+#introduction .container .paragraphe {
+  margin-bottom: 69px;
+}
+#introduction .container .paragraphe p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: #494949;
+}
+#introduction .container .paragraphe p.paragraphe1 {
+  margin-bottom: 0;
+}
+#introduction .container .paragraphe b.paragraphe2 {
+  font-size: 1.25rem;
+}
+#introduction .container .paragraphe p.paragraphe3 {
+  margin-top: 30px;
+}
+#introduction .container .social-media h5 {
+  overflow: visible;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #494949;
+}
+#introduction .container .social-media .icons a {
+  color: #494949;
+}
+#team {
+  margin-top: 121px;
+  margin-bottom: 133px;
+}
+#team h3 {
+  margin-bottom: 42px;
+  overflow: visible;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  color: #494949;
+}
+#team .row .col-xl-3 .check-out:hover .personal-social-media {
+  display: block;
+}
+#team .row .col-xl-3 {
+  position: relative;
+}
+
+#team .row .col-xl-3 img {
+  height: 280px;
+}
+#team .row .col-xl-3 .check-out {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#team .row .col-xl-3 img {
+  position: relative;
+  display: block;
+}
+#team .row .col-xl-3 .personal-social-media {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#team .row .col-xl-3 .check-out:hover .personal-social-media {
+  display: flex;
+}
+
+#team .row .col-xl-3 .personal-social-media .social-links a {
+  width: 41px;
+  height: 41px;
+  background: black;
+  border-radius: 90%;
+  padding: 5px;
+  color: white;
+}
+#team .row .col-xl-3 .present {
+  margin-top: 27px;
+  padding-left: 10px;
+  border-left: 8px solid #EEEEEE;
+}
+#team .row .col-xl-3 .present .name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  color: #494949;
+}
+#team .row .col-xl-3 .present .post {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #A0A0A0;
+}
+#workspace {
+  margin-bottom: 108px;
+}
+#workspace .container h3 {
+  margin-bottom: 42px;
+  overflow: visible;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  color: #494949;
+}
+
+.carousel .carousel-cell.first {
+  padding-left: 10px;
+  flex: 0 0 16%;
+  max-width: 16%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel .carousel-cell.second {
+  width: 96%;
+}
+
+.carousel .carousel-cell.first img {
+  width: 100%;
+}
+
+.carousel .carousel-cell.first img.up-img {
+  height: 221px;
+}
+
+.carousel .carousel-cell.first img.down-img {
+  height: 308px;
+}
+
+.carousel .carousel-cell.first .up-img {
+  margin-bottom: 14px;
+}
+
+.carousel .carousel-cell .left-img {
+  padding-right: 14px;
+  padding-left: 10px;
+  float: left;
+  width: 45%;
+}
+
+.carousel .carousel-cell .right-img {
+  padding-right: 8px;
+  float: right;
+  width: 55%;
+}
+
+.carousel .carousel-cell .left-img img {
+  width: 100%;
+  height: 542px;
+}
+
+.carousel .carousel-cell .upper {
+  padding-bottom: 14px;
+}
+
+.carousel .carousel-cell .right-img .upper-left {
+  padding-right: 8px;
+  width: 40%;
+  float: left;
+}
+
+.carousel .carousel-cell .right-img .upper-left img {
+  width: 100%;
+  height: 308px;
+}
+
+.carousel .carousel-cell .right-img .upper-right {
+  width: 60%;
+  float: right;
+}
+
+.carousel .carousel-cell .right-img .upper-right img {
+  width: 100%;
+  height: 308px;
+}
+
+.carousel .carousel-cell .right-img .down img {
+    width: 100%;
+    height: 220px;
+}
+
+
+#upper .subscribe p {
+  text-align: right;
+}
+
+#footer .row .col-xl-3.right .customer-email.forabout {
+  border: none;
+  border-radius: 45px;
+  height: 45px;
+}
+
+#footer .row .col-xl-3.right .customer-email input.forabout {
+  padding-left: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+#footer .row .col-xl-3.right .customer-email label.forabout {
+  padding-left: 35px;
+  background-color: white;
+  font-size: 0.875rem;
+  color: #A5A0A0;
+}
+
+#footer .row .col-xl-3.right .social-media.forabout {
+  margin-top: 225px;
+}

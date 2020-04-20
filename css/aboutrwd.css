@@ -16,6 +16,10 @@
         float: right;
 	}
 
+	.forabout .white-layer a.phone {
+		top: 50px;
+	}
+
 	#breadcrumbs h1 {
 		display: flex;
         justify-content: center;
@@ -39,10 +43,6 @@
 		margin-bottom: 15px;
 	}
 
-	#team .row .col-xl-3 .check-out:hover .personal-social-media {
-		display: block;
-	}
-
 	#workspace h3 {
 		padding-left: 15px;
 	}
@@ -64,7 +64,8 @@
 
 	.forabout .white-layer a.phone {
 		position: absolute;
-		left: 120px;
+		left: 140px;
+		top: 22px;
 	}
 
 	#breadcrumbs h1, #breadcrumbs .center-container .breadcrumb {
@@ -83,10 +84,6 @@
 
 	#team .col-xl-3 {
 		margin-bottom: 15px;
-	}
-
-	#team .row .col-xl-3 .check-out:hover .personal-social-media {
-		display: block;
 	}
 
 	#workspace h3 {
@@ -110,7 +107,7 @@
 
 	.forabout .white-layer a.phone {
 		position: absolute;
-		left: 120px;
+		left: 145px;
 	}
 
 	.forabout .white-layer .consult {
@@ -133,10 +130,6 @@
 
 	#team .col-xl-3 {
 		margin-bottom: 15px;
-	}
-
-	#team .row .col-xl-3 .check-out:hover .personal-social-media {
-		display: block;
 	}
 
 	#workspace h3 {
@@ -183,10 +176,8 @@
 
 	#team .col-xl-3 {
 		margin-bottom: 15px;
-	}
-
-	#team .row .col-xl-3 .check-out:hover .personal-social-media {
-		display: block;
+		flex: 0 0 50%;
+		max-width: 50%;
 	}
 
 	#workspace h3 {

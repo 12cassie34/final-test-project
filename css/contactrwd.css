@@ -1,0 +1,207 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media (max-width: 540px) and (min-width: 320px) {
+	#ask {
+		width: auto;
+	}
+
+	#ask .aboutcompany {
+		margin-bottom: 50px;
+	}
+
+	.contact-info .col-xl-3, .contact-info .col-xl-5 {
+		padding-left: 0;
+	}
+
+	.contact-info .col-xl-3.phone {
+		margin-bottom: 16px;
+	}
+
+	#ask .ask-form h5 {
+		margin-left: 0;
+	}
+
+	#ask .ask-form .form-group {
+		width: auto;
+	}
+
+	#ask .ask-form button {
+		margin-left: 0;
+	}
+
+	#upper .row.forcontact .forpages .col-xl-3 {
+		margin-bottom: 15px;
+	}
+
+	#upper .row.forcontact {
+		width: auto;
+	}
+
+	#upper .row.forcontact .col-xl-3.right .list-group {
+		margin-top: 23px;
+		margin-left: 84px;
+	}
+
+	#footer .row .col-xl-3 .list-group-item:first-child {
+		margin-bottom: 0;
+	}
+
+}
+
+@media (max-width: 720px) and (min-width: 541px) {
+	#ask {
+		width: auto;
+	}
+
+	#ask .aboutcompany {
+		margin-bottom: 50px;
+	}
+
+	.contact-info .col-xl-3, .contact-info .col-xl-5 {
+		padding-left: 0;
+	}
+
+	.contact-info .col-xl-3.phone {
+		margin-bottom: 16px;
+	}
+
+	#ask .ask-form h5 {
+		margin-left: 0;
+	}
+
+	#ask .ask-form .form-group {
+		width: auto;
+	}
+
+	#ask .ask-form button {
+		margin-left: 0;
+	}
+
+	#upper .row.forcontact .forpages .col-xl-3 {
+		margin-bottom: 15px;
+	}
+
+	#upper .row.forcontact {
+		width: auto;
+	}
+
+	#upper .row.forcontact .col-xl-3.right .list-group {
+		margin-top: 23px;
+		margin-left: 258px;
+	}
+
+	#footer .row .col-xl-3 .list-group-item:first-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 721px) {
+	#ask {
+		width: auto;
+	}
+
+	#ask .aboutcompany {
+		margin-bottom: 50px;
+	}
+
+	.contact-info .col-xl-3, .contact-info .col-xl-5 {
+		padding-left: 0;
+	}
+
+	.contact-info .col-xl-3.phone {
+		margin-bottom: 16px;
+	}
+
+	#ask .ask-form h5 {
+		margin-left: 0;
+	}
+
+	#ask .ask-form .form-group {
+		width: auto;
+	}
+
+	#ask .ask-form button {
+		margin-left: 0;
+	}
+
+	#upper .row.forcontact .forpages .col-xl-3 {
+		margin-bottom: 15px;
+		flex: 0 0 50%;
+		max-width: 50%;
+		height: 250px;
+	}
+
+	#upper .row.forcontact {
+		width: auto;
+	}
+
+	#upper .row.forcontact .col-xl-3.right .list-group {
+		margin-top: 23px;
+		margin-left: 570px;
+	}
+
+	#footer .row .col-xl-3 .list-group-item:first-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #ask {
+		width: auto;
+	}
+
+	#ask .aboutcompany {
+		margin-bottom: 50px;
+	}
+
+	.contact-info .col-xl-5 {
+		padding-left: 0;
+		flex: 0 0 41.6%;
+		max-width: 41.6%;
+	}
+
+	.contact-info .col-xl-3  {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.contact-info .col-xl-3.phone {
+		margin-bottom: 16px;
+	}
+
+	#ask .ask-form h5 {
+		margin-left: 0;
+	}
+
+	#ask .ask-form .form-group {
+		width: auto;
+	}
+
+	#ask .ask-form button {
+		margin-left: 0;
+	}
+
+	#upper .row.forcontact .forpages .col-xl-3 {
+		margin-bottom: 15px;
+		flex: 0 0 25%;
+		max-width: 25%;
+		height: 250px;
+	}
+
+	#upper .row.forcontact {
+		width: auto;
+	}
+
+	#upper .row.forcontact .col-xl-3.right .list-group {
+		margin-top: 23px;
+		margin-left: 788px;
+	}
+
+	#footer .row .col-xl-3 .list-group-item:first-child {
+		margin-bottom: 0;
+	}
+}

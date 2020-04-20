@@ -1,0 +1,203 @@
+/*contact.html*/
+#breadcrumbs.forcontact {
+  background-image: url(../imgs/banner.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+#breadcrumbs.forcontact .center-container .breadcrumb {
+  background: none;
+}
+
+#ask {
+  margin: 0 auto 86px auto;
+  width: 1040px;
+}
+
+#ask .row {
+  display: block;
+}
+
+#ask .aboutcompany {
+  float: left;
+}
+
+#ask .aboutcompany .profil {
+  margin-bottom: 80px;
+}
+
+#ask .aboutcompany .profil h3 {
+  margin-bottom: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 1.875rem;
+}
+
+#ask .aboutcompany .profil p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size:  1rem;
+}
+
+.contact-info .col-xl-3, .contact-info .col-xl-5 {
+  display: block;
+  float: left;
+}
+
+#ask h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size:  1rem;
+  color: #383838;
+  text-transform: capitalize;
+}
+
+#ask .aboutcompany .contact-info p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size:  0.875rem;
+  color: #383838;
+}
+
+#ask .aboutcompany .contact-info a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size:  0.875rem;
+  color: #383838;
+}
+
+#ask .ask-form {
+  float: right;
+}
+
+#ask .ask-form h5 {
+  margin-bottom: 20px;
+  margin-left: 80px;
+  text-transform: unset;
+}
+
+#ask .ask-form .form-group {
+  margin: 0 auto 16px auto;
+  width: 353px;
+}
+
+#ask .ask-form .form-group .form-control {
+  border-radius: 2.25rem;
+}
+
+#ask .ask-form .form-group .form-control.message {
+  border-radius: 1.25rem;
+}
+
+#ask .ask-form button {
+  margin-left: 80px;
+  width: 74px;
+  height: 41px;
+  background-color: #383838;
+  border-radius: 45px;
+  border-color: #383838;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size:  0.875rem;
+  color: white;
+}
+
+#ask .ask-form ::placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size:  0.875rem;
+  color: black;
+}
+
+#map {
+  width: 100%;
+  height: 572px;
+}
+
+#footer.forcontact {
+  background-color: transparent;
+}
+
+#footer.forcontact #upper {
+  height: auto;
+}
+
+#upper .row.forcontact {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#upper .row.forcontact .col-xl-3 {
+  float: left;
+}
+
+#upper .row.forcontact .col-xl-3 h4 {
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+}
+
+#upper .row.forcontact .col-xl-3 .list-group-item a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+
+#upper  .row.forcontact .forpages .col-xl-3 .list-group-item {
+  margin-bottom: 10px;
+}
+
+#upper  .row.forcontact .col-xl-3.right img {
+  float: right;
+}
+
+#upper  .row.forcontact .col-xl-3.right .list-group {
+  margin-top: 58px;
+  float: right;
+  display: flex;
+  align-items: flex-end;
+  width: 300px;
+}
+
+#upper .row.forcontact .col-xl-3.right .list-group-item {
+  text-align: right;
+}
+
+#upper .row.forcontact .col-xl-3 .list-group-item .address {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#upper .col-xl-3 .list-group.logo-info .list-group-item:nth-child(1) {
+  margin-bottom: 0;
+}
+
+#upper .row.forcontact .col-xl-3 .list-group-item:nth-child(2) {
+  padding-right: 11px;
+}
+
+#copyright .container.forcontact {
+  display: flex;
+  justify-content: center;
+}
+
+#copyright .list-group-item {
+  border: none;
+}
+
+#copyright .list-group-item:nth-child(1) {
+  width: 202px;
+}
+
+#copyright .list-group-item:nth-child(2) {
+  padding-top: 3px;
+}
+
+#copyright .container.forcontact .list-group-item .copyright {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #8F8F8F;
+}
