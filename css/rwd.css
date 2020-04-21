@@ -37,13 +37,17 @@
 		position: relative;
 	}
 
+	.white-layer nav {
+		margin-top: 55px;
+	}
+
 	.navbar-expand-lg .navbar-collapse {
 		margin-right: 0;
 	}
 
 	#header .white-layer .consult {
 		right: 16px;
-        top: 54px;
+        top: -50px;
 	}
 
 	.consult .list-group li:not(:last-child) {

@@ -801,7 +801,7 @@ img {
 }
 
 #best-seller .row .col-xl-2 img {
-  height: 213px;
+  /*height: 213px;*/
 }
 
 #best-seller .row .content {
@@ -838,7 +838,7 @@ img {
 #best-seller .row .col-xl-2.first .rank {
   position: absolute;
   left: 25px;
-  top: 140px;
+  bottom: 77px;
   display: flex;
   justify-content: flex-start;
 }
@@ -847,7 +847,7 @@ img {
 }
 #best-seller .row .col-xl-2.second .on-img {
   position: absolute;
-  top: 165px;
+  top: 127px;
 }
 #best-seller .row .col-xl-2.second .action {
   background-color: white;
@@ -945,6 +945,7 @@ img {
   list-style: none;
   width: 77%;
   height: 47px;
+  top: 50%;
 }
 
 #brands {

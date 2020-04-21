@@ -129,7 +129,7 @@
 }
 
 #team .row .col-xl-3 img {
-  height: 280px;
+  height: auto;
 }
 #team .row .col-xl-3 .check-out {
   position: relative;
@@ -203,8 +203,6 @@
 
 .carousel .carousel-cell.first {
   padding-left: 10px;
-  flex: 0 0 16%;
-  max-width: 16%;
   display: flex;
   justify-content: space-between;
 }

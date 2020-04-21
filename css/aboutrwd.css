@@ -47,6 +47,15 @@
 		padding-left: 15px;
 	}
 
+	.carousel .carousel-cell {
+	    position: absolute;
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        justify-content: center;
+        left: 0%;
+	}
+
 	#footer .row .col-xl-3.right .customer-email.forabout {
 		display: table-header-group;
 	}
@@ -59,7 +68,8 @@
 @media (max-width: 720px) and (min-width: 541px) {
 	.forabout .white-layer .consult {
 		float: right;
-		top: 50px;
+		top: 10px;
+		right: 75px;
 	}
 
 	.forabout .white-layer a.phone {
@@ -102,7 +112,8 @@
 @media (max-width: 991px) and (min-width: 721px) {
     .forabout .white-layer .consult {
 		float: right;
-		top: 50px;
+		top: 10px;
+		right: 75px;
 	}
 
 	.forabout .white-layer a.phone {
