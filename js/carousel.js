@@ -1,4 +1,31 @@
-$('.main-carousel').flickity({
-  cellAlign: 'left',
-  contain: true
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+  	loop:true,
+  	center:true,
+  	autoWidth:true,
+  	responsiveClass:true,
+    responsive:{
+        320:{
+            items:1,
+            nav:true,
+            autoWidth:false
+        },
+        541:{
+            items:1,
+            nav:true,
+            autoWidth:false
+        },
+        721:{
+            items:1,
+            nav:true,
+            autoWidth:false
+        },
+        922:{
+            items:3,
+            nav:true
+        }
+    }
+  });
+  $(".owl-carousel").find(".owl-nav").addClass('clearfix');
+
 });
