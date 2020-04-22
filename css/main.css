@@ -607,6 +607,7 @@ img {
 #feature {
   margin: 42px auto 55px auto;
   display: block;
+  position: relative;
   width: 100%;
 }
 #feature .navigation {
@@ -631,20 +632,24 @@ img {
   padding-left: 0;
   color: #3A3A3A;
 }
-#feature .navigation .switch {
+.owl-carousel .owl-nav.disabled {
   width: 71px;
   height: 38px;
+  position: absolute;
+  right: 0;
+  top: -45px;
   background-color: #EEEEEE;
   border-radius: 45px;
+  justify-content: center;
+  align-items: center;
 }
-#feature .navigation .switch .switch-button {
-  margin-top: 3px;
+
+.owl-carousel .owl-nav button.owl-prev {
+  margin-right: 3px;
+  margin-bottom: 0;
   display: flex;
   justify-content: center;
-}
-#feature .navigation .switch .switch-button a {
-  display: flex;
-  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   background-color: white;
@@ -653,15 +658,26 @@ img {
   font-weight: 500;
   color: #BEBEBE;
 }
-#feature .navigation .switch .switch-button a.first {
-  margin-right: 3px;
-  margin-bottom: 0;
+
+.owl-carousel .owl-nav button.owl-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 90%;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #BEBEBE;
 }
 #feature .first {
   margin-bottom: 72px;
 }
-#feature .first .col-xlo-3 {
+#feature .first .col-xl-3 {
   float: left;
+  flex: unset;
+  max-width: unset;
 }
 #feature .first .col-xl-3 .product {
   font-family: 'Source Sans Pro', sans-serif;
@@ -770,38 +786,14 @@ img {
   text-transform: uppercase;
   letter-spacing: .5px;
 }
-#best-seller .heading .switch {
-  width: 71px;
-  height: 38px;
-  background-color: #EEEEEE;
-  border-radius: 45px;
-}
-#best-seller .heading .switch .switch-button {
-  margin-top: 3px;
-  display: flex;
-  justify-content: center;
-}
-#best-seller .heading .switch .switch-button a {
-  display: flex;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  border-radius: 90%;
-  font-size: 1.125rem;
-  font-weight: 500;
-  color: #BEBEBE;
-}
-#best-seller .heading .switch .switch-button a.first {
-  margin-right: 3px;
-}
+
 #best-seller .row {
   display: flex;
   justify-content: space-between;
 }
 
 #best-seller .row .col-xl-2 img {
-  /*height: 213px;*/
+  height: auto;
 }
 
 #best-seller .row .content {
@@ -847,7 +839,7 @@ img {
 }
 #best-seller .row .col-xl-2.second .on-img {
   position: absolute;
-  top: 127px;
+  top: 165px;
 }
 #best-seller .row .col-xl-2.second .action {
   background-color: white;

@@ -8,7 +8,7 @@ $(document).ready(function(){
         320:{
             items:1,
             nav:true,
-            autoWidth:false
+            autoWidth:false,
         },
         541:{
             items:1,
@@ -20,13 +20,13 @@ $(document).ready(function(){
             nav:true,
             autoWidth:false
         },
-        922:{
-            items:3,
-            nav:true
+        992:{
+            items:2,
+            nav:false
         },
         1200:{
             items:4,
-            nav:true
+            nav:false
         }
     }
   });

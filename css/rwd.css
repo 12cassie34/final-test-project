@@ -185,16 +185,62 @@
 	}
 
 	#feature .navigation {
-		margin-bottom: 14px;
+		margin-bottom: 45px;
 		padding-right: 15px;
+		padding-left: 15px;
 	}
 
 	#feature .navigation .nav {
 		justify-content: flex-end;
 	}
 
-	#feature .col-12 img {
-		height: 275px;
+	.owl-carousel .owl-nav {
+		margin-right: 20px;
+		width: 71px;
+        height: 38px;
+        position: absolute;
+        right: 0;
+        top: -45px;
+        background-color: #EEEEEE;
+        border-radius: 45px;
+        justify-content: center;
+        align-items: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-prev {
+        margin-right: 3px;
+        margin-left: 4px;
+        margin-top: 3px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 90%;
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: #BEBEBE;
+	}
+
+	.owl-carousel .owl-nav button.owl-next {
+		margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 90%;
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: #BEBEBE;
+	}
+
+	#feature .col-xl-3 {
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
 
 	#feature .first .content {
@@ -207,6 +253,10 @@
 
 	#best-seller .heading {
 		padding: 0 23px;
+	}
+
+	#best-seller .owl-carousel .owl-nav {
+		top: -60px;
 	}
 
 	#best-seller .row .col-12.first .product, #best-seller .row .col-12.first .price {
@@ -451,6 +501,50 @@
 		padding: 0 15px;
 	}
 
+	.owl-carousel .owl-nav {
+		margin-right: 20px;
+		width: 71px;
+        height: 38px;
+        position: absolute;
+        right: 0;
+        top: -45px;
+        background-color: #EEEEEE;
+        border-radius: 45px;
+        justify-content: center;
+        align-items: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-prev {
+        margin-right: 3px;
+        margin-left: 4px;
+        margin-top: 3px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 90%;
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: #BEBEBE;
+	}
+
+	.owl-carousel .owl-nav button.owl-next {
+		margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 90%;
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: #BEBEBE;
+	}
+
 	#feature .row {
 		margin-right: 0;
         margin-left: 0;
@@ -466,6 +560,10 @@
 
 	#best-seller .heading {
 		padding: 0 15px;
+	}
+
+	#best-seller .owl-carousel .owl-nav {
+		top: -60px;
 	}
 
 	#best-seller .row {
@@ -683,12 +781,60 @@
 		padding: 0 15px;
 	}
 
+	.owl-carousel .owl-nav {
+		margin-right: 20px;
+		width: 71px;
+        height: 38px;
+        position: absolute;
+        right: 0;
+        top: -45px;
+        background-color: #EEEEEE;
+        border-radius: 45px;
+        justify-content: center;
+        align-items: center;
+	}
+
+	.owl-carousel .owl-nav button.owl-prev {
+        margin-right: 3px;
+        margin-left: 4px;
+        margin-top: 3px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 90%;
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: #BEBEBE;
+	}
+
+	.owl-carousel .owl-nav button.owl-next {
+		margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border-radius: 90%;
+        font-size: 1.125rem;
+        font-weight: 500;
+        color: #BEBEBE;
+	}
+
 	#feature .first .row img {
 		height: 275px;
 	}
 
 	#best-seller .heading {
 		padding: 0 15px;
+	}
+
+	#best-seller .owl-carousel .owl-nav {
+		top: -60px;
 	}
 
 	#best-seller .row .col-xl-2.second .action {
@@ -876,8 +1022,8 @@
 	}
 
 	#feature .first .col-xl-3 {
-		flex: 0 0 50%;
-		max-width: 50%;
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
 
 	#feature .first .col-xl-3 img {
@@ -901,20 +1047,15 @@
 		padding-left: 15px;
 	}
 
-	#best-seller .row .col-xl-2 {
-		flex: 0 0 50%;
-		max-width: 50%;
-	}
-
-	#best-seller .row .col-xl-2 img {
+	#best-seller .row img {
 		height: 213px;
 	}
 
-	#best-seller .col-xl-2.fifth .wrap .on-img {
+	#best-seller .fifth .wrap .on-img {
 		width: auto;
 	}
 
-	#best-seller .col-xl-2.fifth .wrap .on-img .list-group {
+	#best-seller .fifth .wrap .on-img .list-group {
 		margin-left: 6%;
 	}
 	
