@@ -214,11 +214,14 @@
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
   color: #878787;
   font-size: 60px;
+  width: unset;
+  height: unset;
 }
 
 .owl-carousel .owl-nav.disabled {
   display: block;
   position: absolute;
+  background: none;
   top: 230px;
   width: 100%;
 }
@@ -226,11 +229,13 @@
 .owl-carousel .owl-nav button.owl-prev {
   float: left;
   margin-left: 163px;
+  background: none;
 }
 
 .owl-carousel .owl-nav button.owl-next {
   float: right;
   margin-right: 163px;
+  background: none;
 }
 
 .owl-carousel .owl-dots {
