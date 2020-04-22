@@ -1,0 +1,349 @@
+#current-product {
+	margin-bottom: 76px;
+	padding-bottom: 59px;
+	background-color: #F6F6F6;
+	height: 760px;
+}
+
+#current-product .row {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+#current-product .row .col-xl-6:nth-child(1) {
+	position: relative;
+}
+
+.feedback {
+	margin-top: 55px;
+	display: flex;
+	flex-direction: row;
+	color: #B6B6B6; 
+}
+
+.feedback > div {
+	display: flex;
+}
+
+.feedback > div:not(:last-child) {
+	margin-right: 8px;
+}
+
+.product-picture {
+	margin-top: 50px;
+	position: absolute;
+    right: 25px;
+}
+
+.slider-for {
+	display: block;
+	width: 510px;
+	height: 450px;
+}
+
+.slider-nav {
+	display: flex;
+	width: 470px;
+	height: 105px;
+}
+
+.slick-slide {
+	margin-right: 13px;
+}
+
+.slick-next {
+	display: block;
+    background-color: white;
+    width: 28px;
+    height: 105px;
+}
+
+.slick-prev, .slick-next {
+	font-size: 31px;
+    color: #DEDEDE;
+    font-weight: 800;
+}
+
+.product-breadcrumbs {
+	margin-top: 52px;
+}
+
+.product-breadcrumbs nav {
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8125rem;
+    letter-spacing: 1px;
+    color: #A9A9A9;
+    font-weight: 500;
+}
+
+.product-breadcrumbs ol {
+	padding-left: 0;
+	display: flex;
+	list-style: none;
+}
+
+.product-breadcrumbs ol span {
+	margin-right: 10px;
+    margin-left: 10px;
+}
+
+.product-breadcrumbs ol a {
+	color: #A9A9A9;
+}
+
+.product-name {
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.75rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.review {
+	display: flex;
+}
+
+.review .rank {
+	display: flex;
+}
+
+.review .reviews a {
+	margin-left: 10px;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #B6B6B6;
+}
+
+.reaction {
+	margin-top: 37px;
+	margin-bottom: 15px;
+	display: flex;
+    color: #B6B6B6;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.reaction > div {
+	display: flex;
+}
+
+.reaction > div:not(:last-child) {
+	margin-right: 25px;
+}
+
+.description {
+	padding-top: 28px;
+    padding-bottom: 35px;
+    border-top: .5px solid;
+    border-bottom: .5px solid;
+	font-family: 'Source Sans Pro', sans-serif;
+    color: #B6B6B6;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.price {
+	margin-top: 34px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price .special-price {
+	margin-right: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.price .original-price {
+	display: flex;
+    align-items: center;
+    color: #BABABA;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.to-buy {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.to-buy .form-inline {
+	position: relative;
+}
+
+.to-buy label.quantity {
+	margin-right: 25px;
+    font-weight: 600;
+    color: #A9A9A9;
+}
+
+.to-buy .custom-select {
+	padding-left: 27px;
+	border: none;
+    border-radius: 45px;
+	color: #939393;
+	background: none;
+	background-color: white;
+	width: 73px;
+    height: 43px;
+    font-weight: 600;
+}
+
+.to-buy .quantity-button {
+	cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #ACACAC;
+    position: absolute;
+    left: 105px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.to-buy .quantity-button > div {
+	position: absolute;
+	transform: rotate(270deg);
+}
+
+.to-buy .quantity-button .add {
+    top: -4px;
+}
+
+.to-buy .quantity-button .minus {
+	bottom: -5px;
+}
+
+.to-buy .form-inline button {
+	margin-left: 10px;
+	border-radius: 45px;
+	width: 174px;
+    height: 43px;
+    background: #F46060;
+    color: white;
+    font-weight: 600;
+}
+
+
+#product-information {
+	margin-bottom: 115px;
+}
+
+#related-product {
+  margin-bottom: 150px;
+}
+
+#related-product .heading {
+  padding-left: 45px;
+  margin-bottom: 37px;
+}
+
+#related-product .title {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 1.5rem;
+   color: #3A3A3A;
+   text-transform: uppercase;
+   letter-spacing: .5px;
+}
+
+#related-product .row{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#related-product .row .col-xl-2 img {
+  height: auto;
+}
+
+#related-product .content {
+  margin-left: 10px;
+}
+
+#related-product .col-xl-2 .product {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #757575;
+  font-size: 1.1875rem;
+  text-transform: capitalize;
+}
+
+#related-product .col-xl-2 .price {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #010101;
+}
+
+#related-product .col-xl-2.first {
+  position: relative;
+}
+
+#related-product .col-xl-2.first .tag {
+  position: absolute;
+  top: 21px;
+  width: 48px;
+  text-align: center;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+#related-product .col-xl-2.first .rank {
+  position: absolute;
+  left: 25px;
+  bottom: 77px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#related-product .col-xl-2.second {
+  position: relative;
+}
+
+#related-product .col-xl-2.second .on-img {
+  position: absolute;
+  top: 165px;
+}
+
+#related-product col-xl-2.fourth {
+  position: relative;
+}
+
+#related-product .col-xl-2.fourth .count {
+  padding: 5px;
+  position: absolute;
+  top: 27px;
+  background-color: #B2CC29;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+#related-product .col-xl-2.fourth .tag {
+  padding: 5px;
+  position: absolute;
+  top: 61px;
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+#related-product .col-xl-2.fifth {
+  position: relative;
+}
+
+#footer .row .col-xl-3.right .customer-email.forabout {
+	border: .5px solid #868686;
+}
+
+#footer .row .col-xl-3.right .customer-email input.forabout, #footer .row .col-xl-3.right .customer-email label.forabout {
+	background: none;
+}
