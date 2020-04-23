@@ -173,60 +173,72 @@
 
 .to-buy label.quantity {
 	margin-right: 25px;
-    font-weight: 600;
-    color: #A9A9A9;
+  font-weight: 600;
+  color: #A9A9A9;
 }
 
 .to-buy .custom-select {
+  margin-right: 10px;
 	padding-left: 27px;
 	border: none;
-    border-radius: 45px;
-	color: #939393;
-	background: none;
+  border-radius: 45px;
+	color: #BEBEBE;;
 	background-color: white;
 	width: 73px;
-    height: 43px;
-    font-weight: 600;
-}
-
-.to-buy .quantity-button {
-	cursor: pointer;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #ACACAC;
-    position: absolute;
-    left: 105px;
-    z-index: 100;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.to-buy .quantity-button > div {
-	position: absolute;
-	transform: rotate(270deg);
-}
-
-.to-buy .quantity-button .add {
-    top: -4px;
-}
-
-.to-buy .quantity-button .minus {
-	bottom: -5px;
+  height: 43px;
+  font-weight: 600;
 }
 
 .to-buy .form-inline button {
-	margin-left: 10px;
 	border-radius: 45px;
 	width: 174px;
-    height: 43px;
-    background: #F46060;
-    color: white;
-    font-weight: 600;
+  height: 43px;
+  background: #F46060;
+  color: white;
+  font-weight: 600;
 }
-
 
 #product-information {
 	margin-bottom: 115px;
+}
+
+#product-information .titles {
+	margin: 0 auto 54px auto;
+	border-bottom: 1px solid #C8C8C8;
+	width: 1200px;
+}
+
+#product-information .titles .list-group {
+	margin: 0 auto;
+	width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#product-information .titles .list-group-item {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 0px;
+	background-color: transparent;
+	color: #9B9B9B;
+}
+
+#product-information .titles .list-group-item.active {
+	z-index: 0;
+    color: #171717;
+    background-color: none;
+    border-color: #007bff;
+    border-bottom: 1px solid #171717;
+}
+
+#product-information .info {
+	margin: 0 auto;
+	width: 1134px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color: #AAAAAA;
 }
 
 #related-product {
