@@ -7,11 +7,15 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/fontello.css">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" href="css/jplist.styles.css">
+		<link rel="stylesheet" href="css/price_range_style.css">
 		<link rel="stylesheet" href="css/main.css" media="screen">
 		<link rel="stylesheet" href="css/about.css" media="screen">
+		<link rel="stylesheet" href="css/product.css">
 		<link rel="stylesheet" href="css/rwd.css">
 		<link rel="stylesheet" href="css/aboutrwd.css">
+		<link rel="stylesheet" href="css/productrwd.css">
 	</head>
 	<body>
 		<div id="header">
@@ -34,7 +38,7 @@
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 										<a class="dropdown-item" href="#">sofas</a>
-										<a class="dropdown-item" href="#">chairs</a>
+										<a class="dropdown-item" href="product.html">chairs</a>
 										<a class="dropdown-item" href="#">lamps</a>
 										<a class="dropdown-item" href="#">desks</a>
 									</div>
@@ -87,233 +91,288 @@
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 							<li class="breadcrumb-item" aria-current="page">Products</li>
-							<li class="breadcrumb-item active" aria-current="page">chairs</li>
+							<li class="breadcrumb-item active" aria-current="page">Chairs</li>
 						</ol>
 					</nav>
 				</div>
 			</div>
 			<div id ="products" class="row">
-				<div class="side-track col-xl-4">
+				<div class="side-track col-xl-3">
 					<div class="filter">
 						<h3>filter</h3>
 						<div class="by-brands">
-							<b>filter by brands</b>
-							<div class="checks">
-								<div class="form-check">
-									<label>
-										<input
-										type="checkbox"
-										data-jplist-control="checkbox-text-filter"
-										data-path=".brand"
-										data-group="chair"
-										data-name="brand"
-										value="casali" />
-										casali
-									</label>
-									<p>2</p>
+							<h5>Filter by Brands</h5>
+							<nav class="navbar navbar-expand-lg">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-filter" aria-controls="navbarSupportedContent-filter" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+								<h5>Brands</h5>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarSupportedContent-filter">
+									<div class="checks">
+										<div class="form-check">
+											<label class="out-label">
+												<input type="checkbox"data-jplist-control="checkbox-text-filter"
+												data-path=".brand"
+												data-group="product"
+												data-name="brand"
+												value="casali" class="regular-checkbox" id="checkbox-1" /><label for="checkbox-1"></label>
+											</label>
+											<div class="brands-name">casali</div>
+											<p>2</p>
+										</div>
+										<div class="form-check">
+											<label class="out-label">
+												<input
+												type="checkbox"
+												data-jplist-control="checkbox-text-filter"
+												data-path=".brand"
+												data-group="product"
+												data-name="brand"
+												value="decar" class="regular-checkbox" id="checkbox-2"/><label for="checkbox-2"></label>
+											</label>
+											<div class="brands-name">decar</div>
+											<p>12</p>
+										</div>
+										<div class="form-check">
+											<label class="out-label">
+												<input
+												type="checkbox"
+												data-jplist-control="checkbox-text-filter"
+												data-path=".brand"
+												data-group="product"
+												data-name="brand"
+												value="fantini"
+												checked class="regular-checkbox" id="checkbox-3" /><label for="checkbox-3"></label>
+											</label>
+											<div class="brands-name">fantini</div>
+											<p>4</p>
+										</div>
+										<div class="form-check">
+											<label class="out-label">
+												<input
+												type="checkbox"
+												data-jplist-control="checkbox-text-filter"
+												data-path=".brand"
+												data-group="product"
+												data-name="brand"
+												value="flamentstyle" class="regular-checkbox" id="checkbox-4" /><label for="checkbox-4"></label>
+											</label>
+											<div class="brands-name">flamentstyle</div>
+											<p>4</p>
+										</div>
+										<div class="form-check">
+											<label class="out-label">
+												<input
+												type="checkbox"
+												data-jplist-control="checkbox-text-filter"
+												data-path=".brand"
+												data-group="product"
+												data-name="brand"
+												value="heerenhuis" class="regular-checkbox" id="checkbox-5" /><label for="checkbox-5"></label>
+											</label>
+											<div class="brands-name">heerenhuis</div>
+											<p>6</p>
+										</div>
+										<div class="form-check">
+											<label class="out-label">
+												<input
+												type="checkbox"
+												data-jplist-control="checkbox-text-filter"
+												data-path=".brand"
+												data-group="product"
+												data-name="brand"
+												value="hoffmann" class="regular-checkbox" id="checkbox-6" /><label for="checkbox-6"></label>
+											</label>
+											<div class="brands-name">hoffmann</div>
+											<p>10</p>
+										</div>
+										<div class="form-check">
+											<label class="out-label">
+												<input
+												type="checkbox"
+												data-jplist-control="checkbox-text-filter"
+												data-path=".brand"
+												data-group="product"
+												data-name="brand"
+												value="italfloor" class="regular-checkbox" id="checkbox-7" /><label for="checkbox-7"></label>
+											</label>
+											<div class="brands-name">italfloor</div>
+											<p>3</p>
+										</div>
+									</div>
 								</div>
-								<div class="form-check">
-									<label>
-										<input
-										type="checkbox"
-										data-jplist-control="checkbox-text-filter"
-										data-path=".brand"
-										data-group="chair"
-										data-name="brand"
-										value="decar"/>
-										decar
-									</label>
-									<p>12</p>
-								</div>
-								<div class="form-check">
-									<label>
-										<input
-										type="checkbox"
-										data-jplist-control="checkbox-text-filter"
-										data-path=".brand"
-										data-group="chair"
-										data-name="brand"
-										value="fantini"
-										checked />
-										fantini
-									</label>
-									<p>4</p>
-								</div>
-								<div class="form-check">
-									<label>
-										<input
-										type="checkbox"
-										data-jplist-control="checkbox-text-filter"
-										data-path=".brand"
-										data-group="chair"
-										data-name="brand"
-										value="flamentstyle"/>
-										flamentstyle
-									</label>
-									<p>4</p>
-								</div>
-								<div class="form-check">
-									<label>
-										<input
-										type="checkbox"
-										data-jplist-control="checkbox-text-filter"
-										data-path=".brand"
-										data-group="chair"
-										data-name="brand"
-										value="heerenhuis"/>
-										heerenhuis
-									</label>
-									<p>6</p>
-								</div>
-								<div class="form-check">
-									<label>
-										<input
-										type="checkbox"
-										data-jplist-control="checkbox-text-filter"
-										data-path=".brand"
-										data-group="chair"
-										data-name="brand"
-										value="hoffmann"/>
-										hoffmann
-									</label>
-									<p>10</p>
-								</div>
-								<div class="form-check">
-									<label>
-										<input
-										type="checkbox"
-										data-jplist-control="checkbox-text-filter"
-										data-path=".brand"
-										data-group="chair"
-										data-name="brand"
-										value="italfloor"/>
-										italfloor
-									</label>
-									<p>3</p>
-								</div>
-							</div>
+							</nav>
 						</div>
 						<div class="by-price">
-							<b>filter by price</b>
-							<div class="price-filter">
-								<div
-									data-jplist-control="slider-range-filter"
-									data-path=".price"
-									data-group="chair"
-									data-name="price-filter-1"
-									data-min="1"
-									data-from="100"
-									data-to="500"
-									data-max="1000">
-									<div class="jplist-slider" data-type="slider"></div>
-									
-									<div class="jplist-slider-values">
-										<b>Min:</b> <span data-type="min"></span>,
-										<b>Value 1:</b> <span data-type="value-1"></span>,
-										<b>Value 2:</b> <span data-type="value-2"></span>,
-										<b>Max:</b> <span data-type="max"></span>
-									</div>
+							<h5>Filter by Price</h5>
+							<div id="slider-range" class="price-filter-range" name="rangeInput">
+							</div>
+							<div class="price-range-control">
+								<p>Price</p>
+								<input type="number" min=0 max="1000" oninput="validity.valid||(value='0');" id="min_price" class="price-range-field minmum" />
+								<p> - </p>
+								<input type="number" min=0 max="1000" oninput="validity.valid||(value='1000');" id="max_price" class="price-range-field maxmum" />
+							</div>
+							<button type="submit" class="btn">Filter</button>
+						</div>
+					</div>
+					<div class="categories clearfix">
+						<h3>categories</h3>
+						<nav class="navbar navbar-expand-lg">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-categories" aria-controls="navbarSupportedContent-categories" aria-expanded="false" aria-label="Toggle navigation">
+							<h3 class="dropdown-toggle">categories</h3>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent-categories">
+								<div class="navbar-nav list-group">
+									<a href="product.html" class="list-group-item list-group-item-action">
+										chairs
+										<p>12</p>
+									</a>
+									<a href="#" class="list-group-item list-group-item-action">
+										sofas
+										<p>24</p>
+									</a>
+									<a href="#" class="list-group-item list-group-item-action">
+										armchairs
+										<p>9</p>
+									</a>
+									<a href="#" class="list-group-item list-group-item-action">
+										bedroom
+										<p>2</p>
+									</a>
+									<a href="#" class="list-group-item list-group-item-action">
+										lighting
+										<p>17</p>
+									</a>
+									<a href="#" class="list-group-item list-group-item-action">
+										kitchen
+										<p>10</p>
+									</a>
+									<a href="#" class="list-group-item list-group-item-action">
+										accessories
+										<p>13</p>
+									</a>
 								</div>
-								<button class="fliter">fliter</button>
+							</div>
+						</nav>
+					</div>
+					<div class="hot-sale">
+						<h3>hot sale</h3>
+						<nav class="navbar navbar-expand-lg">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-hotsale" aria-controls="navbarSupportedContent-hotsale" aria-expanded="false" aria-label="Toggle navigation">
+							<h3 class="dropdown-toggle">hot sale</h3>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent-hotsale">
+								<ul class="list-group">
+									<li>
+										<img src="https://fakeimg.pl/79x79/F8F8F8/" alt="sale">
+										<div class="sale-detail">
+											<div class="name">egon wooden chair</div>
+											<div class="rank">
+												<i><span class="icon-star"></span></i>
+												<i><span class="icon-star"></span></i>
+												<i><span class="icon-star"></span></i>
+												<i><span class="icon-star-empty"></span></i>
+											</div>
+											<div class="price">
+												<div class="original-price">&#36; 75.00</div>
+												<div class="special-price">&#36; 55.00</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<img src="https://fakeimg.pl/79x79/F8F8F8/" alt="sale">
+										<div class="sale-detail">
+											<div class="name">oyo cantilever chair</div>
+											<br>
+											<div class="price">
+												<div class="special-price">&#36; 55.00</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<img src="https://fakeimg.pl/79x79/F8F8F8/" alt="sale">
+										<div class="sale-detail">
+											<div class="name">kurve chair</div>
+											<div class="rank">
+												<i><span class="icon-star"></span></i>
+												<i><span class="icon-star"></span></i>
+												<i><span class="icon-star"></span></i>
+												<i><span class="icon-star-empty"></span></i>
+											</div>
+											<div class="price">
+												<div class="original-price">&#36; 75.00</div>
+												<div class="special-price">&#36; 55.00</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<img src="https://fakeimg.pl/79x79/F8F8F8/" alt="sale">
+										<div class="sale-detail">
+											<div class="name">marvelous wooden chair</div>
+											<div class="price">
+												<div class="original-price">&#36; 75.00</div>
+												<div class="special-price">&#36; 55.00</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<div class="product-n-sort col-xl-9">
+					<div class="sort-section">
+						<div class="pagination">
+							<div data-jplist-control="pagination" data-group="product"data-items-per-page="9" data-current-page="0" data-name="pagination1">
+								<!-- items per page dropdown -->
+								<div data-type="items-per-page-dd" class="jplist-dd">
+									<div data-type="panel" class="jplist-dd-panel">Items per page</div>
+									<div class="description-n-item clearfix">
+										<div class="number clearfix">
+											<p>Showing <b>1-9</b> of <b>65</b> results</p>
+										</div>
+										<div class="view">
+											<p>View</p>
+										</div>
+										<div data-type="content" class="jplist-dd-content">
+											<div class="jplist-dd-item" data-value="9">9/</div>
+											<div class="jplist-dd-item" data-value="18">18/</div>
+											<div class="jplist-dd-item" data-value="27">27/</div>
+											<div class="jplist-dd-item" data-value="0">All</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="alphabet-sort">
+							<div data-jplist-control="dropdown-sort" class="jplist-dd" data-group="product" data-name="sorttitle">
+								<div data-type="panel" class="jplist-dd-panel">Sort by</div>
+								<div data-type="content" class="jplist-dd-content">
+									<div class="jplist-dd-item" data-path="default" data-selected="true">Default Sorting</div>
+									<div class="jplist-dd-item" data-path=".product" data-order="asc" data-type="text"
+									>Name A-Z</div>
+									<div class="jplist-dd-item" data-path=".product" data-order="desc" data-type="text">Name Z-A</div>
+									<div class="jplist-dd-item" data-path=".hide-price" data-order="asc" data-type="number">Price Low to High</div>
+									<div class="jplist-dd-item" data-path=".hide-price" data-order="desc" data-type="number">Price High to Low</div>
+								</div>
+							</div>
+						</div>
+						<div class="layout-control">
+							<div class="buttons">
+								<button type="button" data-jplist-control="layout" data-class="jplist-grid" data-group="product" data-name="name1" data-selected="true"><span class="icon-th-large"></span></button>
+								<button data-jplist-control="layout" type="button" data-class="jplist-list" data-group="product" data-name="name1"><span class="icon-th-list"></span></button>
 							</div>
 						</div>
 					</div>
-					<div class="categories">
-						<div class="list-group">
-							<a href="#" class="list-group-item list-group-item-action active">
-								chairs
-								<p>12</p>
-							</a>
-							<a href="#" class="list-group-item list-group-item-action">
-								sofas
-								<p>24</p>
-							</a>
-							<a href="#" class="list-group-item list-group-item-action">
-								armchairs
-								<p>9</p>
-							</a>
-							<a href="#" class="list-group-item list-group-item-action">
-								bedroom
-								<p>2</p>
-							</a>
-							<a href="#" class="list-group-item list-group-item-action">
-								lighting
-								<p>17</p>
-							</a>
-							<a href="#" class="list-group-item list-group-item-action">
-								kitchen
-								<p>10</p>
-							</a>
-							<a href="#" class="list-group-item list-group-item-action">
-								accessories
-								<p>13</p>
-							</a>
-						</div>
-					</div>
-					<div class="hot-sale">
-						<ul class="list-group">
-							<li class="list-group-item">
-								<img src="https://fakeimg.pl/79x79/F8F8F8/" alt="sale">
-								<div class="sale-detail">
-									<div class="name">egon wooden chair</div>
-									<div class="rank">
-										<i><span class="icon-star"></span></i>
-										<i><span class="icon-star"></span></i>
-										<i><span class="icon-star"></span></i>
-										<i><span class="icon-star-empty"></span></i>
-									</div>
-									<div class="price">
-										<div class="original-price">&#36; 75.00</div>
-										<div class="special-price">&#36; 55.00</div>
-									</div>
+					<div data-jplist-group="product" class="product-pool row">
+						<div data-jplist-item class="col-xl-4">
+							<div class="chair">
+								<div class="for-search">
+									<div class="brand">fantini</div>
+									<div class="hide-price">399</div>
 								</div>
-							</li>
-							<li class="list-group-item">
-								<img src="https://fakeimg.pl/79x79/F8F8F8/" alt="sale">
-								<div class="sale-detail">
-									<div class="name">oyo cantilever chair</div>
-									<div class="rank"></div>
-									<div class="price">
-										<div class="original-price">&#36; 75.00</div>
-										<div class="special-price">&#36; 55.00</div>
-									</div>
-								</div>
-							</li>
-							<li class="list-group-item">
-								<img src="https://fakeimg.pl/79x79/F8F8F8/" alt="sale">
-								<div class="sale-detail">
-									<div class="name">kurve chair</div>
-									<div class="rank">
-										<i><span class="icon-star"></span></i>
-										<i><span class="icon-star"></span></i>
-										<i><span class="icon-star"></span></i>
-										<i><span class="icon-star-empty"></span></i>
-									</div>
-									<div class="price">
-										<div class="original-price">&#36; 75.00</div>
-										<div class="special-price">&#36; 55.00</div>
-									</div>
-								</div>
-							</li>
-							<li class="list-group-item">
-								<img src="https://fakeimg.pl/79x79/F8F8F8/" alt="sale">
-								<div class="sale-detail">
-									<div class="name">marvelous wooden chair</div>
-									<div class="price">
-										<div class="original-price">&#36; 75.00</div>
-										<div class="special-price">&#36; 55.00</div>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="product-n-sort col-xl-8">
-					<div class="sort-section"></div>
-					<div class="product-pool">
-						<div data-jplist-group="chair">
-							<div data-jplist-item>
-								<div class="brand">fantini</div>
 								<img src="https://fakeimg.pl/275x275/F8F8F8/">
 								<div class="content">
 									<div class="rank">
@@ -322,23 +381,33 @@
 										<i><span class="icon-star"></span></i>
 										<i><span class="icon-star-empty"></span></i>
 									</div>
-									<div class="product">bombi chair</div>
+									<div class="product"><a href="productdetail.html">bombi chair</a></div>
 									<div class="price bombi1">&euro; 399,00</div>
 								</div>
 							</div>
-							<div data-jplist-item>
-								<div class="brand">fantini</div>
-								<img src="https://fakeimg.pl/275x275/" alt="marvelous modern 3 seater">
+						</div>
+						<div data-jplist-item class="col-xl-4">
+							<div class="chair">
+								<div class="for-search">
+									<div class="brand">fantini</div>
+									<div class="hide-price">599</div>
+								</div>
+								<img src="https://fakeimg.pl/275x275/F8F8F8/" alt="marvelous modern 3 seater">
 								<div class="content">
-									<div class="no-rank"></div>
-									<div class="product">marvelous modern 3 seater</div>
+									<br>
+									<div class="product"><a href="productdetail.html">marvelous modern 3 <br class="rwd-break"> seater</a></div>
 									<div class="price">&euro; 599,00</div>
 								</div>
 							</div>
-							<div data-jplist-item>
-								<div class="brand">fantini</div>
+						</div>
+						<div data-jplist-item class="col-xl-4">
+							<div class="chair">
+								<div class="for-search">
+									<div class="brand">fantini</div>
+									<div class="hide-price">200</div>
+								</div>
+								<img src="https://fakeimg.pl/275x275/F8F8F8/" alt="chair with armrests">
 								<div class="on-img">
-									<img src="https://fakeimg.pl/275x275/" alt="chair with armrests">
 									<div class="count">15&percnt; off</div>
 								</div>
 								<div class="content">
@@ -348,12 +417,17 @@
 										<i><span class="icon-star"></span></i>
 										<i><span class="icon-star-empty"></span></i>
 									</div>
-									<div class="product">chair with armrests</div>
+									<div class="product"><a href="productdetail.html">chair with armrests</a></div>
 									<div class="price">&euro; 200,00</div>
 								</div>
 							</div>
-							<div data-jplist-item>
-								<div class="brand">fantini</div>
+						</div>
+						<div data-jplist-item class="col-xl-4">
+							<div class="chair">
+								<div class="for-search">
+									<div class="brand">fantini</div>
+									<div class="hide-price">399</div>
+								</div>
 								<img src="https://fakeimg.pl/275x275/F8F8F8/">
 								<div class="content">
 									<div class="rank">
@@ -362,12 +436,17 @@
 										<i><span class="icon-star"></span></i>
 										<i><span class="icon-star-empty"></span></i>
 									</div>
-									<div class="product">pouf chair</div>
+									<div class="product"><a href="productdetail.html">pouf chair</a></div>
 									<div class="price bombi1">&euro; 399,00</div>
 								</div>
 							</div>
-							<div data-jplist-item>
-								<div class="brand">fantini</div>
+						</div>
+						<div data-jplist-item class="col-xl-4">
+							<div class="chair">
+								<div class="for-search">
+									<div class="brand">fantini</div>
+									<div class="hide-price">269</div>
+								</div>
 								<img src="https://fakeimg.pl/275x275/F8F8F8/">
 								<div class="content">
 									<div class="rank">
@@ -376,21 +455,31 @@
 										<i><span class="icon-star"></span></i>
 										<i><span class="icon-star-empty"></span></i>
 									</div>
-									<div class="product">jalis counter stoll</div>
+									<div class="product"><a href="productdetail.html">jalis counter stoll</a></div>
 									<div class="price bombi1">&euro; 269,00</div>
 								</div>
 							</div>
-							<div data-jplist-item>
-								<div class="brand">fantini</div>
+						</div>
+						<div data-jplist-item class="col-xl-4">
+							<div class="chair">
+								<div class="for-search">
+									<div class="brand">fantini</div>
+									<div class="hide-price">399</div>
+								</div>
 								<img src="https://fakeimg.pl/275x275/F8F8F8/">
 								<div class="content">
-									<div class="rank"></div>
-									<div class="product">bombi chair</div>
+									<br>
+									<div class="product"><a href="productdetail.html">bombi chair</a></div>
 									<div class="price bombi1">&euro; 399,00</div>
 								</div>
 							</div>
-							<div data-jplist-item>
-								<div class="brand">fantini</div>
+						</div>
+						<div data-jplist-item class="col-xl-4">
+							<div class="chair">
+								<div class="for-search">
+									<div class="brand">fantini</div>
+									<div class="hide-price">399</div>
+								</div>
 								<img src="https://fakeimg.pl/275x275/F8F8F8/">
 								<div class="content">
 									<div class="rank">
@@ -399,12 +488,17 @@
 										<i><span class="icon-star"></span></i>
 										<i><span class="icon-star-empty"></span></i>
 									</div>
-									<div class="product">lucky chair</div>
+									<div class="product"><a href="productdetail.html">lucky chair</a></div>
 									<div class="price bombi1">&euro; 399,00</div>
 								</div>
 							</div>
-							<div data-jplist-item>
-								<div class="brand">fantini</div>
+						</div>
+						<div data-jplist-item class="col-xl-4">
+							<div class="chair">
+								<div class="for-search">
+									<div class="brand">fantini</div>
+									<div class="hide-price">269</div>
+								</div>
 								<img src="https://fakeimg.pl/275x275/F8F8F8/">
 								<div class="content">
 									<div class="rank">
@@ -413,18 +507,30 @@
 										<i><span class="icon-star"></span></i>
 										<i><span class="icon-star-empty"></span></i>
 									</div>
-									<div class="product">cut chair with 4 spoke base</div>
+									<div class="product"><a href="productdetail.html">cut chair with 4 spoke <br class="rwd-break">base</a></div>
 									<div class="price bombi1">&euro; 269,00</div>
 								</div>
 							</div>
-							<div data-jplist-item>
-								<div class="brand">fantini</div>
+						</div>
+						<div data-jplist-item class="col-xl-4">
+							<div class="chair">
+								<div class="for-search">
+									<div class="brand">fantini</div>
+									<div class="hide-price">139</div>
+								</div>
 								<img src="https://fakeimg.pl/275x275/F8F8F8/">
 								<div class="content">
-									<div class="rank"></div>
-									<div class="product">yard seChair</div>
+									<br>
+									<div class="product"><a href="productdetail.html">yard seChair</a></div>
 									<div class="price bombi1">&euro; 139,00</div>
 								</div>
+							</div>
+						</div>
+					</div>
+					<div class="page">
+						<div data-jplist-control="pagination" data-group="product"data-items-per-page="9" data-current-page="0" data-name="pagination1">
+							<div class="jplist-holder" data-type="pages">
+								<button type="button" data-type="page">{pageNumber}</button>
 							</div>
 						</div>
 					</div>
@@ -491,7 +597,7 @@
 							<div class="categories float-left">
 								<h4>categories</h4>
 								<ul class="list-group">
-									<li class="list-group-item"><a href="#">chairs</a></li>
+									<li class="list-group-item"><a href="product.html">chairs</a></li>
 									<li class="list-group-item"><a href="#">sofas</a></li>
 									<li class="list-group-item"><a href="#">living</a></li>
 									<li class="list-group-item"><a href="#">bedroom</a></li>
@@ -556,10 +662,18 @@
 			</div>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
 		<script src="js/polyfill.min.js"></script>
 		<script src="js/jplist.min.js"></script>
 		<script>jplist.init(); </script>
+		<script src="js/price_range_script.js"></script>
+		<script>
+			$('.price-range-control').find('.minmum').before('&#36;');
+			$('.price-range-control').find('.maxmum').before('&#36;');
+		</script>
 	</body>
 </html>
