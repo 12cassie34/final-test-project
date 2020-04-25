@@ -11,7 +11,7 @@
 .forabout .white-layer .consult {
   position: absolute;
   right: 0;
-  top: 18px;
+  top: 14px;
 }
 .forabout .navbar-expand-lg .navbar-collapse {
   margin-right: 130px;
@@ -24,17 +24,166 @@
   color: #000000;
 }
 .forabout .white-layer .consult .search {
-  margin-right: 19px;
+  padding: 4px 10px 10px 10px;
 }
 .forabout .white-layer .consult .cart {
-  margin-right: 19px;
+  padding: 4px 10px 10px 10px;
+  position: relative;
 }
+
+/*Shopping card*/
+
+.grey-background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.1);
+}
+
+.grey-background.show {
+  display: block;
+}
+
+.for-shopping-bag {
+  display: none;
+}
+
+.for-shopping-bag.show {
+  display: block;
+}
+
+.card {
+  width: 300px;
+  position: absolute;
+  right: 98px;
+}
+
+.for-shopping-bag .btn {
+  position: absolute;
+  top: -18px;
+  right: -30px;
+}
+
+.for-shopping-bag .show {
+  position: absolute;
+  top: 30px;
+  right: -20px;
+}
+
+.for-shopping-bag .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 10px 5px;;
+  border-color: transparent transparent white transparent;
+  position: absolute;
+  top: -10px;
+    right: 22px;
+  z-index: 100;
+}
+
+.for-shopping-bag .card {
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 55px;
+  padding-bottom: 46px;
+  width: 382px;
+  z-index: 100;
+}
+
+.for-shopping-bag.cart-products .list-group {
+  align-items: unset;
+}
+
+.for-shopping-bag .cart-products li {
+  margin-right: 0;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.for-shopping-bag .cart-products li img {
+  width: 74px;
+  height: 74px;
+}
+
+.for-shopping-bag .cart-products .name {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.875rem;
+  color: #757575;
+}
+
+.for-shopping-bag .cart-products .price {
+  font-size: 1.125rem;
+}
+
+.for-shopping-bag .cart-products .qty {
+  font-size: 0.875rem;
+  color: #757575;
+}
+
+.for-shopping-bag .cart-products button {
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-weight: 900;
+}
+
+.for-shopping-bag .total-price {
+  padding-top: 11px;
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.for-shopping-bag .total-price p:first-child {
+  display: flex;
+  align-items: center;
+  color: #757575;
+  font-size: 0.875rem;
+}
+
+.for-shopping-bag .total-price p:last-child {
+  font-size: 1.125rem;
+}
+
+.for-shopping-bag .view-checkout {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.for-shopping-bag .view-checkout button {
+  width: 130px;
+  height: 33px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border: 1px solid;
+  border-radius: 45px;
+  background: white;
+}
+
+.for-shopping-bag .view-checkout button:hover {
+  color: white;
+  background: black;
+}
+
+/*end*/
 .forabout .white-layer .consult p.items {
     display: flex;
     justify-content: center;
     position: absolute;
-    left: 12px;
-    bottom: -23px;
+    left: 23px;
+    bottom: -14px;
     width: 15px;
     height: 15px;
     font-family: 'Montserrat', sans-serif;

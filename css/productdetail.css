@@ -1,3 +1,9 @@
+.for-shopping-bag .card {
+  position: absolute;
+  right: 38px;
+  top: 55px;
+}
+
 #current-product {
 	margin-bottom: 76px;
 	padding-bottom: 59px;

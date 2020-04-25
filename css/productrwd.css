@@ -236,10 +236,6 @@ html, body {
 		display: block;
 	}
 
-	.navbar-expand-lg .navbar-collapse {
-		justify-content: unset;
-	}
-
 	.hot-sale h3:first-child {
 		margin-bottom: 20px;
 	}

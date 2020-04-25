@@ -1,0 +1,11 @@
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+.consult .cart:last-child .btn {
+  position: absolute;
+  top: -18px;
+  right: -30px;
+}

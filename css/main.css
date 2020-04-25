@@ -8,6 +8,10 @@ img {
   width: 100%;
 }
 
+a {
+  cursor: pointer;
+}
+
 .full-width {
     margin: 30px;
 }

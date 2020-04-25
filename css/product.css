@@ -1,3 +1,10 @@
+.for-shopping-bag .card {
+    position: absolute;
+    right: 37px;
+    top: 54px;
+}
+
+
 #breadcrumbs h1, #breadcrumbs .center-container .breadcrumb {
 	display: flex;
 	justify-content: center;

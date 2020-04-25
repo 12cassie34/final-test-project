@@ -1,4 +1,11 @@
 /*contact.html*/
+.for-shopping-bag .card {
+  position: absolute;
+  right: 29px;
+  top: 55px;
+}
+
+
 #breadcrumbs.forcontact {
   background-image: url(../imgs/banner.png);
   background-repeat: no-repeat;
