@@ -38,8 +38,10 @@ html, body {
 		margin-top: 10px;
 	}
 
-	.slick-next {
-		display: block;
+	.next {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		position: absolute;
 		right: 0;
 	}
@@ -117,8 +119,10 @@ html, body {
 		margin-top: 10px;
 	}
 
-	.slick-next {
-		display: block;
+	.next {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		position: absolute;
 		right: 0;
 	}
@@ -196,8 +200,10 @@ html, body {
 		margin-top: 10px;
 	}
 
-	.slick-next {
-		display: block;
+	.next {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		position: absolute;
 		right: 0;
 	}
@@ -285,8 +291,10 @@ html, body {
 		margin-top: 10px;
 	}
 
-	.slick-next {
-		display: block;
+	.next {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		position: absolute;
 		right: 0;
 	}

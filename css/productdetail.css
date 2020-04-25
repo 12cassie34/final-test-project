@@ -58,17 +58,34 @@
 }
 
 .slick-next {
-	display: block;
-    background-color: white;
-    width: 28px;
-    height: 105px;
+	
 }
 
-.slick-prev, .slick-next {
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 13px;
+  background-color: white;
+  width: 28px;
+  height: 105px;
+  cursor: pointer;
 	font-size: 31px;
-    color: #DEDEDE;
-    font-weight: 800;
+  color: #DEDEDE;
+  font-weight: 800;
 }
+
+/*.next {
+  font-size: 31px;
+  color: #DEDEDE;
+  font-weight: 800;
+}*/
+
+/*.slick-next:before {
+  content:"\003e";
+}*/
 
 .product-breadcrumbs {
 	margin-top: 52px;

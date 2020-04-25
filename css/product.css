@@ -239,6 +239,10 @@
     color: #959596;
 }
 
+.hot-sale .list-group a {
+    color: #959596;
+}
+
 .hot-sale .list-group li {
 	margin-bottom: 21px;
 	display: flex;
@@ -359,7 +363,6 @@
 }
 
 .product-pool img {
-	height: 275px;
 	width: 100%;
 }
 

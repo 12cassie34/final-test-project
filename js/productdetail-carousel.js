@@ -19,6 +19,7 @@ $(document).ready(function(){
     	variableWidth: true,
     	arrows: true,
     	prevArrow: false,
+        nextArrow: $('.next'),
     	focusOnSelect: true,
     	mobileFirst: true,
     	focusOnSelect: true,
@@ -59,7 +60,4 @@ $(document).ready(function(){
     	}
     	]
     });
-
-    $('.slick-next').text(">");
-	
 });
