@@ -82,7 +82,7 @@
   border-color: transparent transparent white transparent;
   position: absolute;
   top: -10px;
-    right: 22px;
+  right: 22px;
   z-index: 100;
 }
 
@@ -93,6 +93,9 @@
   padding-bottom: 46px;
   width: 382px;
   z-index: 100;
+  position: absolute;
+  right: 28px;
+  top: 55px;
 }
 
 .for-shopping-bag.cart-products .list-group {
@@ -172,9 +175,17 @@
   background: white;
 }
 
+.for-shopping-bag .view-checkout button a {
+  color: black;
+}
+
 .for-shopping-bag .view-checkout button:hover {
   color: white;
   background: black;
+}
+
+.for-shopping-bag .view-checkout button:hover a {
+  color: white;
 }
 
 /*end*/

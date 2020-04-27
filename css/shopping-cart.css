@@ -1,0 +1,450 @@
+#header {
+	margin-bottom: 0;
+    background-color: #F8F8F8;
+}
+
+#header .tel-login-lang {
+	margin-bottom: 18px;
+	padding-top: 18px;
+	position: relative;
+	display: flex;
+	align-items: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #797979;
+}
+
+.tel-login-lang .tel a, .tel-login-lang .login a, .tel-login-lang .lang button {
+	font-family: unset;
+    font-size: unset;
+    font-weight: unset;
+    color: unset;
+}
+
+.tel-login-lang .login {
+	padding-right: 15px;
+	border-right: 1px solid;
+	position: absolute;
+    right: 99px;
+}
+
+.tel-login-lang .lang {
+	position: absolute;
+    right: 0;
+}
+
+.white-layer {
+	background-color: white;
+}
+
+.forabout .white-layer .consult {
+	top: 88px;
+}
+
+.for-shopping-bag .card {
+	position: absolute;
+    right: -3px;
+    top: 129px;
+}
+
+.white-layer nav {
+	height: 102px;
+}
+
+#breadcrumbs {
+	position: relative;
+	height: 177px;
+	background-color: #F8F8F8;
+}
+
+#breadcrumbs h1 {
+	display: flex;
+	justify-content: center;
+	width: unset;
+}
+
+#breadcrumbs .center-container .breadcrumb {
+	position: absolute;
+    left: 38px;
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.875rem;
+}
+
+.center-container .breadcrumb span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#procedure {
+	margin: 0 auto 147px auto;
+    width: 543px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#procedure > div {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#procedure > div:not(:first-child) {
+	color: #9F9F9F;
+}
+
+#procedure .step1,  #procedure .step2{
+	position: relative;
+}
+
+#procedure .step1:after {
+	content: '';
+    border-bottom: 1px solid #EEEEEE;
+    width: 108px;
+    z-index: 1;
+    position: absolute;
+    left: 104px;
+    top: 42px;
+}
+
+#procedure .step2:after {
+	content: '';
+    border-bottom: 1px solid #EEEEEE;
+    width: 108px;
+    z-index: 1;
+    position: absolute;
+    left: 100px;
+    top: 42px;
+}
+
+#procedure p {
+	font-weight: 700;
+}
+
+#procedure h4 {
+    margin-bottom: 21px;
+	border: 1px solid;
+    border-radius: 45px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87px;
+    width: 87px;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+#product-to-buy {
+	margin: 0 auto 40px auto;
+	width: 1200px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-title {
+	margin-bottom: 23px;
+	padding-bottom: 33px;
+    border-bottom: .5px solid #EEEEEE;
+    display: flex;
+    position: relative;
+    color: #808080;
+    height: 21px;
+}
+
+.form-title h4 {
+	position: absolute;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.form-title h4:first-child {
+	left: 0;
+}
+
+.form-title h4:nth-child(2) {
+	right: 458px;
+}
+
+.form-title h4:nth-child(3) {
+	right: 293px;
+}
+
+.form-title h4:last-child {
+	right: 128px;
+}
+
+.product-row img {
+	margin-right: 67px;
+	width: 106px;
+	height: 106px;
+}
+
+.product-row, .first-product {
+    display: flex;
+}
+
+.product-row {
+	margin-bottom: 22px;
+	padding-bottom: 22px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.product-name {
+	margin-right: 304px;
+}
+
+.product-name br {
+	display: none;
+}
+
+.product-name, .product-name a {
+	display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    color: #757575;
+    font-weight: 700;
+}
+
+.product-price {
+	display: flex;
+    align-items: center;
+}
+
+.product-price form {
+	display: flex;
+}
+
+.product-price .input-group-text {
+	padding: 0;
+	border: none;
+	background: transparent;
+	font-size: 0.875rem;
+	font-weight: 700;
+	color: #313131;
+}
+
+.product-price .input-group-text:first-child {
+	margin-right: 2px;
+	font-size: 16px;
+}
+
+.product-price .input-group input {
+	border: none;
+    width: 27px;
+    font-size: 1rem;
+	font-weight: 700;
+	color: #313131;
+}
+
+.product-price .qty1, .product-price .qty2, .product-price .qty3 {
+	margin-right: 100px;
+	height: 43px;
+    background: #EEEEEE;
+    border: none;
+    font-size: 1.125rem;
+    text-align: right;
+    font-weight: bold;
+}
+
+.single-price {
+	display: flex;
+	width: 180px;
+}
+
+.single-price.input-group input {
+	border: none;
+	width: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.product-row button.cancel {
+	margin-left: 52px;
+	border: none;
+    background: transparent;
+    color: red;
+    font-weight: 800;
+    font-size: 1.3125rem;
+}
+
+#coupon {
+	padding-bottom: 50px;
+	border-bottom: 1px solid #EEEEEE;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#coupon input {
+	height: 49px;
+}
+
+#coupon input::placeholder {
+	font-size: 0.875rem;
+	color: #7D7D7D;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+}
+
+#coupon button {
+	margin-left: 5px;
+	background: #CBA233;
+    width: 112px;
+    height: 49px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#calculation .row .col-xl-6:last-child {
+	position: relative;
+}
+
+#calculation {
+	margin-top: 79px;
+    width: 1200px;
+    margin: 79px auto 179px auto;
+}
+
+#calculation h4 {
+    margin-bottom: 28px;
+    margin-left: 17px;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.select-section select {
+	padding-left: 20px;
+	padding-right: 56px;
+	border-radius: 10px;
+	width: 551px;
+    height: 56px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 	0.875rem;
+    font-weight: 600;
+    color: #7D7D7D;
+}
+
+.select-section > div {
+	margin-bottom: 16px;
+	position: relative;
+}
+
+.country select, .state select, .zip-code select{
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+.country::after, .state::after, .zip-code::after {
+	padding-left: 20px;
+	border-left: 1px solid;
+	content: "∇";
+    position: absolute;
+    right: 58px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7E7E7E;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+button.update {
+	height: 49px;
+    width: 215px;
+    background: #F6F6F6;
+    border: 1px solid #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    color: #C6C6C6;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.calc-section {
+	padding: 52px 56px 36px 48px;
+	border: 1px solid #DCDCDC;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.calc-section > div {
+	display: flex;
+}
+
+.calc-section h6 {
+	margin-right: 234px;
+	margin-bottom: 0;
+	display: flex;
+    align-items: center;
+	color: #808080;
+    font-weight: 700;
+}
+
+.sub-total-price, .total-price {
+	display: flex;
+}
+
+.total-product-price span.euro, .price-n-shipping span.euro {
+	margin-right: 5px;
+}
+
+.calc-section span, .calc-section .sub-total, .calc-section .calc-all {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.total-product-price {
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.shipping {
+	margin-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.shipping input {
+	display: none;
+}
+
+.shipping h6 {
+	margin-right: 296px;
+}
+
+.calc-shipping {
+	font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.price-n-shipping {
+	margin-top: 2px;
+}
+
+.price-n-shipping h6 {
+	margin-right: 263px;
+}
+
+#calculation .row .col-xl-6:last-child button {
+	margin-top: 18px;
+	padding-right: 22px;
+    padding-left: 34px;
+    border: none;
+    position: absolute;
+    right: 15px;
+    height: 49px;
+    background: #88BD6E;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+#calculation .row .col-xl-6:last-child button a {
+	color: white;
+}
