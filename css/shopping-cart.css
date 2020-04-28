@@ -1,3 +1,7 @@
+a {
+	color: unset;
+}
+
 #header {
 	margin-bottom: 0;
     background-color: #F8F8F8;
@@ -448,3 +452,4 @@ button.update {
 #calculation .row .col-xl-6:last-child button a {
 	color: white;
 }
+

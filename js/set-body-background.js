@@ -6,6 +6,12 @@ $(document).ready(function(){
 		
 	});
 
+	$('.white-layer .consult .cart').click(function(e){
+		$('.for-shopping-bag').slideToggle();
+		$('.grey-background').slideToggle();
+		
+	});
+
 	$('.grey-background').click(function(e){
 		$('.grey-background').slideToggle();
 		$('.for-shopping-bag').slideToggle();

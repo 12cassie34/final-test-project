@@ -349,6 +349,15 @@
 	#copyright .payment {
 		float: left;
 	}
+
+	.for-shopping-bag .card {
+		padding-left: 10px;
+        padding-right: 10px;
+		position: absolute;
+		right: 22px;
+        top: 106px;
+		width: 300px;
+	}
 }
 
 @media (max-width: 720px) and (min-width: 541px) {
@@ -621,6 +630,18 @@
 	#footer .row .col-12.right {
 		padding-right: 68px;
 		padding-bottom: 40px;
+	}
+
+	.for-shopping-bag .card {
+		position: absolute;
+        right: 115px;
+        top: 148px;
+	}
+}
+
+@media (max-width: 720px) and (min-width: 624px) {
+	.for-shopping-bag .card {
+        top: 107px
 	}
 }
 
@@ -918,6 +939,12 @@
 		padding-right: 20px;
 		padding-bottom: 40px;
 	}
+
+	.for-shopping-bag .card {
+		position: absolute;
+        right: 119px;
+        top: 103px;
+	}
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -1090,5 +1117,11 @@
 
 	#footer .row .col-xl-6 .categories, #footer .row .col-xl-6 .information {
 		margin-right: 47px;
+	}
+
+	.for-shopping-bag .card {
+		position: absolute;
+        right: 119px;
+        top: 103px;
 	}
 }

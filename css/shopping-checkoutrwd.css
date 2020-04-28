@@ -1,0 +1,439 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+@media (max-width: 540px) and (min-width: 320px) {
+	.tel-login-lang .tel {
+		position: absolute;
+        right: 18px;
+	}
+
+	.tel-login-lang .login {
+		top: 43px;
+	}
+
+	.tel-login-lang .lang {
+		top: 36px;
+	}
+
+	#header .forabout .white-layer .consult {
+		margin-top: 50px;
+	}
+
+	.white-layer nav {
+		padding-top: 25px;
+	}
+
+	.for-shopping-bag .card {
+		right: 15px;
+        top: 112px;
+	}
+
+	.forabout .navbar-expand-lg .navbar-collapse {
+		width: 100%;
+		z-index: 1;
+		background: white;
+		margin-right: 0px;
+		padding-left: 15px;
+	}
+
+	#breadcrumbs .center-container .breadcrumb {
+		position: unset;
+	}
+
+	#procedure {
+		flex-direction: column;
+		width: unset;
+	}
+
+	#procedure .step1:after, #procedure .step2:after {
+		transform: rotate(90deg);
+		top: 190px;
+		left: unset;
+	}
+
+	#procedure > div:not(:first-child) {
+		margin-top: 110px
+	}
+
+	#calculation {
+		width: 100%;
+	}
+
+	.country select {
+		width: 100%;
+	}
+
+	.country::after {
+		right: 28px;
+	}
+
+	#calculation .row .col-xl-6:last-child {
+		flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 20px;
+	}
+
+	.calc-section h6 {
+		margin-right: 0;
+	}
+
+	.calc-section > div {
+		justify-content: space-between;
+	}
+
+	/*// For Checkout RWD only*/
+	#breadcrumbs {
+		padding-top: 0;
+	}
+
+	#calculation .select-section input, #calculation .select-section textarea {
+		width: 100%;
+	}
+
+	.select-section .name, .select-section .email-nd-phone {
+		width: unset;
+		flex-direction: column;
+	}
+
+	.select-section .name .last-name, .select-section .email-nd-phone .phone {
+		margin-top: 15px;
+	}
+
+	.bill-info {
+		padding-left: 15px;
+        padding-right: 15px;
+	}
+
+	.payment-choice .by-transfer label {
+		margin-top: 5px;
+	}
+
+	.payment-choice .by-cheque label, .payment-choice .by-paypal label {
+		margin-top: 3px
+	}
+
+	.check-term {
+		margin-left: 15px;
+        margin-right: 15px;
+	}
+
+	.check-term label {
+		margin-top: 8px;
+	}
+
+	.check-term br {
+		display: block;
+	}
+
+	#gurantee .row .col-xl-3:not(:last-child) {
+		border: none;
+	}
+
+	#footer .row .col-xl-3.right .customer-email.forabout {
+		display: flex;
+	}
+
+}
+
+@media (max-width: 720px) and (min-width: 541px) {
+	.tel-login-lang .tel {
+		position: absolute;
+		left: 13px;
+	}
+
+	#header .forabout .white-layer .consult {
+		margin-top: -7px;
+	}
+
+	.white-layer nav {
+		padding-top: 25px;
+	}
+
+	.for-shopping-bag .card {
+		right: 72px;
+        top: 99px;
+	}
+
+	.forabout .navbar-expand-lg .navbar-collapse {
+		width: 100%;
+		z-index: 1;
+		background: white;
+		margin-right: 0px;
+		padding-left: 15px;
+	}
+
+	#breadcrumbs .center-container .breadcrumb {
+		position: unset;
+	}
+
+	#procedure {
+		flex-direction: column;
+		width: unset;
+	}
+
+	#procedure .step1:after, #procedure .step2:after {
+		transform: rotate(90deg);
+		top: 190px;
+		left: unset;
+	}
+
+	#procedure > div:not(:first-child) {
+		margin-top: 110px
+	}
+
+	#calculation {
+		width: 100%;
+	}
+
+	.country select, .state select, .zip-code select {
+		width: 100%;
+	}
+
+	.country::after, .state::after, .zip-code::after {
+		right: 28px;
+	}
+
+	#calculation .row .col-xl-6:last-child {
+		flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 20px;
+	}
+
+	.calc-section h6 {
+		margin-right: 0;
+	}
+
+	.calc-section > div {
+		justify-content: space-between;
+	}
+	
+	/*// For Checkout RWD only*/
+	#calculation .select-section input, #calculation .select-section textarea {
+		width: 100%;
+	}
+
+	.select-section .name, .select-section .email-nd-phone {
+		width: unset;
+		flex-direction: column;
+	}
+
+	.select-section .name .last-name, .select-section .email-nd-phone .phone {
+		margin-top: 15px;
+	}
+
+	.bill-info {
+		padding-left: 15px;
+        padding-right: 15px;
+	}
+
+	.payment-choice .by-transfer label {
+		margin-top: 5px;
+	}
+
+	.payment-choice .by-cheque label, .payment-choice .by-paypal label {
+		margin-top: 3px
+	}
+
+	.check-term {
+		margin-left: 15px;
+        margin-right: 15px;
+	}
+
+	.check-term label {
+		margin-top: 8px;
+	}
+
+	#gurantee .row .col-xl-3:not(:last-child) {
+		border: none;
+	}
+
+	#footer .row .col-xl-3.right .customer-email.forabout {
+		display: flex;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 721px) {
+    .tel-login-lang .tel {
+		position: absolute;
+		left: 13px;
+	}
+
+	#header .forabout .white-layer .consult {
+		margin-top: -7px;
+	}
+
+	.white-layer nav {
+		padding-top: 25px;
+	}
+
+	.for-shopping-bag .card {
+		right: 72px;
+        top: 98px;
+	}
+
+	.forabout .navbar-expand-lg .navbar-collapse {
+		width: 100%;
+		z-index: 1;
+		background: white;
+		margin-right: 0px;
+		padding-left: 15px;
+	}
+
+	#breadcrumbs .center-container .breadcrumb {
+		position: unset;
+	}
+
+	#calculation {
+		width: 100%;
+	}
+
+	.country select {
+		width: 100%;
+	}
+
+	.country::after {
+		right: 28px;
+	}
+
+	#calculation .row .col-xl-6:last-child {
+		flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 20px;
+	}
+
+	.calc-section h6 {
+		margin-right: 0;
+	}
+
+	.calc-section > div {
+		justify-content: space-between;
+	}
+
+	/*// For Checkout RWD only*/
+	#calculation .select-section input, #calculation .select-section textarea {
+		width: 100%;
+	}
+
+	.select-section .name, .select-section .email-nd-phone {
+		width: unset;
+		flex-direction: column;
+	}
+
+	.select-section .name .last-name, .select-section .email-nd-phone .phone {
+		margin-top: 15px;
+	}
+
+	.bill-info {
+		padding-left: 60px;
+        padding-right: 60px;
+	}
+
+	.payment-choice .by-transfer label {
+		margin-top: 5px;
+	}
+
+	.payment-choice .by-cheque label, .payment-choice .by-paypal label {
+		margin-top: 3px
+	}
+
+	.check-term {
+		margin-left: 60px;
+        margin-right: 60px;
+	}
+
+	.check-term label {
+		margin-top: 8px;
+	}
+	
+	#gurantee .row .col-xl-3:not(:last-child) {
+		border: none;
+	}
+
+	#footer .row .col-xl-3.right .customer-email.forabout {
+		display: flex;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .tel-login-lang .tel {
+		position: absolute;
+		left: 13px;
+	}
+
+	.forabout .white-layer .consult {
+		top: 49px;
+	}
+
+	.for-shopping-bag .card {
+		top: 88px;
+	}
+
+	#breadcrumbs .center-container .breadcrumb {
+		position: unset;
+	}
+
+	#calculation {
+		width: 100%;
+	}
+
+	#calculation .col-xl-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.country select {
+		width: 93%;
+	}
+
+	.calc-section > div {
+		justify-content: space-between;
+	}
+
+	.calc-section h6 {
+		margin-right: 0;
+	}
+
+    /*// For Checkout RWD only*/
+    .select-section input,.select-section .name, .select-section .email-nd-phone {
+    	width: 93%;
+    }
+
+    .select-section .name input, .select-section .email-nd-phone input {
+    	width: 215px;
+    }
+
+    .select-section .company input, .select-section .address input, .select-section .town input, .select-section .state input, .select-section .zip input, .select-section textarea {
+		width: 93%;
+	}
+
+	.payment-choice .by-transfer label {
+		margin-top: 5px;
+	}
+
+	.payment-choice .by-cheque label, .payment-choice .by-paypal label {
+		margin-top: 3px
+	}
+
+	.check-term label {
+		margin-top: 8px;
+	}
+
+	#gurantee .row .col-xl-3:not(:last-child) {
+		border-right: 0;
+	}
+
+	#footer .row .col-xl-3.right .customer-email.forabout {
+		display: flex;
+	}
+
+}

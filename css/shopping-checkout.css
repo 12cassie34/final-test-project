@@ -1,0 +1,459 @@
+a {
+	color: unset;
+}
+
+#header {
+	margin-bottom: 0;
+	height: 327px;
+    background-image: url(../imgs/checkout-banner.png);
+    background-color: rgba(0,0,0,.8);
+}
+
+#header .tel-login-lang {
+	margin-bottom: 18px;
+	padding-top: 18px;
+	position: relative;
+	display: flex;
+	align-items: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #D2D2D2;
+}
+
+.tel-login-lang .tel a, .tel-login-lang .login a, .tel-login-lang .lang button {
+	font-family: unset;
+    font-size: unset;
+    font-weight: unset;
+    color: unset;
+}
+
+.tel-login-lang .login {
+	padding-right: 15px;
+	border-right: 1px solid;
+	position: absolute;
+    right: 99px;
+}
+
+.tel-login-lang .lang {
+	position: absolute;
+    right: 0;
+}
+
+.white-layer {
+	background-color: white;
+}
+
+.forabout .white-layer .consult {
+	top: 67px;
+}
+
+.for-shopping-bag .card {
+	right: -2px;
+    top: 106px;
+}
+
+#breadcrumbs {
+	position: relative;
+	background-color: transparent;
+}
+
+#breadcrumbs h1 {
+	color: white;
+}
+
+#breadcrumbs .center-container .breadcrumb {
+	background-color: transparent;
+    color: #B0AFB0;
+    position: absolute;
+    left: 29px;
+    bottom: -25px;
+}
+
+#breadcrumbs .center-container .breadcrumb a, .breadcrumb-item.active {
+	color: #B0AFB0;
+}
+
+#breadcrumbs .center-container .breadcrumb span {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#procedure {
+	margin: 75px auto 147px auto;
+    width: 543px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#procedure > div {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#procedure > div:last-child {
+	color: #9F9F9F;
+}
+
+#procedure .step1,  #procedure .step2{
+	position: relative;
+}
+
+#procedure .step1:after {
+	content: '';
+    border-bottom: 1px solid #EEEEEE;
+    width: 108px;
+    z-index: 1;
+    position: absolute;
+    left: 104px;
+    top: 42px;
+}
+
+#procedure .step2:after {
+	content: '';
+    border-bottom: 1px solid #EEEEEE;
+    width: 108px;
+    z-index: 1;
+    position: absolute;
+    left: 100px;
+    top: 42px;
+}
+
+#procedure p {
+	font-weight: 700;
+}
+
+#procedure h4 {
+    margin-bottom: 21px;
+	border: 1px solid;
+    border-radius: 45px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87px;
+    width: 87px;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+#calculation {
+	margin-top: 79px;
+    width: 1200px;
+    margin: 79px auto 179px auto;
+}
+
+#calculation h4 {
+    margin-bottom: 28px;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.select-section select {
+	padding-left: 20px;
+	padding-right: 56px;
+	border-radius: 10px;
+	border: 1px solid #DCDCDC;
+	width: 551px;
+    height: 56px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 	0.875rem;
+    font-weight: 600;
+    color: #888888;
+}
+
+.select-section input, .select-section textarea {
+	padding-left: 20px;
+	border-radius: 10px;
+	border: 1px solid #DCDCDC;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 	0.875rem;
+    font-weight: 600;
+    color: #888888;
+}
+
+.select-section input {
+	height: 56px;
+}
+
+.select-section .company input, .select-section .address input, .select-section .town input, .select-section .state input, .select-section .zip input {
+	width: 551px;
+}
+
+.select-section .name, .select-section .email-nd-phone {
+	width: 551px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.select-section .name input, .select-section .email-nd-phone input {
+	width: 259px;
+}
+
+.select-section textarea {
+	padding-top: 12px;
+	height: 99px;
+	width: 551px;
+}
+
+.select-section > div {
+	margin-bottom: 16px;
+	position: relative;
+}
+
+.country select {
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+.country::after {
+	padding-left: 20px;
+	border-left: 1px solid;
+	content: "∇";
+    position: absolute;
+    right: 58px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #DCDCDC;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.ship-comfirm {
+	display: flex;
+    align-items: center;
+}
+
+.regular-checkbox {
+	display: none;
+	cursor: pointer;
+}
+
+.regular-checkbox + label {
+	margin-bottom: 0;
+	background-color: white;
+    border: 1px solid #D2D2D2;
+    padding: 6px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.regular-checkbox:checked + label {
+	margin-bottom: 0;
+	color: #99a1a7;
+}
+
+.regular-checkbox:checked + label:after {
+	content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: -8px;
+    left: 1px;
+    color: #99a1a7;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#calculation .col-xl-6:last-child {
+	margin-top: 47px;
+}
+
+.bill-info {
+	padding: 55px 60px 45px 59px;
+	background: #F6F6F6;
+}
+
+#calculation .col-xl-6 .bill-info h4 {
+	margin-bottom: 53px;
+}
+
+.ship-comfirm p {
+	margin-bottom: 0;
+	margin-left: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.calc-section {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.calc-section > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.calc-section h6 {
+	margin-bottom: 0;
+	display: flex;
+    align-items: center;
+	color: #808080;
+    font-weight: 700;
+}
+
+.buy-review {
+	padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+	flex-direction: column;
+}
+
+.buy-review > div {
+	display: flex;
+    justify-content: space-between;
+}
+
+.buy-review .review-title {
+    color: #808080;
+    font-weight: 700;
+}
+
+.name-qty, .first-product .name-qty span, .second-product .name-qty span {
+	font-size: 0.875rem;
+	color: #AAAAAA;
+	font-weight: 700;
+}
+
+.first-product .name-qty span, .second-product .name-qty span {
+	margin-left: 20px;
+}
+
+.buy-review .price {
+	color: #636363;
+	font-weight: 700;
+}
+
+.total-product-price {
+	margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub-total-price, .total-price {
+	display: flex;
+}
+
+.total-product-price span.euro, .price-n-shipping span.euro {
+	margin-right: 5px;
+}
+
+.calc-section span, .calc-section .sub-total, .calc-section .calc-all {
+	color: #636363;
+    font-size: 1rem;
+	font-weight: 700;
+}
+
+.total-product-price {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.shipping {
+	margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.shipping input {
+	display: none;
+}
+
+.calc-shipping {
+	color: #636363;
+	font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.price-n-shipping {
+	margin-top: 10px;
+}
+
+.payment-choice {
+	margin-top: 97px;
+}
+
+#calculation .col-xl-6 .payment-choice  h4 {
+	margin-bottom: 44px;
+}
+
+.payment-choice > div {
+	border-bottom: 1px solid #CCCCCC;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #808080;
+}
+
+.payment-choice > div h6 {
+	float: left;
+	font-weight: 700;
+}
+
+.payment-choice > div label  {
+	float: right;
+}
+
+.payment-choice .by-transfer label {
+	margin-top: 5px;
+}
+
+.by-cheque {
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.check-term {
+	margin: 20px 62px auto 57px;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.check-term p {
+	float: left;
+}
+
+.check-term label {
+	margin-top: 6px;
+	float: right;
+}
+
+.check-term br {
+	display: none;
+}
+
+#calculation .row .col-xl-6:last-child button {
+	margin-top: 18px;
+	padding-right: 22px;
+    padding-left: 34px;
+    border: none;
+    position: absolute;
+    right: 15px;
+    height: 49px;
+    background: #88BD6E;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+#calculation .row .col-xl-6:last-child button a {
+	color: white;
+}
+
+#gurantee .row .col-xl-3:not(:last-child) {
+	border-right: 1px solid #E9E9E9;
+}
+
+#footer .row .col-xl-3.right .customer-email.forabout {
+	border: 1px solid #868686;
+}
+
+#footer .row .col-xl-3.right .customer-email.forabout input, #footer .row .col-xl-3.right .customer-email.forabout label {
+	background: transparent;
+}

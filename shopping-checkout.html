@@ -3,23 +3,40 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>about</title>
+		<title>Shopping Cart Step 2</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/fontello.css">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="css/owl.carousel.min.css">
-		<link rel="stylesheet" href="css/owl.theme.default.min.css">
 		<link rel="stylesheet" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" href="css/main.css" media="screen">
 		<link rel="stylesheet" href="css/about.css" media="screen">
 		<link rel="stylesheet" href="css/rwd.css">
 		<link rel="stylesheet" href="css/aboutrwd.css">
+		<link rel="stylesheet" href="css/shopping-checkout.css">
+		<link rel="stylesheet" href="css/shopping-checkoutrwd.css">
 	</head>
 	<body>
 		<div id="header">
 			<div class="container forabout">
+				<div class="tel-login-lang">
+					<div class="tel"><a href="tel:1-555-333-22-11" class="phone"><span class="icon-phone"></span>+1 (555) 333 22 11</a></div>
+					<div class="login"><a href="#">Login or Creat Account</a></div>
+					<div class="lang">
+						<div class="dropdown dropleft">
+							<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Language
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="#">English</a>
+								<a class="dropdown-item" href="#">Germany</a>
+								<a class="dropdown-item" href="#">French</a>
+								<a class="dropdown-item" href="#">Spanish</a>
+								<a class="dropdown-item" href="#">Chinese</a>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="white-layer clearfix">
-					<a href="tel:1-555-333-22-11" class="phone">+1 (555) 333 22 11</a>
 					<nav class="navbar navbar-expand-lg navbar-light">
 						<div class="logo"><img src="imgs/logo-schon.png" alt="schon."></div>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,195 +97,252 @@
 					</ul>
 				</div>
 			</div>
-		</div>
-		<div class="grey-background"></div>
-		<div class="consult-cards">
-			<div class="for-shopping-bag">
-				<div class="card card-body">
-					<div class="cart-products">
-						<div class="triangle"></div>
-						<ul class="list-group">
-							<li>
-								<img src="https://fakeimg.pl/74x74/F8F8F8/">
-								<div class="name-price-qty">
-									<div class="name">Marvelous Modern 3 Seater</div>
-									<div class="price">&#8364; 599,00</div>
-									<div class="qty">Qty:1</div>
-								</div>
-								<button>x</button>
-							</li>
-							<li>
-								<img src="https://fakeimg.pl/74x74/F8F8F8/">
-								<div class="name-price-qty">
-									<div class="name">Marvelous Modern 3 Seater</div>
-									<div class="price">&#8364; 599,00</div>
-									<div class="qty">Qty:1</div>
-								</div>
-								<button>x</button>
-							</li>
-							<li>
-								<img src="https://fakeimg.pl/74x74/F8F8F8/">
-								<div class="name-price-qty">
-									<div class="name">Marvelous Modern 3 Seater</div>
-									<div class="price">&#8364; 599,00</div>
-									<div class="qty">Qty:1</div>
-								</div>
-								<button>x</button>
-							</li>
-						</ul>
-					</div>
-					<div class="total-price">
-						<p>Sub Total</p>
-						<p>&#8364; 599,00</p>
-					</div>
-					<div class="view-checkout">
-						<button><a href="shopping-cart.html">View Cart</a></button>
-						<button><a href="shopping-checkout.html">Checkout</a></button>
+			<div class="grey-background"></div>
+			<div class="consult-cards">
+				<div class="for-shopping-bag">
+					<div class="card card-body">
+						<div class="cart-products">
+							<div class="triangle"></div>
+							<ul class="list-group">
+								<li>
+									<img src="https://fakeimg.pl/74x74/F8F8F8/">
+									<div class="name-price-qty">
+										<div class="name">Marvelous Modern 3 Seater</div>
+										<div class="price">&#8364; 599,00</div>
+										<div class="qty">Qty:1</div>
+									</div>
+									<button>x</button>
+								</li>
+								<li>
+									<img src="https://fakeimg.pl/74x74/F8F8F8/">
+									<div class="name-price-qty">
+										<div class="name">Marvelous Modern 3 Seater</div>
+										<div class="price">&#8364; 599,00</div>
+										<div class="qty">Qty:1</div>
+									</div>
+									<button>x</button>
+								</li>
+								<li>
+									<img src="https://fakeimg.pl/74x74/F8F8F8/">
+									<div class="name-price-qty">
+										<div class="name">Marvelous Modern 3 Seater</div>
+										<div class="price">&#8364; 599,00</div>
+										<div class="qty">Qty:1</div>
+									</div>
+									<button>x</button>
+								</li>
+							</ul>
+						</div>
+						<div class="total-price">
+							<p>Sub Total</p>
+							<p>&#8364; 599,00</p>
+						</div>
+						<div class="view-checkout">
+							<button><a href="shopping-cart.html">View Cart</a></button>
+							<button><a href="shopping-checkout.html">Checkout</a></button>
+						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div id="breadcrumbs">
+			<h1>check out</h1>
+			<div class="center-container">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<span>></span>
+					<li class="breadcrumb-item active" aria-current="page">Checkout</li>
+				</ol>
 			</div>
 		</div>
 	</div>
 	<div id="body">
-		<div id="breadcrumbs">
-			<h1>about us</h1>
-			<div class="center-container">
-				<nav aria-label="breadcrumb">
-					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-						<li class="breadcrumb-item active" aria-current="page">About Us</li>
-					</ol>
-				</nav>
+		<div id="procedure">
+			<div class="step1">
+				<h4>01</h4>
+				<p>Shopping Cart</p>
+			</div>
+			<div class="step2">
+				<h4>02</h4>
+				<p>Check Out</p>
+			</div>
+			<div class="step3">
+				<h4>03</h4>
+				<p>Order Complete</p>
 			</div>
 		</div>
-		<div id="introduction">
-			<div class="container">
-				<h3>who we are?</h3>
-				<div class="paragraphe">
-					<p class="paragraphe1">Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Macenas id eros scelerisque, vulputate tortor quis, efficitur arcu sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Umco laboris nisi ut aliquip ex ea commodo consequat. Duisaute irure dolor in reprehenderit in voluptate <br> velit sse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-					<b class="paragraphe2">Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem.</b>
-					<p class="paragraphe3">Fusce mattis nunc lacus, vulputate facilisis dui efficitur ur. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada sollicitudin massa at.</p>
-				</div>
-				<div class="social-media">
-					<h5>follow us</h5>
-					<div class="icons">
-						<a href="#"><i><span class="icon-twitter"></span></i></a>
-						<a href="#"><i><span class="icon-facebook"></span></i></a>
-						<a href="#"><i><span class="icon-gplus"></span></i></a>
-						<a href="#"><i><span class="icon-youtube"></span></i></a>
-						<a href="#"><i><span class="icon-linkedin"></span></i></a>
-						<a href="#"><i><span class="icon-whatsapp"></span></i></a>
+		<div id="calculation">
+			<div class="row">
+				<div class="col-xl-6">
+					<h4>BILLING DETAILS</h4>
+					<div class="select-section">
+						<div class="country">
+							<select name="country" id="shipping">
+								<option selected>Select Country</option>
+								<option value="Australia">Australia</option>
+								<option value="Canada">Canada</option>
+								<option value="Newzeland">Newzeland</option>
+								<option value="UK">UK</option>
+								<option value="USA">USA</option>
+							</select>
+						</div>
+						<div class="name">
+							<div class="first-name">
+								<input type="text" placeholder="Name">
+							</div>
+							<div class="last-name">
+								<input type="text" placeholder="Last Name">
+							</div>
+						</div>
+						<div class="company">
+							<input type="text" placeholder="Company Name">
+						</div>
+						<div class="address">
+							<textarea name="address" id="address" cols="73" rows="2" placeholder="Address"></textarea>
+						</div>
+						<div class="town">
+							<input type="text" placeholder="Town / City">
+						</div>
+						<div class="state">
+							<input type="text" placeholder="State / Country">
+						</div>
+						<div class="zip">
+							<input type="text" placeholder="Postcode / Zip">
+						</div>
+						<div class="email-nd-phone">
+							<div class="email">
+								<input type="text" placeholder="Email Address">
+							</div>
+							<div class="phone">
+								<input type="text" placeholder="Phone Number">
+							</div>
+						</div>
+						<div class="ship-comfirm">
+							<div class="out-label">
+								<input type="checkbox" id="ship-comfirm" class="regular-checkbox" checked>
+								<label class="special-checkbox" for="ship-comfirm">
+								</div>
+								
+								
+							</label>
+							<p>Ship to difference address?</p>
+						</div>
+						<div class="note">
+							<textarea name="address" id="address" cols="73" rows="2" placeholder="Order Note"></textarea>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div id="team">
-			<div class="container">
-				<h3>our team</h3>
-				<div class="row clearfix">
-					<div class="col-xl-3">
-						<div class="check-out">
-							<img src="imgs/harry_kane.jpg" alt="clara">
-							<div class="personal-social-media">
-								<div class="social-links">
-									<a href="#"><span class="icon-twitter"></span></a>
-									<a href="#"><span class="icon-facebook"></span></a>
-									<a href="#"><span class="icon-linkedin"></span></a>
+				<div class="col-xl-6">
+					<div class="bill-info">
+						<h4>YOUR ORDER</h4>
+						<div class="calc-section">
+							<div class="buy-review">
+								<div class="review-title">
+									<div class="product-name">PRODUCTS</div>
+									<div class="product-total">TOTALS</div>
+								</div>
+								<div class="first-product">
+									<div class="name-qty">Marvelous Moder 3 Seater<span>x1</span></div>
+									<div class="price">&euro; 299,00</div>
+								</div>
+								<div class="second-product">
+									<div class="name-qty">Bombi Chair<span>x1</span></div>
+									<div class="price">&euro; 532,00</div>
+								</div>
+							</div>
+							<div class="total-product-price">
+								<h6>CART SUBTOTAL</h6>
+								<div class="sub-total-price">
+									<span class="euro">&euro;</span>
+									<div class="sub-total">532</div>
+									<span>,00</span>
+								</div>
+							</div>
+							<div class="shipping">
+								<h6>SHIPPING</h6>
+								<input class="calc-shipping" value="0">
+								<div class="calc-shipping">Free shipping</div>
+							</div>
+							<div class="price-n-shipping">
+								<h6>CART TOTAL</h6>
+								<div class="total-price">
+									<span class="euro">&euro;</span>
+									<div class="calc-all">1299</div>
+									<span>,00</span>
 								</div>
 							</div>
 						</div>
-						<div class="present">
-							<div class="name">clara wooden</div>
-							<div class="post">designer</div>
-						</div>
-					</div>
-					<div class="col-xl-3">
-						<div class="check-out">
-							<img src="imgs/harry_kane.jpg" alt="clara">
-							<div class="personal-social-media">
-								<div class="social-links">
-									<a href="#"><span class="icon-twitter"></span></a>
-									<a href="#"><span class="icon-facebook"></span></a>
-									<a href="#"><span class="icon-linkedin"></span></a>
+						<div class="payment-choice">
+							<h4>PAYMENT METHODS</h4>
+							<div class="by-transfer">
+								<div class="check clearfix">
+									<h6>DIRECT BANK TRANSFER</h6>
+									<input type="checkbox" id="by-transfer" class="regular-checkbox" checked>
+									<label for="by-transfer"></label>
+								</div>
+								<p>Maker your payment directly into our bank account. Please use your order id as the payment reference. Your order wont be shippided until the funds have cleared in our account.</p>
+							</div>
+							<div class="by-cheque">
+								<div class="check clearfix">
+									<h6>CHEQUE PAYMENT</h6>
+									<input type="checkbox" id="by-cheque" class="regular-checkbox">
+									<label for="by-cheque"></label>
+								</div>
+							</div>
+							<div class="by-paypal">
+								<div class="check clearfix">
+									<h6>PAYPAL</h6>
+									<input type="checkbox" id="by-paypal" class="regular-checkbox">
+									<label for="by-paypal"></label>
 								</div>
 							</div>
 						</div>
-						<div class="present">
-							<div class="name">john wick</div>
-							<div class="post">founder</div>
-						</div>
 					</div>
-					<div class="col-xl-3">
-						<div class="check-out">
-							<img src="imgs/harry_kane.jpg" alt="clara">
-							<div class="personal-social-media">
-								<div class="social-links">
-									<a href="#"><span class="icon-twitter"></span></a>
-									<a href="#"><span class="icon-facebook"></span></a>
-									<a href="#"><span class="icon-linkedin"></span></a>
-								</div>
-							</div>
-						</div>
-						<div class="present">
-							<div class="name">harry kane</div>
-							<div class="post">designer</div>
-						</div>
+					<div class="check-term clearfix">
+						<p>I've read & accept the <br> <b>terms & conditions</b></p>
+						<input type="checkbox" id="check-term" class="regular-checkbox">
+						<label for="check-term"></label>
 					</div>
-					<div class="col-xl-3">
-						<div class="check-out">
-							<img src="imgs/harry_kane.jpg" alt="clara">
-							<div class="personal-social-media">
-								<div class="social-links">
-									<a href="#"><span class="icon-twitter"></span></a>
-									<a href="#"><span class="icon-facebook"></span></a>
-									<a href="#"><span class="icon-linkedin"></span></a>
-								</div>
-							</div>
-						</div>
-						<div class="present">
-							<div class="name">clara wooden</div>
-							<div class="post">designer</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="workspace">
-			<div class="container">
-				<h3>our workspace</h3>
-			</div>
-			<div class="owl-carousel">
-				<div class="carousel-cell first">
-					<div class="one-line">
-						<img src="imgs/about_picture01.jpg" class="up-img">
-						<img src="imgs/about_picture02.jpg" class="down-img">
-					</div>
-				</div>
-				<div class="carousel-cell second clearfix">
-					<div class="left-img">
-						<img src="https://fakeimg.pl/542x542/F8F8F8/">
-					</div>
-					<div class="right-img">
-						<div class="upper clearfix">
-							<div class="upper-left">
-								<img src="https://fakeimg.pl/240x308/F8F8F8/">
-							</div>
-							<div class="upper-right">
-								<img src="https://fakeimg.pl/384x308/F8F8F8/">
-							</div>
-						</div>
-						<div class="down">
-							<img src="https://fakeimg.pl/640x220/F8F8F8/">
-						</div>
-					</div>
-				</div>
-				<div class="carousel-cell">
-					<img src="imgs/about_picture03.jpg" class="house">
+					<button><a href="shopping-checkout.html">PROCEED TO CHECKOUT<span class="icon-ok"></span></a></button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div id="footer">
+		<div class="container">
+			<div id="gurantee">
+				<div class="row">
+					<div class="col-12 col-xl-3">
+						<div class="icon"><i><span class="icon-flight"></span></i></div>
+						<div class="content">
+							<h3>free shipping</h3>
+							<p>free shipping on all US order</p>
+						</div>
+					</div>
+					<div class="col-12 col-xl-3">
+						<div class="icon"><i><span class="icon-lifebuoy"></span></i></div>
+						<div class="content">
+							<h3>support 24/7</h3>
+							<p>we support 24 hours a day</p>
+						</div>
+					</div>
+					<div class="col-12 col-xl-3">
+						<div class="icon"><i><span class="icon-dropbox"></span></i></div>
+						<div class="content">
+							<h3>gift cards</h3>
+							<p>give perfect gift</p>
+						</div>
+					</div>
+					<div class="col-12 col-xl-3">
+						<div class="icon"><i><span class="icon-money"></span></i></div>
+						<div class="content">
+							<h3>payment 100% secure</h3>
+							<p>payment 100% secure</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div id="upper">
 			<div class="container">
 				<div class="row">
@@ -365,8 +439,9 @@
 	<script src="js/jquery-3.5.0.min.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery-ui.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/carousel.js"></script>
 	<script src="js/set-body-background.js"></script>
+	<script>
+		
+	</script>
 </body>
 </html>
