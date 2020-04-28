@@ -6,7 +6,7 @@ $(document).ready(function(){
 		
 	});
 
-	$('.white-layer .consult .cart').click(function(e){
+	$('.white-layer.forhome .consult .cart').click(function(e){
 		$('.for-shopping-bag').slideToggle();
 		$('.grey-background').slideToggle();
 		
