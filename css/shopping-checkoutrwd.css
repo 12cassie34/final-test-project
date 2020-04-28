@@ -51,18 +51,16 @@ html, body {
 	}
 
 	#procedure {
-		flex-direction: column;
+		flex-direction: row;
 		width: unset;
 	}
 
 	#procedure .step1:after, #procedure .step2:after {
-		transform: rotate(90deg);
-		top: 190px;
-		left: unset;
+		display: none;
 	}
 
-	#procedure > div:not(:first-child) {
-		margin-top: 110px
+	#product-to-buy {
+		width: 100%;
 	}
 
 	#calculation {
@@ -177,18 +175,17 @@ html, body {
 	}
 
 	#procedure {
-		flex-direction: column;
-		width: unset;
+		flex-direction: row;
+		width: 540px;
 	}
 
 	#procedure .step1:after, #procedure .step2:after {
-		transform: rotate(90deg);
-		top: 190px;
-		left: unset;
+		top: 44px;
+	    left: 102px;
 	}
 
-	#procedure > div:not(:first-child) {
-		margin-top: 110px
+	#product-to-buy {
+		width: 100%;
 	}
 
 	#calculation {

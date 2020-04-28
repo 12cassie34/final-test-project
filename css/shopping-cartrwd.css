@@ -51,18 +51,12 @@ html, body {
 	}
 
 	#procedure {
-		flex-direction: column;
+		flex-direction: row;
 		width: unset;
 	}
 
 	#procedure .step1:after, #procedure .step2:after {
-		transform: rotate(90deg);
-		top: 190px;
-		left: unset;
-	}
-
-	#procedure > div:not(:first-child) {
-		margin-top: 110px
+		display: none;
 	}
 
 	#product-to-buy {
@@ -203,18 +197,13 @@ html, body {
 	}
 
 	#procedure {
-		flex-direction: column;
-		width: unset;
+		flex-direction: row;
+		width: 540px;
 	}
 
 	#procedure .step1:after, #procedure .step2:after {
-		transform: rotate(90deg);
-		top: 190px;
-		left: unset;
-	}
-
-	#procedure > div:not(:first-child) {
-		margin-top: 110px
+		top: 44px;
+	    left: 102px;
 	}
 
 	#product-to-buy {

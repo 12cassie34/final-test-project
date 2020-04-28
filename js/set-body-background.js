@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$('.forabout .white-layer .consult .cart:last-child').click(function(e){
+	$('.forabout .white-layer .consult li:nth-child(3)').click(function(e){
 		$('.for-shopping-bag').slideToggle();
 		$('.grey-background').slideToggle();
 		

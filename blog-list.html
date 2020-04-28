@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Blog List</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/fontello.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oxygen:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" href="css/main.css" media="screen">
+		<link rel="stylesheet" href="css/about.css" media="screen">
+		<link rel="stylesheet" href="css/blog-list.css" media="screen">
+		<link rel="stylesheet" href="css/rwd.css">
+		<link rel="stylesheet" href="css/aboutrwd.css">
+	</head>
+	<body>
+		<div id="header">
+			<div class="container forabout">
+				<div class="white-layer clearfix">
+					<a href="tel:1-555-333-22-11" class="phone">+1 (555) 333 22 11</a>
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<div class="logo"><img src="imgs/logo-schon.png" alt="schon."></div>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										products
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">sofas</a>
+										<a class="dropdown-item" href="product.html">chairs</a>
+										<a class="dropdown-item" href="#">lamps</a>
+										<a class="dropdown-item" href="#">desks</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										pages
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">Latest designs</a>
+										<a class="dropdown-item" href="#">design ideas</a>
+										<a class="dropdown-item" href="#">designers' story</a>
+										<a class="dropdown-item" href="#">for your designs</a>
+									</div>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="about.html">about</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">blog</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="contact.html">contact</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<div class="consult">
+						<ul class="nav list-group list-group-horizontal">
+							<li class="list-group-item search">
+								<a href="#"><i><span class="icon-search"></span></i></a>
+							</li>
+							<li class="list-group-item cart">
+								<a href="#"><i><span><span class="icon-heart-empty"></span></span></i></a>
+							</li>
+							<li class="list-group-item cart">
+								<a href="#"><i><span><span class="icon-shopping-bag"></span></span></i></a>
+								<p class="items">3</p>
+							</li>
+							<li>
+								<a href=""><span class="icon-align-right"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="grey-background"></div>
+			<div class="consult-cards">
+				<div class="for-shopping-bag">
+					<div class="card card-body">
+						<div class="cart-products">
+							<div class="triangle"></div>
+							<ul class="list-group">
+								<li>
+									<img src="https://fakeimg.pl/74x74/F8F8F8/">
+									<div class="name-price-qty">
+										<div class="name">Marvelous Modern 3 Seater</div>
+										<div class="price">&#8364; 599,00</div>
+										<div class="qty">Qty:1</div>
+									</div>
+									<button>x</button>
+								</li>
+								<li>
+									<img src="https://fakeimg.pl/74x74/F8F8F8/">
+									<div class="name-price-qty">
+										<div class="name">Marvelous Modern 3 Seater</div>
+										<div class="price">&#8364; 599,00</div>
+										<div class="qty">Qty:1</div>
+									</div>
+									<button>x</button>
+								</li>
+								<li>
+									<img src="https://fakeimg.pl/74x74/F8F8F8/">
+									<div class="name-price-qty">
+										<div class="name">Marvelous Modern 3 Seater</div>
+										<div class="price">&#8364; 599,00</div>
+										<div class="qty">Qty:1</div>
+									</div>
+									<button>x</button>
+								</li>
+							</ul>
+						</div>
+						<div class="total-price">
+							<p>Sub Total</p>
+							<p>&#8364; 599,00</p>
+						</div>
+						<div class="view-checkout">
+							<button><a href="shopping-cart.html">View Cart</a></button>
+							<button><a href="shopping-checkout.html">Checkout</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="body">
+			<div id="breadcrumbs">
+				<h1>BLOG LIST SIDEBAR 2</h1>
+				<div class="center-container">
+					<div class="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+							<span>></span>
+							<li class="breadcrumb-item" aria-current="page"><a href="#">Blog</a></li>
+							<span>></span>
+							<li class="breadcrumb-item active" aria-current="page">Category</li>
+						</ol>
+					</div>
+				</div>
+				<div class="search-bar">
+					<input type="text" placeholder="Search">
+					<div class="icon-search"></div>
+				</div>
+			</div>
+			<div id="blog-post-area">
+				<div class="row">
+					<div class="col-xl-8">
+						<div class="posts">
+							<div class="single-post clearfix">
+								<div class="post-img">
+									<img src="https://fakeimg.pl/760x350/#F8F8F8">
+								</div>
+								<div class="date">
+									<div class="day">25</div>
+									<div class="month">April</div>
+								</div>
+								<div class="content">
+									<h3>IDEAS FOR LIVING ROOMS</h3>
+									<div class="interaction">
+										<div class="publish-date">
+											<div class="icon-clock"></div>
+											<span>2 April 2015</span>
+										</div>
+										<div class="post-category">
+											<div class="icon-list"></div>
+											<span>Design</span>
+										</div>
+										<div class="post-comment">
+											<div class="icon-comment"></div>
+											<span>2 Comments</span>
+										</div>
+									</div>
+									<div class="quik-view">
+										<p>Fusce mattis nunc lacus, vulputate facilis is dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulp utate tortor quis, efficitur arcu.</p>
+									</div>
+									<div class="read-more">
+										<button><a href="#">READ MORE</a></button>
+									</div>
+								</div>
+							</div>
+							<div class="single-post">
+								<div class="post-img">
+									<img src="https://fakeimg.pl/760x350/#F8F8F8">
+								</div>
+								<div class="date">
+									<div class="day">25</div>
+									<div class="month">April</div>
+								</div>
+								<div class="content">
+									<h3>IDEAS FOR LIVING ROOMS</h3>
+									<div class="interaction">
+										<div class="publish-date">
+											<div class="icon-clock"></div>
+											<span>2 April 2015</span>
+										</div>
+										<div class="post-category">
+											<div class="icon-list"></div>
+											<span>Design</span>
+										</div>
+										<div class="post-comment">
+											<div class="icon-comment"></div>
+											<span>2 Comments</span>
+										</div>
+									</div>
+									<div class="quik-view">
+										<p>Fusce mattis nunc lacus, vulputate facilis is dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulp utate tortor quis, efficitur arcu.</p>
+									</div>
+									<div class="read-more">
+										<button><a href="#">READ MORE</a></button>
+									</div>
+								</div>
+							</div>
+							<div class="single-post">
+								<div class="post-img">
+									<img src="https://fakeimg.pl/760x350/#F8F8F8">
+								</div>
+								<div class="date">
+									<div class="day">25</div>
+									<div class="month">April</div>
+								</div>
+								<div class="content">
+									<h3>IDEAS FOR LIVING ROOMS</h3>
+									<div class="interaction">
+										<div class="publish-date">
+											<div class="icon-clock"></div>
+											<span>2 April 2015</span>
+										</div>
+										<div class="post-category">
+											<div class="icon-list"></div>
+											<span>Design</span>
+										</div>
+										<div class="post-comment">
+											<div class="icon-comment"></div>
+											<span>2 Comments</span>
+										</div>
+									</div>
+									<div class="quik-view">
+										<p>Fusce mattis nunc lacus, vulputate facilis is dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulp utate tortor quis, efficitur arcu.</p>
+									</div>
+									<div class="read-more">
+										<button><a href="#">READ MORE</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pre-next clearfix">
+							<button class="pre"><a href="#"><span><</span>PREVIOUS</a></button>
+							<button class="next"><a href="#">NEXT<span>></span></a></button>
+						</div>
+					</div>
+					<div class="col-xl-4">
+						<div class="post-categories">
+							<h4>CATEGORIES</h4>
+							<hr>
+							<div class="design"><a href="">Design</a></div>
+							<div class="future"><a href="">Future</a></div>
+							<div class="Kitchen"><a href="">Kitchen</a></div>
+							<div class="photography"><a href="">Photography</a></div>
+						</div>
+						<div class="popular-post">
+							<h4>POPULAR POST</h4>
+							<hr>
+							<div class="thumbnail-post">
+								<div class="post-info">
+									<div class="post-title">Vestibulum sit amet metus euismod amet <br> metus euismod</div>
+									<div class="post-date">24.09.2015</div>
+								</div>
+								<div class="post-img">
+									<img src="https://fakeimg.pl/64x64/F8F8F8">
+								</div>
+							</div>
+							<div class="thumbnail-post">
+								<div class="post-info">
+									<div class="post-title">Luctus id risuis vel, ultricies dignissim lacus <br> etiam dolor sem</div>
+									<div class="post-date">24.09.2015</div>
+								</div>
+								<div class="post-img">
+									<img src="https://fakeimg.pl/64x64/F8F8F8">
+								</div>
+							</div>
+							<div class="thumbnail-post">
+								<div class="post-info">
+									<div class="post-title">Aenean lacus mi, porttitor quis <br> dapibustincidunt</div>
+									<div class="post-date">24.09.2015</div>
+								</div>
+								<div class="post-img">
+									<img src="https://fakeimg.pl/64x64/F8F8F8">
+								</div>
+							</div>
+							<div class="thumbnail-post">
+								<div class="post-info">
+									<div class="post-title">Fusce mattis nunc lacus, vulputate facilisis <br> dui efficitur ut</div>
+									<div class="post-date">24.09.2015</div>
+								</div>
+								<div class="post-img">
+									<img src="https://fakeimg.pl/64x64/F8F8F8">
+								</div>
+							</div>
+						</div>
+						<div class="tags">
+							<h4>TAGS</h4>
+							<hr>
+							<input type="button" value="Fusce">
+							<span>,</span>
+							<input type="button" value="Mattis">
+							<span>,</span>
+							<input type="button" value="Lacus">
+							<span>,</span>
+							<br>
+							<input type="button" value="Vulputate">
+							<span>,</span>
+							<input type="button" value="Facilisis">
+							<span>,</span>
+							<input type="button" value="Dui">
+							<span>,</span>
+							<br>
+							<input type="button" value="Efficitur">
+							<span>,</span>
+							<input type="button" value="Ut">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="forcontact">
+			<div id="upper">
+				<div class="container">
+					<div class="row forcontact">
+						<div class="col-12 col-xl-9 left clearfix forpages">
+							<div class="col-xl-3 products">
+								<h4>products</h4>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">all</a></li>
+									<li class="list-group-item"><a href="product.html">chairs</a></li>
+									<li class="list-group-item"><a href="#">sofas</a></li>
+									<li class="list-group-item"><a href="#">living</a></li>
+									<li class="list-group-item"><a href="#">bedroom</a></li>
+									<li class="list-group-item"><a href="#">tables</a></li>
+									<li class="list-group-item"><a href="#">new</a></li>
+								</ul>
+							</div>
+							<div class="col-xl-3 costomer">
+								<h4>costomer</h4>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#">FAQ</a></li>
+									<li class="list-group-item"><a href="#">support</a></li>
+									<li class="list-group-item"><a href="#">repair center</a></li>
+								</ul>
+							</div>
+							<div class="col-xl-3 pages">
+								<h4>pages</h4>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="index.html">home</a></li>
+									<li class="list-group-item"><a href="contact.html">contact tracking</a></li>
+									<li class="list-group-item"><a href="#">product</a></li>
+									<li class="list-group-item"><a href="about.html">about</a></li>
+									<li class="list-group-item"><a href="#">terms</a></li>
+								</ul>
+							</div>
+							<div class="col-xl-3 socials">
+								<h4>socials</h4>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="index.html">twitter</a></li>
+									<li class="list-group-item"><a href="contact.html">facebook</a></li>
+									<li class="list-group-item"><a href="#">google+</a></li>
+									<li class="list-group-item"><a href="about.html">pinterest</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12 col-lg-12 col-xl-3 right clearfix">
+							<img src="imgs/logo-schon_gray.png" alt="schon.">
+							<ul class="list-group">
+								<li class="list-group-item">
+									<div class="address">Suite 18b, 148 Connaugt Road Central</div>
+									<i><span class="icon-location"></span></i>
+								</li>
+								<li class="list-group-item">
+									<div class="address">New Yankee</div>
+								</li>
+								<li class="list-group-item">
+									<a href="tel:1-555-333-22-11">+1 (555) 333 22 11</a>
+									<i><span class="icon-phone"></span></i>
+								</li>
+								<li class="list-group-item">
+									<a href="mailto:info@schon.chair">info@schon.chair</a>
+									<i><span class="icon-mail"></span></i>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright" class="clearfix">
+			<div class="container forcontact">
+				<ul class="list-group">
+					<li class="list-group-item">
+						<div class="payment">
+							<img src="imgs/about_payement.png" alt="payment">
+						</div>
+					</li>
+					<li class="list-group-item">
+						<div class="copyright">
+							<p>Copyright schön. All rights Reserved</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/polyfill.min.js"></script>
+		<script src="js/set-body-background.js"></script>
+	</body>
+</html>
