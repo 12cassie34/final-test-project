@@ -1,0 +1,471 @@
+a {
+  color: unset;
+}
+
+#header {
+  margin-bottom: 0;
+  height: 124px;
+  display: flex;
+  align-items: center;
+}
+
+#header .container.forabout {
+  width: 100%;
+  max-width: unset;
+  margin: 0;
+}
+
+.forabout .navbar-expand-lg .navbar-collapse {
+  margin-right: 145px;
+}
+
+.forabout .white-layer .consult li {
+  padding: 4px 10px 10px 10px;
+}
+
+.for-shopping-bag .card {
+  right: 40px;
+  top: 87px;
+}
+
+#breadcrumbs {
+  position: relative;
+  height: 208px;
+}
+
+#breadcrumbs h1 {
+  width: unset;
+  display: flex;
+  justify-content: center;
+}
+
+.breadcrumb span {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#breadcrumbs .center-container {
+  margin-top: 46px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #EEEEEE;
+  height: 45px;
+}
+
+#breadcrumbs .center-container .breadcrumb {
+  margin: 0;
+  width: unset;
+  background-color: transparent;
+  color: #696969;
+}
+
+.change-view {
+  position: absolute;
+  left: 622px;
+}
+
+.change-view button {
+  background: transparent;
+  border: none;
+  color: #7D7D7D;
+}
+
+.search-bar {
+  display: flex;
+  position: absolute;
+  right: 143px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: #696969;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  width: 43px;
+  cursor: pointer;
+}
+
+.search-bar input.to-search {
+   width: 200px;
+}
+
+input::placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #696969;
+}
+
+.see-categories {
+  position: absolute;
+  right: 13px;
+}
+
+.see-categories .dropdown .btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #696969;
+}
+
+#post-area {
+  margin: 0 auto 151px auto;
+  width: 1200px;
+}
+
+#post-area .img-content {
+  position: relative;
+  margin-bottom: 1500px;
+}
+
+#post-area .up-img {
+  position: relative;
+}
+
+#post-area .up-img .date {
+  position: absolute;
+  top: 38px;
+  left: 61px;
+  width: 79px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: white;
+}
+
+.up-img .date .day {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.up-img .date .month {
+  margin-top: -8px;
+  font-weight: 600;
+}
+
+#post-area .up-img .comment-nd-share {
+  position: absolute;
+  top: 57px;
+  right: 54px;
+  display: flex;
+  color: #8F8F8F;
+}
+
+.up-img .comment-nd-share .post-comment {
+  margin-right: 17px;
+}
+
+.up-img .comment-nd-share .post-comment, .up-img .comment-nd-share .post-share {
+  display: flex;
+}
+
+.post-content {
+  padding: 66px 84px 0 59px;
+  width: 1092px;
+  position: absolute;
+  top: 450px;
+  left: 55px;
+  background: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.post-content h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.interaction {
+  margin-top: 24px;
+  margin-bottom: 43px;
+  display: flex;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #494949;
+  font-style: italic;
+}
+
+.interaction > div:not(:last-child) {
+  margin-right: 40px;
+}
+
+.interaction .publish-date, .interaction .post-category, .interaction .post-comment {
+  display: flex;
+}
+
+.section2 {
+  margin-top: 120px;
+  margin-bottom: 195px;
+}
+
+.section2 .img-area {
+  margin-top: 62px;
+}
+
+.section2 .img-area .row {
+  width: 852px;
+  margin: 0 auto;
+}
+
+.img-area .row .col-xl-4:not(:last-child) img:first-child {
+  margin-bottom: 37px;
+}
+
+.post-author {
+  margin: 0 auto 130px auto;
+  padding: 43px 59px 39px 48px;
+  width: 867px;
+  display: flex;
+  background: #F4F4F4;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.post-author img {
+  margin-right: 39px;
+  width: 146px;
+  height: 146px;
+}
+
+.name-profil-socialmedia .name {
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.name-profil-socialmedia .profil {
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #898989;
+}
+
+.name-profil-socialmedia .social-media {
+  display: flex;
+}
+
+.icon-facebook-1:before {
+  margin-left: -2px;
+}
+
+.comment-area {
+  margin: 0 auto;
+  width: 867px;
+}
+
+.comment-area h4, .leave-comment h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #494949;
+}
+
+.comment-area hr {
+  margin-left: 0;
+  margin-top: 14px;
+  margin-bottom: 49px;
+  width: 81px;
+  height: 4px;
+  background-color: #494949;
+}
+
+.comment-area img {
+  height: 65px;
+  width: 65px;
+}
+
+.first-comment {
+  display: flex;
+}
+
+.commentor-photo, .responsor-photo {
+  margin-right: 18px;
+}
+
+.commentor-content {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.commentor-content .commentor, .comment-response .responsor {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #171717;
+}
+
+.commentor-content .comment-date, .comment-response .response-date {
+  margin-bottom: 24px;
+  font-style: italic;
+  font-size: 0.75rem;
+  color: #171717;
+}
+
+.commentor-content .comment-content, .comment-response .response-content {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #858585;
+}
+
+.comment-area hr.second {
+  margin: 42px auto 55px 82px;
+  width: 685px;
+  height: .5px;
+  background-color: #EEEEEE;
+}
+
+.comment-response {
+  margin-left: 82px;
+  display: flex;
+  width: 746px;
+}
+
+.comment-area hr.third {
+  margin-top: 43px;
+  margin-left: 164px;
+  margin-bottom: 0;
+  width: 606px;
+  height: .5px;
+  background-color: #EEEEEE;
+}
+
+.leave-comment {
+  margin: 119px auto 0 auto;
+  margin-top: 119px;
+  width: 866px;
+}
+
+.leave-comment h4 {
+  margin-bottom: 45px;
+}
+
+.leave-comment input, .leave-comment textarea, .leave-comment button {
+  border: none;
+  background-color: #F7F7F7;
+}
+
+.leave-comment input::placeholder, .leave-comment textarea::placeholder {
+  padding-left: 26px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .875rem;
+  color: #858585;
+}
+
+.basic-info {
+  margin-bottom: 21px;
+}
+
+.leave-comment input {
+  width: 270px;
+  height: 48px;
+}
+
+.leave-comment input:not(:last-child) {
+  margin-right: 20px;
+}
+
+.leave-comment textarea {
+  margin-bottom: 23px;
+  width: 858px;
+  height: 109px;
+}
+
+.leave-comment textarea::placeholder {
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.leave-comment button {
+  width: 93px;
+  height: 48px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .875rem;
+  color: #858585;
+}
+
+
+#footer.forcontact #upper {
+  height: auto;
+  background: #F4F4F4;
+}
+
+#upper .row.forcontact {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#upper .row.forcontact .col-xl-3 {
+  float: left;
+}
+
+#upper .row.forcontact .col-xl-3 h4 {
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+}
+
+#upper .row.forcontact .col-xl-3 .list-group-item a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+
+#upper  .row.forcontact .forpages .col-xl-3 .list-group-item {
+  margin-bottom: 10px;
+}
+
+#upper  .row.forcontact .col-xl-3.right img {
+  float: right;
+}
+
+#upper  .row.forcontact .col-xl-3.right .list-group {
+  margin-top: 58px;
+  float: right;
+  display: flex;
+  align-items: flex-end;
+  width: 300px;
+}
+
+#upper .row.forcontact .col-xl-3.right .list-group-item {
+  text-align: right;
+}
+
+#upper .row.forcontact .col-xl-3 .list-group-item .address {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#upper .col-xl-3 .list-group.logo-info .list-group-item:nth-child(1) {
+  margin-bottom: 0;
+}
+
+#upper .row.forcontact .col-xl-3 .list-group-item:nth-child(2) {
+  padding-right: 11px;
+}
+
+#copyright .container.forcontact {
+  display: flex;
+  justify-content: center;
+}
+
+#copyright .list-group-item {
+  border: none;
+}
+
+#copyright .list-group-item:nth-child(1) {
+  width: 202px;
+}
+
+#copyright .list-group-item:nth-child(2) {
+  padding-top: 3px;
+}
+
+#copyright .container.forcontact .list-group-item .copyright {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #8F8F8F;
+}

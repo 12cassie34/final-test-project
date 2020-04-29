@@ -77,16 +77,6 @@
   font-weight: 800;
 }
 
-/*.next {
-  font-size: 31px;
-  color: #DEDEDE;
-  font-weight: 800;
-}*/
-
-/*.slick-next:before {
-  content:"\003e";
-}*/
-
 .product-breadcrumbs {
 	margin-top: 52px;
 }
@@ -295,6 +285,10 @@
   margin-left: 10px;
 }
 
+#related-product .content .price {
+  margin-top: 0;
+}
+
 #related-product .col-xl-2 .product {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
@@ -330,7 +324,7 @@
 #related-product .col-xl-2.first .rank {
   position: absolute;
   left: 25px;
-  bottom: 77px;
+  bottom: 113px;
   display: flex;
   justify-content: flex-start;
 }

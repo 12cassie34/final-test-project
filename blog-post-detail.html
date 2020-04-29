@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Blog List</title>
+		<title>Blog Post</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/fontello.css">
@@ -10,10 +10,10 @@
 		<link rel="stylesheet" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" href="css/main.css" media="screen">
 		<link rel="stylesheet" href="css/about.css" media="screen">
-		<link rel="stylesheet" href="css/blog-list.css" media="screen">
+		<link rel="stylesheet" href="css/blog-post-detail.css" media="screen">
 		<link rel="stylesheet" href="css/rwd.css">
 		<link rel="stylesheet" href="css/aboutrwd.css">
-		<link rel="stylesheet" href="css/blog-listrwd.css">
+		<link rel="stylesheet" href="css/blog-post-detailrwd.css">
 	</head>
 	<body>
 		<div id="header">
@@ -133,199 +133,156 @@
 		</div>
 		<div id="body">
 			<div id="breadcrumbs">
-				<h1>BLOG LIST SIDEBAR 2</h1>
+				<h1>BLOG DETAIL FULL WIDTH</h1>
 				<div class="center-container">
 					<div class="breadcrumb">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 							<span>></span>
 							<li class="breadcrumb-item" aria-current="page"><a href="#">Blog</a></li>
-							<span>></span>
-							<li class="breadcrumb-item active" aria-current="page">Category</li>
 						</ol>
 					</div>
-				</div>
-				<div class="search-bar">
-					<input type="text" placeholder="Search">
-					<div class="icon-search"></div>
-				</div>
-			</div>
-			<div id="blog-post-area">
-				<div class="row">
-					<div class="col-xl-8">
-						<div class="posts">
-							<div class="single-post clearfix">
-								<div class="post-img">
-									<img src="https://fakeimg.pl/760x350/#F8F8F8">
-								</div>
-								<div class="date">
-									<div class="day">25</div>
-									<div class="month">April</div>
-								</div>
-								<div class="content">
-									<h3>IDEAS FOR LIVING ROOMS</h3>
-									<div class="interaction">
-										<div class="publish-date">
-											<div class="icon-clock"></div>
-											<span>2 April 2015</span>
-										</div>
-										<div class="post-category">
-											<div class="icon-list"></div>
-											<span>Design</span>
-										</div>
-										<div class="post-comment">
-											<div class="icon-comment"></div>
-											<span>2 Comments</span>
-										</div>
-									</div>
-									<div class="quik-view">
-										<p>Fusce mattis nunc lacus, vulputate facilis is dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulp utate tortor quis, efficitur arcu.</p>
-									</div>
-									<div class="read-more">
-										<button><a href="#">READ MORE</a></button>
-									</div>
-								</div>
+					<div class="change-view">
+						<button><span class="icon-th"></span></button>
+					</div>
+					<div class="search-bar">
+						<input type="text" placeholder="Search">
+						<div class="icon-search"></div>
+					</div>
+					<div class="see-categories">
+						<div class="dropdown dropleft">
+							<button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Catergories <span class="icon-menu"></span>
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<a class="dropdown-item" href="blog-list.html">Design Ideas</a>
+								<a class="dropdown-item" href="blog-list.html">Latest Design</a>
+								<a class="dropdown-item" href="blog-list.html">Designers' Story</a>
+								<a class="dropdown-item" href="blog-list.html">Basic Concept</a>
 							</div>
-							<div class="single-post">
-								<div class="post-img">
-									<img src="https://fakeimg.pl/760x350/#F8F8F8">
-								</div>
-								<div class="date">
-									<div class="day">25</div>
-									<div class="month">April</div>
-								</div>
-								<div class="content">
-									<h3>IDEAS FOR LIVING ROOMS</h3>
-									<div class="interaction">
-										<div class="publish-date">
-											<div class="icon-clock"></div>
-											<span>2 April 2015</span>
-										</div>
-										<div class="post-category">
-											<div class="icon-list"></div>
-											<span>Design</span>
-										</div>
-										<div class="post-comment">
-											<div class="icon-comment"></div>
-											<span>2 Comments</span>
-										</div>
-									</div>
-									<div class="quik-view">
-										<p>Fusce mattis nunc lacus, vulputate facilis is dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulp utate tortor quis, efficitur arcu.</p>
-									</div>
-									<div class="read-more">
-										<button><a href="#">READ MORE</a></button>
-									</div>
-								</div>
-							</div>
-							<div class="single-post">
-								<div class="post-img">
-									<img src="https://fakeimg.pl/760x350/#F8F8F8">
-								</div>
-								<div class="date">
-									<div class="day">25</div>
-									<div class="month">April</div>
-								</div>
-								<div class="content">
-									<h3>IDEAS FOR LIVING ROOMS</h3>
-									<div class="interaction">
-										<div class="publish-date">
-											<div class="icon-clock"></div>
-											<span>2 April 2015</span>
-										</div>
-										<div class="post-category">
-											<div class="icon-list"></div>
-											<span>Design</span>
-										</div>
-										<div class="post-comment">
-											<div class="icon-comment"></div>
-											<span>2 Comments</span>
-										</div>
-									</div>
-									<div class="quik-view">
-										<p>Fusce mattis nunc lacus, vulputate facilis is dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulp utate tortor quis, efficitur arcu.</p>
-									</div>
-									<div class="read-more">
-										<button><a href="#">READ MORE</a></button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="pre-next clearfix">
-							<button class="pre"><a href="#"><span><</span>PREVIOUS</a></button>
-							<button class="next"><a href="#">NEXT<span>></span></a></button>
 						</div>
 					</div>
-					<div class="col-xl-4">
-						<div class="post-categories">
-							<h4>CATEGORIES</h4>
-							<hr>
-							<div class="design"><a href="">Design</a></div>
-							<div class="future"><a href="">Future</a></div>
-							<div class="Kitchen"><a href="">Kitchen</a></div>
-							<div class="photography"><a href="">Photography</a></div>
+				</div>
+			</div>
+			<div id="post-area">
+				<div class="img-content">
+					<div class="up-img">
+						<img src="https://fakeimg.pl/1200x570/#F8F8F8">
+						<div class="date">
+							<div class="day">25</div>
+							<div class="month">April</div>
 						</div>
-						<div class="popular-post">
-							<h4>POPULAR POST</h4>
-							<hr>
-							<div class="thumbnail-post">
-								<div class="post-info">
-									<div class="post-title">Vestibulum sit amet metus euismod amet <br> metus euismod</div>
-									<div class="post-date">24.09.2015</div>
-								</div>
-								<div class="post-img">
-									<img src="https://fakeimg.pl/64x64/F8F8F8">
-								</div>
+						<div class="comment-nd-share">
+							<div class="post-comment">
+								<div class="icon-comment"></div>
+								<span>12</span>
 							</div>
-							<div class="thumbnail-post">
-								<div class="post-info">
-									<div class="post-title">Luctus id risuis vel, ultricies dignissim lacus <br> etiam dolor sem</div>
-									<div class="post-date">24.09.2015</div>
-								</div>
-								<div class="post-img">
-									<img src="https://fakeimg.pl/64x64/F8F8F8">
-								</div>
-							</div>
-							<div class="thumbnail-post">
-								<div class="post-info">
-									<div class="post-title">Aenean lacus mi, porttitor quis <br> dapibustincidunt</div>
-									<div class="post-date">24.09.2015</div>
-								</div>
-								<div class="post-img">
-									<img src="https://fakeimg.pl/64x64/F8F8F8">
-								</div>
-							</div>
-							<div class="thumbnail-post">
-								<div class="post-info">
-									<div class="post-title">Fusce mattis nunc lacus, vulputate facilisis <br> dui efficitur ut</div>
-									<div class="post-date">24.09.2015</div>
-								</div>
-								<div class="post-img">
-									<img src="https://fakeimg.pl/64x64/F8F8F8">
-								</div>
+							<div class="post-share">
+								<div class="icon-share"></div>
+								<span>14</span>
 							</div>
 						</div>
-						<div class="tags">
-							<h4>TAGS</h4>
-							<hr>
-							<input type="button" value="Fusce">
-							<span>,</span>
-							<input type="button" value="Mattis">
-							<span>,</span>
-							<input type="button" value="Lacus">
-							<span>,</span>
-							<br>
-							<input type="button" value="Vulputate">
-							<span>,</span>
-							<input type="button" value="Facilisis">
-							<span>,</span>
-							<input type="button" value="Dui">
-							<span>,</span>
-							<br>
-							<input type="button" value="Efficitur">
-							<span>,</span>
-							<input type="button" value="Ut">
+					</div>
+					<div class="post-content">
+						<h3>IDEAS FOR LIVING ROOMS</h3>
+						<div class="interaction">
+							<div class="publish-date">
+								<div class="icon-clock"></div>
+								<span>2 April 2015</span>
+							</div>
+							<div class="post-category">
+								<div class="icon-list"></div>
+								<span>Design</span>
+							</div>
+							<div class="post-comment">
+								<div class="icon-comment"></div>
+								<span>2 Comments</span>
+							</div>
 						</div>
+						<div class="section1">
+							<p>Fusce mattis nunc lacu, vulputate facilisis dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulputate tortor quis, efficitur arcu. Aenean lacus mi, porttitor quis dapibus a, tincidunt vitae arcu. Etiam dolor sem, luctus id risus vel, ultricies dignissim lacus.</p>
+							<p>Fusce mattis nunc lacu, vulputate facilisis dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulputate tortor quis, efficitur arcu. Aenean lacus mi, porttitor quis dapibus a, tincidunt vitae arcu. Etiam dolor sem, luctus id risus vel, ultricies dignissim lacus.</p>
+						</div>
+						<div class="section2">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum.</p>
+							<div class="img-area">
+								<div class="row">
+									<div class="col-xl-4">
+										<img src="https://fakeimg.pl/260x260/F8F8F8">
+										<img src="https://fakeimg.pl/260x175/F8F8F8">
+									</div>
+									<div class="col-xl-4">
+										<img src="https://fakeimg.pl/260x200/F8F8F8">
+										<img src="https://fakeimg.pl/260x190/F8F8F8">
+									</div>
+									<div class="col-xl-4">
+										<img src="https://fakeimg.pl/260x350/F8F8F8">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="section3">
+							<p>Fusce mattis nunc lacu, vulputate facilisis dui efficitur ut. Vestibulum sit amet metus euismod, condimentum lectus id, ultrices sem. Morbi in erat malesuada, sollicitudin massa at, tristique nisl. Maecenas id eros scelerisque, vulputate tortor quis, efficitur arcu.</p>
+							<p>Aenean lacus mi, porttitor quis dapibus a, tincidunt vitae arcu. Etiam dolor sem, luctus id risus vel, ultricies dignissi lacus. t cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+				<div class="post-author">
+					<div class="author-photo">
+						<img src="https://fakeimg.pl/146x146/FFFFFF" alt="author">
+					</div>
+					<div class="name-profil-socialmedia">
+						<div class="name">Clara Wooden</div>
+						<div class="profil">Commodo consequat. Duis aute irure dolor in reprehend erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+						<div class="social-media">
+							<a href=""><div class="icon-facebook-1"></div></a>
+							<a href=""><div class="icon-twitter-1"></div></a>
+							<a href=""><div class="icon-instagram"></div></a>
+						</div>
+					</div>
+				</div>
+				<div class="comment-area clearfix">
+					<h4>COMMENTS</h4>
+					<hr class="first">
+					<div class="first-comment">
+						<div class="commentor-photo">
+							<img src="https://fakeimg.pl/65x65/" alt="commentor-photo">
+						</div>
+						<div class="commentor-content">
+							<div class="commentor">
+								John Wick
+							</div>
+							<div class="comment-date">May 24, 2015</div>
+							<div class="comment-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamoco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+						</div>
+					</div>
+					<hr class="second">
+					<div class="comment-response">
+						<div class="responsor-photo">
+							<img src="https://fakeimg.pl/65x65/" alt="responsor-photo">
+						</div>
+						<div class="cresponsor-content">
+							<div class="responsor">
+								John Wick
+							</div>
+							<div class="response-date">May 24, 2015</div>
+							<div class="response-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamoco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+						</div>
+					</div>
+					<hr class="third">
+				</div>
+				<div class="leave-comment">
+					<h4>LEAVE A COMMENT</h4>
+					<div class="basic-info">
+						<input type="text" placeholder="Name">
+						<input type="text" placeholder="Email">
+						<input type="text" placeholder="Website">
+					</div>
+					<div class="new-comment">
+						<textarea name="comment" cols="23" rows="5" placeholder="Comment"></textarea>
+					</div>
+					<div class="submit">
+						<button>Submit</button>
 					</div>
 				</div>
 			</div>
@@ -339,7 +296,7 @@
 								<h4>products</h4>
 								<ul class="list-group">
 									<li class="list-group-item"><a href="#">all</a></li>
-									<li class="list-group-item"><a href="product.html">chairs</a></li>
+									<li class="list-group-item"><a href="productdetail.html">chairs</a></li>
 									<li class="list-group-item"><a href="#">sofas</a></li>
 									<li class="list-group-item"><a href="#">living</a></li>
 									<li class="list-group-item"><a href="#">bedroom</a></li>
