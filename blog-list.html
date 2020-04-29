@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="css/blog-list.css" media="screen">
 		<link rel="stylesheet" href="css/rwd.css">
 		<link rel="stylesheet" href="css/aboutrwd.css">
+		<link rel="stylesheet" href="css/blog-listrwd.css">
 	</head>
 	<body>
 		<div id="header">
@@ -376,7 +377,7 @@
 						</div>
 						<div class="col-12 col-lg-12 col-xl-3 right clearfix">
 							<img src="imgs/logo-schon_gray.png" alt="schon.">
-							<ul class="list-group">
+							<ul class="list-group logo-info">
 								<li class="list-group-item">
 									<div class="address">Suite 18b, 148 Connaugt Road Central</div>
 									<i><span class="icon-location"></span></i>
@@ -423,5 +424,18 @@
 		<script src="js/jquery-ui.js"></script>
 		<script src="js/polyfill.min.js"></script>
 		<script src="js/set-body-background.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.search-bar').click(function(e){
+					e.stopPropagation();
+					$(this).children('input').focus().toggleClass('to-search');
+				});
+				$(document).click(function(){
+					if ($('.search-bar').children('input').hasClass('to-search')) {
+						$('.search-bar').children('input').removeClass('to-search')
+					}
+				});
+			});
+		</script>
 	</body>
 </html>

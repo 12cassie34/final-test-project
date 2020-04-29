@@ -23,6 +23,11 @@ a {
   padding: 4px 10px 10px 10px;
 }
 
+.for-shopping-bag .card {
+  right: 40px;
+  top: 87px;
+}
+
 #breadcrumbs {
   position: relative;
   height: 208px;
@@ -54,6 +59,10 @@ a {
   background: transparent;
   width: 62px;
   cursor: pointer;
+}
+
+.search-bar input.to-search {
+   width: 200px;
 }
 
 input::placeholder {

@@ -1,0 +1,427 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}*/
+
+
+@media (max-width: 540px) and (min-width: 320px) {
+	#header {
+		height: auto;
+	}
+
+	#header .forabout .white-layer .consult {
+		top: -35px;
+	}
+
+	.forabout .white-layer .consult li {
+		padding-top: 9px;
+	}
+
+	.for-shopping-bag .card {
+		right: 49px;
+        top: 86px;
+        width: 278px;
+	}
+
+	#breadcrumbs {
+		height: auto;
+	}
+
+	#breadcrumbs h1 {
+		width: 196px;
+	}
+
+	.search-bar {
+		width: 88%;
+        display: flex;
+        justify-content: center;
+	}
+
+	.col-xl-8 {
+		margin-bottom: 30px;
+	}
+
+	#blog-post-area {
+		width: 100%;
+	}
+
+	#blog-post-area .content {
+		margin-left: 0;
+		margin-top: 87px;
+	}
+
+	.single-post img {
+		width: 100%;
+		height: auto;
+	}
+
+	.single-post .content .interaction {
+		display: flex;
+        flex-direction: column;
+	}
+
+	.interaction > div > div {
+		margin-right: 10px;
+	}
+
+	.quik-view {
+		width: 100%;
+	}
+
+	.pre-next .next {
+		right: 10px;
+	}
+
+	#blog-post-area .col-xl-4 {
+		text-align: left;
+	}
+
+	#blog-post-area .col-xl-4 hr {
+		margin-left: 0;
+	}
+
+	.popular-post .thumbnail-post img {
+		width: 100%;
+		height: auto;
+	}
+
+	.popular-post .thumbnail-post {
+		display: block;
+	}
+
+	.popular-post .thumbnail-post br {
+		display: none;
+	}
+
+	.tags br {
+		display: none;
+	}
+
+	#upper .row.forcontact .forpages .col-xl-3 {
+		margin-bottom: 15px;
+	}
+
+	#upper .row.forcontact {
+		width: auto;
+	}
+
+	#upper .row.forcontact .col-xl-3.right .list-group {
+		margin-top: 23px;
+		margin-left: 84px;
+	}
+
+	#footer .row .col-xl-3 .list-group-item:first-child {
+		margin-bottom: 0;
+	}
+
+}
+
+@media (max-width: 720px) and (min-width: 541px) {
+	#header {
+		height: auto;
+	}
+
+	#header .forabout .white-layer .consult {
+		top: 10px;
+	}
+
+	.forabout .white-layer .consult li {
+		padding-top: 9px;
+	}
+
+	.for-shopping-bag .card {
+		right: 115px;
+        top: 49px;
+	}
+
+	#breadcrumbs {
+		height: auto;
+	}
+
+	.search-bar {
+		width: 88%;
+        display: flex;
+        justify-content: center;
+	}
+
+	.col-xl-8 {
+		margin-bottom: 30px;
+	}
+
+	#blog-post-area {
+		width: 100%;
+	}
+
+	#blog-post-area .content {
+		margin-left: 0;
+		margin-top: 87px;
+	}
+
+	.single-post img {
+		width: 100%;
+		height: auto;
+	}
+
+	.single-post .content .interaction {
+		display: flex;
+        flex-direction: column;
+	}
+
+	.interaction > div > div {
+		margin-right: 10px;
+	}
+
+	.quik-view {
+		width: 100%;
+	}
+
+	.pre-next .next {
+		right: 10px;
+	}
+
+	#blog-post-area .col-xl-4 {
+		text-align: left;
+	}
+
+	#blog-post-area .col-xl-4 hr {
+		margin-left: 0;
+	}
+
+	.popular-post .thumbnail-post img {
+		width: 100%;
+		height: auto;
+	}
+
+	.popular-post .thumbnail-post {
+		display: block;
+	}
+
+	.popular-post .thumbnail-post br {
+		display: none;
+	}
+
+	.tags br {
+		display: none;
+	}
+
+	#upper .row.forcontact .forpages .col-xl-3 {
+		margin-bottom: 15px;
+	}
+
+	#upper .row.forcontact {
+		width: auto;
+	}
+
+	#upper .row.forcontact .col-xl-3.right .list-group {
+		margin-top: 23px;
+		margin-left: 258px;
+	}
+
+	#footer .row .col-xl-3 .list-group-item:first-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 721px) {
+	#header {
+		height: auto;
+	}
+
+	#header .forabout .white-layer .consult {
+		top: 10px;
+	}
+
+	.forabout .white-layer .consult li {
+		padding-top: 9px;
+	}
+
+	.for-shopping-bag .card {
+		right: 115px;
+        top: 49px;
+	}
+
+	#breadcrumbs {
+		height: auto;
+	}
+
+	.search-bar {
+		width: 93%;
+        display: flex;
+        justify-content: center;
+	}
+
+	.col-xl-8 {
+		margin-bottom: 30px;
+	}
+
+	#blog-post-area {
+		width: 100%;
+	}
+
+	.single-post img {
+		width: 100%;
+		height: auto;
+	}
+
+	.quik-view {
+		width: 100%;
+	}
+
+	.pre-next .next {
+		right: 10px;
+	}
+
+	#blog-post-area .col-xl-4 {
+		text-align: left;
+	}
+
+	#blog-post-area .col-xl-4 hr {
+		margin-left: 0;
+	}
+
+	.popular-post .thumbnail-post img {
+		width: 100%;
+		height: auto;
+	}
+
+	.popular-post .thumbnail-post {
+		justify-content: space-between;
+	}
+
+	.popular-post .thumbnail-post br {
+		display: none;
+	}
+
+	.tags br {
+		display: none;
+	}
+
+	#upper .row.forcontact .forpages .col-xl-3 {
+		margin-bottom: 15px;
+		flex: 0 0 50%;
+		max-width: 50%;
+		height: 250px;
+	}
+
+	#upper .row.forcontact {
+		width: auto;
+	}
+
+	#upper .row.forcontact .col-xl-3.right .list-group {
+		margin-top: 23px;
+		margin-left: 570px;
+	}
+
+	#footer .row .col-xl-3 .list-group-item:first-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #header {
+		height: auto;
+	}
+
+	#header .forabout .white-layer .consult {
+		top: 14px;
+	}
+
+	.forabout .white-layer .consult li {
+		padding-top: 9px;
+	}
+
+	.for-shopping-bag .card {
+		right: 40px;
+        top: 55px;
+	}
+
+	#breadcrumbs {
+		height: auto;
+	}
+
+	.search-bar {
+		width: 93%;
+        display: flex;
+        justify-content: center;
+	}
+
+	.col-xl-8 {
+		margin-bottom: 30px;
+	}
+
+	#blog-post-area {
+		width: 100%;
+	}
+
+	.single-post img {
+		width: 100%;
+		height: auto;
+	}
+
+	.quik-view {
+		width: 100%;
+	}
+
+	.pre-next .next {
+		right: 10px;
+	}
+
+	#blog-post-area .col-xl-4 {
+		text-align: left;
+		display: flex;
+	}
+
+	#blog-post-area .col-xl-4 hr {
+		margin-left: 0;
+	}
+
+	.popular-post {
+		margin-left: 100px;
+        margin-right: 60px;
+	}
+
+	.popular-post .thumbnail-post img {
+		width: 100%;
+		height: auto;
+	}
+
+	.popular-post .thumbnail-post {
+		justify-content: space-between;
+	}
+
+	.popular-post .thumbnail-post br {
+		display: none;
+	}
+
+	.tags br {
+		display: none;
+	}
+
+	#upper .row.forcontact .forpages .col-xl-3 {
+		margin-bottom: 15px;
+		flex: 0 0 25%;
+		max-width: 25%;
+		height: 250px;
+	}
+
+	#upper .row.forcontact {
+		width: auto;
+	}
+
+	#upper .row.forcontact .col-xl-3.right .list-group {
+		margin-top: 23px;
+		margin-left: 788px;
+	}
+
+	#footer .row .col-xl-3 .list-group-item:first-child {
+		margin-bottom: 0;
+	}
+}
