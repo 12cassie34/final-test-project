@@ -146,6 +146,27 @@
 				</div>
 			</div>
 		</div>
+		<div id="popup">
+		<div class="modal-container">
+			<div class="modal-popup">
+				<div class="close">X</div>
+				<div class="title-at-background">NEWS LETTER</div>
+				<img src="imgs/designed_chair.png">
+				<div class="modal-main-info">
+					<div class="title">JOIN OUR NEWSLETTER</div>
+					<div class="description">Subscribe now to get <span>15%</span> off on any product!</div>
+				    <input type="text" id="yourEmail" placeholder="Enter your e-mail" class="yourEmail">
+				    <br>
+				    <button for="yourEmail" type="submit">SUBSCRIBE</button>
+				</div>
+				<div class="form-check disappear">
+					<input class="form-check-input regular-checkbox popup" type="checkbox" value="" id="dontShowPopup">
+					<label class="form-check-label" for="dontShowPopup">
+				    </label>
+				    <p>Don't show this popup again.</p>
+			    </div>
+			</div>
+		</div>
 	</div>
 	<div id="body">
 		<div id="premier">
@@ -629,5 +650,24 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/index-carousel.js"></script>
 	<script src="js/set-body-background.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.modal-container').fadeIn();
+			$('.close').click(function(e){
+				e.stopPropagation();
+				$('.modal-container').fadeOut();
+			});
+			$('.regular-checkbox.popup').click(function(e){
+				e.stopPropagation();
+				$('.modal-container').fadeOut();
+			});
+			$('.yourEmail').click(function(e){
+				e.stopPropagation();
+			});
+			$(document).click(function(){
+				$('.modal-container').fadeOut();
+			});
+		});
+	</script>
 </body>
 </html>

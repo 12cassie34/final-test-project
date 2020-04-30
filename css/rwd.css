@@ -358,6 +358,49 @@
         top: 106px;
 		width: 300px;
 	}
+
+	/*Popup*/
+	.modal-popup {
+		width: 80%;
+        left: 10%;
+	}
+
+	.modal-popup .title-at-background {
+		left: 25px;
+		font-size: 3.25rem;
+	}
+
+	.modal-popup img {
+		width: 75%;
+        height: auto;
+        top: 255px;
+        left: 104px;
+	}
+
+	.modal-main-info {
+        position: absolute;
+        left: 15px;
+	}
+
+	.modal-popup .modal-main-info input {
+		width: auto;
+	}
+
+	.modal-popup .disappear {
+		position: absolute;
+        bottom: 0px;
+        left: 20px;
+	}
+
+	.regular-checkbox.popup + label.form-check-label {
+		top: -18px;
+	}
+
+	.modal-popup .disappear p {
+		position: absolute;
+        width: 200px;
+        bottom: 0;
+	}
 }
 
 @media (max-width: 720px) and (min-width: 541px) {
@@ -636,6 +679,50 @@
 		position: absolute;
         right: 115px;
         top: 148px;
+	}
+
+	/*Popup*/
+	.modal-popup {
+		width: 80%;
+        left: 10%;
+	}
+
+	.modal-popup .title-at-background {
+		left: 5px;
+		font-size: 3.25rem;
+	}
+
+	.modal-popup img {
+		width: 75%;
+        height: auto;
+        top: 215px;
+        left: 104px;
+	}
+
+	.modal-main-info {
+        position: absolute;
+        top: 61px;
+        left: 15px;
+	}
+
+	.modal-main-info br {
+		display: block;
+	}
+
+	.modal-popup .disappear {
+		position: absolute;
+        bottom: 0px;
+        left: 20px;
+	}
+
+	.regular-checkbox.popup + label.form-check-label {
+		top: -18px;
+	}
+
+	.modal-popup .disappear p {
+		position: absolute;
+        width: 200px;
+        bottom: 0;
 	}
 }
 
@@ -945,6 +1032,50 @@
         right: 119px;
         top: 103px;
 	}
+
+	/*Popup*/
+	.modal-popup {
+		width: 80%;
+        left: 10%;
+	}
+
+	.modal-popup .title-at-background {
+		left: 5px;
+		font-size: 4.25rem;
+	}
+
+	.modal-popup img {
+		width: 75%;
+        height: auto;
+        top: 126px;
+        left: 190px;
+	}
+
+	.modal-main-info {
+        position: absolute;
+        top: 75px;
+        left: 15px;
+	}
+
+	.modal-main-info br {
+		display: block;
+	}
+
+	.modal-popup .disappear {
+		position: absolute;
+        bottom: 0px;
+        left: 20px;
+	}
+
+	.regular-checkbox.popup + label.form-check-label {
+		top: -18px;
+	}
+
+	.modal-popup .disappear p {
+		position: absolute;
+        width: 200px;
+        bottom: 0;
+	}
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -1123,5 +1254,37 @@
 		position: absolute;
         right: 119px;
         top: 103px;
+	}
+
+	/*Popup*/
+	.modal-popup {
+		width: 80%;
+        left: 10%;
+	}
+
+	.modal-main-info {
+       position: absolute;
+       top: 86px;
+       left: 48px;
+	}
+
+	.modal-main-info br {
+		display: block;
+	}
+
+	.modal-popup .disappear {
+		position: absolute;
+        bottom: 0px;
+        left: 45px;
+	}
+
+	.regular-checkbox.popup + label.form-check-label {
+		top: -18px;
+	}
+
+	.modal-popup .disappear p {
+		position: absolute;
+        width: 200px;
+        bottom: 0;
 	}
 }
