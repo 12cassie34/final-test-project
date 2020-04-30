@@ -8,7 +8,7 @@ html, body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 
 
@@ -66,7 +66,8 @@ html, body {
 	}
 
 	#post-area .up-img .date {
-		left: 26px;
+		left: 4px;
+        top: 4px;
 	}
 
 	.single-post .content .interaction {
@@ -75,8 +76,8 @@ html, body {
 	}
 
 	#post-area .up-img .comment-nd-share {
-		top: 36px;
-        right: 27px;
+		top: 4px;
+        right: 5px;
 	}
 
 	.interaction > div > div {
@@ -130,11 +131,11 @@ html, body {
 	}
 
 	.comment-response {
-		width: 100%;
+		width: 80%;
 	}
 
 	.comment-response {
-		margin-left: 0;
+		margin-left: 25px
 	}
 
 	.leave-comment {
@@ -156,10 +157,18 @@ html, body {
 		width: 100%;
 	}
 
-	.comment-area hr.second, .comment-area hr.third {
-		margin: unset;
+	.comment-area hr.second {
+        margin-top: 30px;
+        margin-left: 22%;
+        margin-bottom: 30px;
+        width: 75%;
+	}
+
+	.comment-area hr.third {
 		margin-top: 30px;
-		width: 100%;
+        margin-left: 30%;
+        margin-bottom: 30px;
+        width: 60%;
 	}
 
 	#upper .row.forcontact .forpages .col-xl-3 {
