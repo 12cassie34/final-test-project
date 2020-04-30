@@ -457,3 +457,8 @@ a {
 #footer .row .col-xl-3.right .customer-email.forabout input, #footer .row .col-xl-3.right .customer-email.forabout label {
 	background: transparent;
 }
+
+/*full-width search-bar*/
+.full-page-container {
+	margin-top: 120px;
+}

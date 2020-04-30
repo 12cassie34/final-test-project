@@ -208,3 +208,8 @@
   font-size: 0.75rem;
   color: #8F8F8F;
 }
+
+/*full-width search bar*/
+.full-page-container {
+  margin-top: 60px;
+}

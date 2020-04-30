@@ -163,6 +163,11 @@ html, body {
 		justify-content: space-between;
 	}
 
+	/*full-width search bar*/
+	#search-full-page .full-page-container {
+		margin-top: 180px;
+	}
+
 }
 
 @media (max-width: 720px) and (min-width: 541px) {
@@ -309,6 +314,11 @@ html, body {
 	.calc-section > div {
 		justify-content: space-between;
 	}
+
+	/*full-width search bar*/
+	#search-full-page .full-page-container {
+		margin-top: 130px;
+	}
 }
 
 @media (max-width: 991px) and (min-width: 721px) {
@@ -444,6 +454,11 @@ html, body {
 
 	.calc-section > div {
 		justify-content: space-between;
+	}
+
+	/*full-width search bar*/
+	#search-full-page .full-page-container {
+		margin-top: 130px;
 	}
 }
 

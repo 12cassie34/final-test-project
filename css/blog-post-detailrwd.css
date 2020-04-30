@@ -351,6 +351,12 @@ html, body {
 	#footer .row .col-xl-3 .list-group-item:first-child {
 		margin-bottom: 0;
 	}
+
+	/*full-width search*/
+	#search-full-page .full-page-container {
+	    margin-top: 85px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 721px) {

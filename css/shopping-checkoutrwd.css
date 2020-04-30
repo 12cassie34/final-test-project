@@ -141,6 +141,11 @@ html, body {
 		display: flex;
 	}
 
+	/*full-width search-bar*/
+	#search-full-page .full-page-container {
+		margin-top: 175px;
+	}
+
 }
 
 @media (max-width: 720px) and (min-width: 541px) {
@@ -256,6 +261,11 @@ html, body {
 
 	#footer .row .col-xl-3.right .customer-email.forabout {
 		display: flex;
+	}
+
+	/*full-width search bar*/
+	#search-full-page .full-page-container {
+		margin-top: 114px;
 	}
 }
 
@@ -431,6 +441,11 @@ html, body {
 
 	#footer .row .col-xl-3.right .customer-email.forabout {
 		display: flex;
+	}
+
+	/*full-width search bar*/
+	#search-full-page .full-page-container {
+		margin-top: 101px;
 	}
 
 }

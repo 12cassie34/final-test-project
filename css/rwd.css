@@ -401,6 +401,26 @@
         width: 200px;
         bottom: 0;
 	}
+
+	/*full-width search-bar*/
+	#search-full-page .full-page-container {
+		margin-top: 156px;
+		width: 100%;
+	}
+
+	.full-width-search-bar {
+		margin: 50px auto 0 auto;
+		position: unset;
+		width: 77%;
+	}
+
+	.full-width-search-bar input {
+		width: 90%;
+	}
+
+	.type-in {
+		display: flex;
+	}
 }
 
 @media (max-width: 720px) and (min-width: 541px) {
@@ -724,11 +744,37 @@
         width: 200px;
         bottom: 0;
 	}
+
+	/*full-width search-bar*/
+	#search-full-page .full-page-container {
+		margin-top: 156px;
+		width: 100%;
+	}
+
+	.full-width-search-bar {
+		margin: 50px auto 0 auto;
+		position: unset;
+		width: 77%;
+	}
+
+	.full-width-search-bar input {
+		width: 90%;
+	}
+
+	.type-in {
+		display: flex;
+	}
 }
 
 @media (max-width: 720px) and (min-width: 624px) {
 	.for-shopping-bag .card {
         top: 107px
+	}
+
+	/*full-width search-bar*/
+	#search-full-page .full-page-container {
+		margin-top: 114px;
+		width: 100%;
 	}
 }
 
@@ -1076,6 +1122,26 @@
         width: 200px;
         bottom: 0;
 	}
+
+	/*full-width search-bar*/
+	#search-full-page .full-page-container {
+		margin-top: 114px;
+		width: 100%;
+	}
+
+	.full-width-search-bar {
+		margin: 50px auto 0 auto;
+		position: unset;
+		width: 77%;
+	}
+
+	.full-width-search-bar input {
+		width: 90%;
+	}
+
+	.type-in {
+		display: flex;
+	}
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -1286,5 +1352,25 @@
 		position: absolute;
         width: 200px;
         bottom: 0;
+	}
+	
+	/*full-width search-bar*/
+	#search-full-page .full-page-container {
+		margin-top: 114px;
+		width: 100%;
+	}
+
+	.full-width-search-bar {
+		margin: 50px auto 0 auto;
+		position: unset;
+		width: 77%;
+	}
+
+	.full-width-search-bar input {
+		width: 90%;
+	}
+
+	.type-in {
+		display: flex;
 	}
 }

@@ -453,3 +453,7 @@ button.update {
 	color: white;
 }
 
+/*full-width search-bar*/
+.full-page-container {
+	margin-top: 158px;
+}

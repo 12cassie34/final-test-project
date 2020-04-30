@@ -97,6 +97,12 @@
 	#footer .row .col-xl-3 .list-group-item:first-child {
 		margin-bottom: 0;
 	}
+
+	/*full-width search bar*/ 
+	#search-full-page .full-page-container {
+		margin-top: 58px;
+		width: 100%;
+	}
 }
 
 @media (max-width: 991px) and (min-width: 721px) {
@@ -146,6 +152,12 @@
 
 	#footer .row .col-xl-3 .list-group-item:first-child {
 		margin-bottom: 0;
+	}
+
+	/*full-width search bar*/ 
+	#search-full-page .full-page-container {
+		margin-top: 58px;
+		width: 100%;
 	}
 }
 
@@ -203,5 +215,11 @@
 
 	#footer .row .col-xl-3 .list-group-item:first-child {
 		margin-bottom: 0;
+	}
+
+	/*full-width search bar*/ 
+	#search-full-page .full-page-container {
+		margin-top: 58px;
+		width: 100%;
 	}
 }
