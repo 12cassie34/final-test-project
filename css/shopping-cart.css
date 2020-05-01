@@ -457,3 +457,14 @@ button.update {
 .full-page-container {
 	margin-top: 158px;
 }
+
+/*product menu*/
+#menu-big .triangle {
+	top: 120px;
+    left: 651px;
+}
+
+#menu-big .menu-container {
+    top: 130px;
+    left: 33px;
+}

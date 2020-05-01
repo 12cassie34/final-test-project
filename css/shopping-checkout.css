@@ -462,3 +462,14 @@ a {
 .full-page-container {
 	margin-top: 120px;
 }
+
+/*product menu*/
+#menu-big .triangle {
+	top: 100px;
+    left: 651px;
+}
+
+#menu-big .menu-container {
+    top: 110px;
+    left: 33px;
+}

@@ -213,3 +213,12 @@
 .full-page-container {
   margin-top: 60px;
 }
+
+/*product menu*/
+#menu-big .triangle {
+  left: 652px;
+}
+
+#menu-big .menu-container {
+  left: 34px;
+}

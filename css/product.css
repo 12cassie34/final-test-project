@@ -470,3 +470,12 @@
     font-weight: 600;
     font-size: 1rem;
 }
+
+/*product menu*/
+#menu-big .triangle {
+    left: 651px;
+}
+
+#menu-big .menu-container {
+    left: 16px;
+}

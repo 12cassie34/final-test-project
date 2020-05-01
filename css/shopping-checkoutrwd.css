@@ -146,6 +146,16 @@ html, body {
 		margin-top: 175px;
 	}
 
+	/*product menu*/
+	#menu-big .triangle {
+		top: 251px;
+        left: 70px;
+	}
+
+	#menu-big .menu-container {
+		top: 261px;
+        left: 0px;
+	}
 }
 
 @media (max-width: 720px) and (min-width: 541px) {
@@ -267,6 +277,17 @@ html, body {
 	#search-full-page .full-page-container {
 		margin-top: 114px;
 	}
+
+	/*product menu*/
+	#menu-big .triangle {
+		top: 170px;
+        left: 70px;
+	}
+	
+	#menu-big .menu-container {
+		top: 180px;
+        left: 0px;
+	}
 }
 
 @media (max-width: 991px) and (min-width: 721px) {
@@ -369,6 +390,17 @@ html, body {
 	#footer .row .col-xl-3.right .customer-email.forabout {
 		display: flex;
 	}
+
+	/*product menu*/
+	#menu-big .triangle {
+		top: 170px;
+        left: 70px;
+	}
+	
+	#menu-big .menu-container {
+		top: 180px;
+        left: 0px;
+	}
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -448,4 +480,21 @@ html, body {
 		margin-top: 101px;
 	}
 
+	/*product menu*/
+	#menu-big .triangle {
+		top: 80px;
+        left: 43%;
+	}
+	
+	#menu-big .menu-container {
+		top: 90px;
+        left: 0px;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 1051px) {
+	/*product menu*/
+	#menu-big .triangle {
+        left: 50%;
+	}
 }

@@ -510,3 +510,14 @@
 #footer .row .col-xl-3.right .social-media.forabout {
   margin-top: 225px;
 }
+
+/*product dropdown*/
+#menu-big .triangle {
+  top: 43px;
+  left: 722px;
+}
+
+#menu-big .menu-container {
+  top: 53px;
+  left: 48px;
+}

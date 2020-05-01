@@ -421,6 +421,51 @@
 	.type-in {
 		display: flex;
 	}
+
+	/*Product menu dropdown*/ 
+	#menu-big .menu-container {
+		padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+		width: 100%;
+		height: 256px;
+		top: 225px;
+        left: 1px;
+        overflow-y: scroll;
+    }
+
+    #menu-big .triangle {
+    	top: 216px;
+        left: 54px;
+    }
+
+    #menu-big .up-layer ul.index {
+    	flex-direction: column;
+    }
+
+    #menu-big .up-layer ul.index > li {
+    	margin-top: 30px;
+    }
+
+    #menu-big .down-layer {
+    	flex-direction: column;
+    }
+
+    #menu-big .sofa-discount {
+    	margin-bottom: 15px;
+    	width: 100%;
+    }
+
+    #menu-big .floor-lamp {
+    	width: 100%;
+    	height: 110px;
+    }
+
+    #menu-big .desc {
+    	position: absolute;
+        right: 25px;
+    }
 }
 
 @media (max-width: 720px) and (min-width: 541px) {
@@ -764,6 +809,51 @@
 	.type-in {
 		display: flex;
 	}
+
+	/*Product menu dropdown*/ 
+	#menu-big .menu-container {
+		padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+		width: 100%;
+		height: 256px;
+		top: 215px;
+        left: 1px;
+        overflow-y: scroll;
+    }
+
+    #menu-big .triangle {
+    	top: 205px;
+        left: 54px;
+    }
+
+    #menu-big .up-layer ul.index {
+    	flex-direction: column;
+    }
+
+    #menu-big .up-layer ul.index > li {
+    	margin-top: 30px;
+    }
+
+    #menu-big .down-layer {
+    	flex-direction: column;
+    }
+
+    #menu-big .sofa-discount {
+    	margin-bottom: 15px;
+    	width: 100%;
+    }
+
+    #menu-big .floor-lamp {
+    	width: 100%;
+    	height: 110px;
+    }
+
+    #menu-big .desc {
+    	position: absolute;
+        right: 25px;
+    }
 }
 
 @media (max-width: 720px) and (min-width: 624px) {
@@ -776,6 +866,15 @@
 		margin-top: 114px;
 		width: 100%;
 	}
+
+	/*Product menu dropdown*/ 
+	#menu-big .menu-container {
+		top: 170px;
+    }
+
+    #menu-big .triangle {
+    	top: 160px;
+    }
 }
 
 @media (max-width: 991px) and (min-width: 721px) {
@@ -1142,6 +1241,53 @@
 	.type-in {
 		display: flex;
 	}
+
+	/*Product menu dropdown*/ 
+	#menu-big .menu-container {
+		padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+		width: 100%;
+		height: 256px;
+		top: 170px;
+        left: 1px;
+        overflow-y: scroll;
+    }
+
+    #menu-big .triangle {
+    	top: 160px;
+        left: 54px;
+    }
+
+    #menu-big .up-layer ul.index {
+    	display: unset;
+    }
+
+    #menu-big .up-layer ul.index > li {
+    	margin-top: 30px;
+    	width: 50%;
+    	float: left;
+    }
+
+    #menu-big .down-layer {
+    	flex-direction: column;
+    }
+
+    #menu-big .sofa-discount {
+    	margin-bottom: 15px;
+    	width: 100%;
+    }
+
+    #menu-big .floor-lamp {
+    	width: 100%;
+    	height: 110px;
+    }
+
+    #menu-big .desc {
+    	position: absolute;
+        right: 70px;
+    }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -1373,4 +1519,39 @@
 	.type-in {
 		display: flex;
 	}
+
+	/*Product menu dropdown*/ 
+	#menu-big .menu-container {
+		padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+		width: 100%;
+		top: 94px;
+        left: 1px;
+    }
+
+    #menu-big .triangle {
+    	top: 84px;
+        left: 279px;
+    }
+
+    #menu-big .up-layer ul.index > li {
+    	margin-top: 30px;
+    }
+
+    #menu-big .sofa-discount {
+    	margin-bottom: 15px;
+    	width: 100%;
+    }
+
+    #menu-big .floor-lamp {
+    	width: 100%;
+    	height: 115px;
+    }
+
+    #menu-big .desc {
+    	position: absolute;
+        right: 70px;
+    }
 }

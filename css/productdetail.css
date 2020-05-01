@@ -376,3 +376,12 @@
 #footer .row .col-xl-3.right .customer-email input.forabout, #footer .row .col-xl-3.right .customer-email label.forabout {
 	background: none;
 }
+
+/*product menu*/
+#menu-big .triangle {
+  left: 651px;
+}
+
+#menu-big .menu-container {
+  left: 16px;
+}

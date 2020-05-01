@@ -330,3 +330,14 @@ input::placeholder {
   font-size: 0.75rem;
   color: #8F8F8F;
 }
+
+/*product menu*/
+#menu-big .triangle {
+    top: 76px;
+    left: 668px;
+}
+
+#menu-big .menu-container {
+    top: 86px;
+    left: 32px;
+}
