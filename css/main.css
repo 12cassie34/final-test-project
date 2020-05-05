@@ -1345,9 +1345,10 @@ a {
   position: relative;
   width: 793px;
   height: 421px;
-  position: fixed;
-  left: 280px;
-  top: 100px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: white;
   z-index: 1;
 }
