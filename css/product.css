@@ -1,6 +1,6 @@
 .for-shopping-bag .card {
     position: absolute;
-    right: 37px;
+    right: 45px;
     top: 54px;
 }
 
@@ -429,10 +429,10 @@
 
 .product-pool.jplist-list .col-xl-4 .chair {
 	display: flex;
-    width: 275px;
 }
 
 .product-pool.jplist-list .col-xl-4 .content {
+    margin-left: 30px;
 	display: flex;
     flex-direction: column;
     flex: none;

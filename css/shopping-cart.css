@@ -235,6 +235,7 @@ a {
 
 .product-price .input-group input {
 	border: none;
+	background: transparent;
     width: 27px;
     font-size: 1rem;
 	font-weight: 700;
